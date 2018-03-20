@@ -1,0 +1,10187 @@
+
+
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" type="image/x-icon" href="https://static.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico" />
+  <link rel="mask-icon" type="" href="https://static.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg" color="#111" />
+  <title>CodePen - ref_entities</title>
+  
+  
+  
+  
+      <style>
+      body{
+  width: auto;
+}
+
+table		{float:left;margin:0 0px 0px 0;background:#ccc;width:1px}
+th			{font:60% Arial,san-serif;background:#eee;font-weight:bold;}
+td			{font:60% Arial,san-serif;background:#fff;padding:0px;-webkit-user-select:all;-moz-user-select:all;-ms-user-select:all;user-select:all}
+td.sym		{text-align:center;font-size:24px;}
+    </style>
+
+  
+  
+  
+  
+
+</head>
+
+<body translate="no" >
+
+  <table cellpadding="0" cellspacing="1">
+<tr>
+<th class="one">Description</th>
+<th>Character<br />(click)</th>
+<th>HTML<br />Entity</th>
+<th>Code<br />Decimal</th>
+<th>Code<br />Hex</th>
+</tr>
+<tr>
+	<td class="one">Quotation mark</td>
+	<td class="sym">&quot;</td>
+	<td>&amp;quot;</td>
+	<td>&amp;#34;</td>
+	<td>&amp;#x22;</td>
+
+</tr>
+<tr>
+	<td class="one">Ampersand</td>
+	<td class="sym">&amp;</td>
+	<td>&amp;amp;</td>
+	<td>&amp;#38;</td>
+	<td>&amp;#x26;</td>
+
+</tr>
+<tr>
+	<td class="one">Less-than sign</td>
+	<td class="sym">&lt;</td>
+	<td>&amp;lt;</td>
+	<td>&amp;#60;</td>
+	<td>&amp;#x3C;</td>
+
+</tr>
+<tr>
+	<td class="one">Greater-than sign</td>
+	<td class="sym">&gt;</td>
+	<td>&amp;gt;</td>
+	<td>&amp;#62;</td>
+	<td>&amp;#x3E;</td>
+
+</tr>
+<tr>
+	<td class="one">Open single quote</td>
+	<td class="sym">&lsquo;</td>
+	<td>&amp;lsquo;</td>
+	<td>&amp;#8216;</td>
+	<td>&amp;#x2018;</td>
+
+</tr>
+<tr>
+	<td class="one">Close single quote</td>
+	<td class="sym">&rsquo;</td>
+	<td>&amp;rsquo;</td>
+	<td>&amp;#8217;</td>
+	<td>&amp;#x2019;</td>
+
+</tr>
+<tr>
+	<td class="one">Open double quotes</td>
+	<td class="sym">&ldquo;</td>
+	<td>&amp;ldquo;</td>
+	<td>&amp;#8220;</td>
+	<td>&amp;#x201C;</td>
+
+</tr>
+<tr>
+	<td class="one">Close double quotes</td>
+	<td class="sym">&rdquo;</td>
+	<td>&amp;rdquo;</td>
+	<td>&amp;#8221;</td>
+	<td>&amp;#x201D;</td>
+
+</tr>
+<tr>
+	<td class="one">Single low-9 quote</td>
+	<td class="sym">&sbquo;</td>
+	<td>&amp;sbquo;</td>
+	<td>&amp;#8218;</td>
+	<td>&amp;#x201A;</td>
+
+</tr>
+<tr>
+	<td class="one">Double low-9 quote</td>
+	<td class="sym">&bdquo;</td>
+	<td>&amp;bdquo;</td>
+	<td>&amp;#8222;</td>
+	<td>&amp;#x201E;</td>
+
+</tr>
+<tr>
+	<td class="one">Prime/minutes/feet</td>
+	<td class="sym">&prime;</td>
+	<td>&amp;prime;</td>
+	<td>&amp;#8242;</td>
+	<td>&amp;#x2032;</td>
+
+</tr>
+<tr>
+	<td class="one">Double prime/seconds/inches</td>
+	<td class="sym">&Prime;</td>
+	<td>&amp;Prime;</td>
+	<td>&amp;#8243;</td>
+	<td>&amp;#x2033;</td>
+
+</tr>
+<tr>
+	<td class="one">Non-breaking space</td>
+	<td class="sym">&nbsp;</td>
+	<td>&amp;nbsp;</td>
+	<td>&amp;#160;</td>
+	<td>&amp;#xA0;</td>
+
+</tr>
+<tr>
+	<td class="one">Hyphen</td>
+	<td class="sym">&#8208;</td>
+	<td>—</td>
+	<td>&amp;#8208;</td>
+	<td>&amp;#x2010;</td>
+
+</tr>
+<tr>
+	<td class="one">En dash</td>
+	<td class="sym">&ndash;</td>
+	<td>&amp;ndash;</td>
+	<td>&amp;#8211;</td>
+	<td>&amp;#x2013;</td>
+
+</tr>
+<tr>
+	<td class="one">Em dash</td>
+	<td class="sym">&mdash;</td>
+	<td>&amp;mdash;</td>
+	<td>&amp;#8212;</td>
+	<td>&amp;#x2014;</td>
+
+</tr>
+<tr>
+	<td class="one">En space</td>
+	<td class="sym">&ensp;</td>
+	<td>&amp;ensp;</td>
+	<td>&amp;#8194;</td>
+	<td>&amp;#x2002;</td>
+
+</tr>
+<tr>
+	<td class="one">Em space</td>
+	<td class="sym">&emsp;</td>
+	<td>&amp;emsp;</td>
+	<td>&amp;#8195;</td>
+	<td>&amp;#x2003;</td>
+
+</tr>
+<tr>
+	<td class="one">Thin space</td>
+	<td class="sym">&thinsp;</td>
+	<td>&amp;thinsp;</td>
+	<td>&amp;#8201;</td>
+	<td>&amp;#x2009;</td>
+
+</tr>
+<tr>
+	<td class="one">Broken vertical bar</td>
+	<td class="sym">&brvbar;</td>
+	<td>&amp;brvbar;</td>
+	<td>&amp;#166;</td>
+	<td>&amp;#xA6;</td>
+
+</tr>
+<tr>
+	<td class="one">Bullet</td>
+	<td class="sym">&bull;</td>
+	<td>&amp;bull;</td>
+	<td>&amp;#8226;</td>
+	<td>&amp;#x2022;</td>
+
+</tr>
+<tr>
+	<td class="one">Triangular bullet</td>
+	<td class="sym">&#8227;</td>
+	<td>—</td>
+	<td>&amp;#8227;</td>
+	<td>&amp;#x2023;</td>
+
+</tr>
+<tr>
+	<td class="one">Horizontal ellipsis</td>
+	<td class="sym">&hellip;</td>
+	<td>&amp;hellip;</td>
+	<td>&amp;#8230;</td>
+	<td>&amp;#x2026;</td>
+
+</tr>
+<tr>
+	<td class="one">Circumflex</td>
+	<td class="sym">&circ;</td>
+	<td>&amp;circ;</td>
+	<td>&amp;#710;</td>
+	<td>&amp;#x2C6;</td>
+
+</tr>
+<tr>
+	<td class="one">Umlaut or dieresis</td>
+	<td class="sym">&uml;</td>
+	<td>&amp;uml;</td>
+	<td>&amp;#168;</td>
+	<td>&amp;#xA8;</td>
+
+</tr>
+<tr>
+	<td class="one">Small tilde</td>
+	<td class="sym">&tilde;</td>
+	<td>&amp;tilde;</td>
+	<td>&amp;#732;</td>
+	<td>&amp;#x2DC;</td>
+
+</tr>
+<tr>
+	<td class="one">Single left angle quote</td>
+	<td class="sym">&lsaquo;</td>
+	<td>&amp;lsaquo;</td>
+	<td>&amp;#8249;</td>
+	<td>&amp;#x2039;</td>
+
+</tr>
+<tr>
+	<td class="one">Single right angle quote</td>
+	<td class="sym">&rsaquo;</td>
+	<td>&amp;rsaquo;</td>
+	<td>&amp;#8250;</td>
+	<td>&amp;#x203A;</td>
+
+</tr>
+<tr>
+	<td class="one">Left angle quote; guillemotleft</td>
+	<td class="sym">&laquo;</td>
+	<td>&amp;laquo;</td>
+	<td>&amp;#171;</td>
+	<td>&amp;#xAB;</td>
+
+</tr>
+<tr>
+	<td class="one">Right angle quote; guillemotright</td>
+	<td class="sym">&raquo;</td>
+	<td>&amp;raquo;</td>
+	<td>&amp;#187;</td>
+	<td>&amp;#xBB;</td>
+
+</tr>
+<tr>
+	<td class="one">Overline</td>
+	<td class="sym">&oline;</td>
+	<td>&amp;oline;</td>
+	<td>&amp;#8254;</td>
+	<td>&amp;#x203E;</td>
+
+</tr>
+<tr>
+	<td class="one">Inverted question mark</td>
+	<td class="sym">&iquest;</td>
+	<td>&amp;iquest;</td>
+	<td>&amp;#191;</td>
+	<td>&amp;#xBF;</td>
+
+</tr>
+<tr>
+	<td class="one">Inverted exclamation</td>
+	<td class="sym">&iexcl;</td>
+	<td>&amp;iexcl;</td>
+	<td>&amp;#161;</td>
+	<td>&amp;#xA1;</td>
+
+</tr>
+<tr>
+	<td class="one">Interrobang</td>
+	<td class="sym">&#8253;</td>
+	<td>—</td>
+	<td>&amp;#8253;</td>
+	<td>&amp;#x203D;</td>
+
+</tr>
+<tr>
+	<td class="one">Leftward arrow</td>
+	<td class="sym">&larr;</td>
+	<td>&amp;larr;</td>
+	<td>&amp;#8592;</td>
+	<td>&amp;#x2190;</td>
+
+</tr>
+<tr>
+	<td class="one">Rightward arrow</td>
+	<td class="sym">&rarr;</td>
+	<td>&amp;rarr;</td>
+	<td>&amp;#8594;</td>
+	<td>&amp;#x2192;</td>
+
+</tr>
+<tr>
+	<td class="one">Upward arrow</td>
+	<td class="sym">&uarr;</td>
+	<td>&amp;uarr;</td>
+	<td>&amp;#8593;</td>
+	<td>&amp;#x2191;</td>
+
+</tr>
+<tr>
+	<td class="one">Downward arrow</td>
+	<td class="sym">&darr;</td>
+	<td>&amp;darr;</td>
+	<td>&amp;#8595;</td>
+	<td>&amp;#x2193;</td>
+
+</tr>
+<tr>
+	<td class="one">Left right arrow</td>
+	<td class="sym">&harr;</td>
+	<td>&amp;harr;</td>
+	<td>&amp;#8596;</td>
+	<td>&amp;#x2194;</td>
+
+</tr>
+<tr>
+	<td class="one">Leftward double arrow</td>
+	<td class="sym">&lArr;</td>
+	<td>&amp;lArr;</td>
+	<td>&amp;#8656;</td>
+	<td>&amp;#x21D0;</td>
+
+</tr>
+<tr>
+	<td class="one">Rightward double arrow</td>
+	<td class="sym">&rArr;</td>
+	<td>&amp;rArr;</td>
+	<td>&amp;#8658;</td>
+	<td>&amp;#x21D2;</td>
+
+</tr>
+<tr>
+	<td class="one">Upward double arrow</td>
+	<td class="sym">&uArr;</td>
+	<td>&amp;uArr;</td>
+	<td>&amp;#8657;</td>
+	<td>&amp;#x21D1;</td>
+
+</tr>
+<tr>
+	<td class="one">Downward double arrow</td>
+	<td class="sym">&dArr;</td>
+	<td>&amp;dArr;</td>
+	<td>&amp;#8659;</td>
+	<td>&amp;#x21D3;</td>
+
+</tr>
+<tr>
+	<td class="one">Left right double arrow</td>
+	<td class="sym">&hArr;</td>
+	<td>&amp;hArr;</td>
+	<td>&amp;#8660;</td>
+	<td>&amp;#x21D4;</td>
+
+</tr>
+
+<tr>
+	<td class="one">Scissors</td>
+	<td class="sym">&#9985;</td>
+	<td>—</td>
+	<td>&amp;#9985;</td>
+	<td>&amp;#x2701;</td>
+
+</tr>
+<tr>
+	<td class="one">Scissors</td>
+	<td class="sym">&#9986;</td>
+	<td>—</td>
+	<td>&amp;#9986;</td>
+	<td>&amp;#x2702;</td>
+
+</tr>
+<tr>
+	<td class="one">Scissors</td>
+	<td class="sym">&#9987;</td>
+	<td>—</td>
+	<td>&amp;#9987;</td>
+	<td>&amp;#x2703;</td>
+
+</tr>
+<tr>
+	<td class="one">Scissors</td>
+	<td class="sym">&#9988;</td>
+	<td>—</td>
+	<td>&amp;#9988;</td>
+	<td>&amp;#x2704;</td>
+
+</tr>
+<tr>
+	<td class="one">Telephone sign</td>
+	<td class="sym">&#9990;</td>
+	<td>—</td>
+	<td>&amp;#9990;</td>
+	<td>&amp;#x2706;</td>
+
+</tr>
+<tr>
+	<td class="one">Tape drive</td>
+	<td class="sym">&#9991;</td>
+	<td>—</td>
+	<td>&amp;#9991;</td>
+	<td>&amp;#x2707;</td>
+
+</tr>
+<tr>
+	<td class="one">Airplane</td>
+	<td class="sym">&#9992;</td>
+	<td>—</td>
+	<td>&amp;#9992;</td>
+	<td>&amp;#x2708;</td>
+
+</tr>
+<tr>
+	<td class="one">Envelope</td>
+	<td class="sym">&#9993;</td>
+	<td>—</td>
+	<td>&amp;#9993;</td>
+	<td>&amp;#x2709;</td>
+
+</tr>
+<tr>
+	<td class="one">Victory or peace sign</td>
+	<td class="sym">&#9996;</td>
+	<td>—</td>
+	<td>&amp;#9996;</td>
+	<td>&amp;#x270C;</td>
+
+</tr>
+<tr>
+	<td class="one">Writing hand</td>
+	<td class="sym">&#9997;</td>
+	<td>—</td>
+	<td>&amp;#9997;</td>
+	<td>&amp;#x270D;</td>
+
+</tr>
+<tr>
+	<td class="one">Pencil</td>
+	<td class="sym">&#9998;</td>
+	<td>—</td>
+	<td>&amp;#9998;</td>
+	<td>&amp;#x270E;</td>
+
+</tr>
+<tr>
+	<td class="one">Pencil</td>
+	<td class="sym">&#9999;</td>
+	<td>—</td>
+	<td>&amp;#9999;</td>
+	<td>&amp;#x270F;</td>
+
+</tr>
+<tr>
+	<td class="one">Pencil</td>
+	<td class="sym">&#10000;</td>
+	<td>—</td>
+	<td>&amp;#10000;</td>
+	<td>&amp;#x2710;</td>
+
+</tr>
+<tr>
+	<td class="one">White nib</td>
+	<td class="sym">&#10001;</td>
+	<td>—</td>
+	<td>&amp;#10001;</td>
+	<td>&amp;#x2711;</td>
+
+</tr>
+<tr>
+	<td class="one">Black nib</td>
+	<td class="sym">&#10002;</td>
+	<td>—</td>
+	<td>&amp;#10002;</td>
+	<td>&amp;#x2712;</td>
+
+</tr>
+<tr>
+	<td class="one">Check mark</td>
+	<td class="sym">&#10003;</td>
+	<td>—</td>
+	<td>&amp;#10003;</td>
+	<td>&amp;#x2713;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy check mark</td>
+	<td class="sym">&#10004;</td>
+	<td>—</td>
+	<td>&amp;#10004;</td>
+	<td>&amp;#x2714;</td>
+
+</tr>
+<tr>
+	<td class="one">Multiplication X</td>
+	<td class="sym">&#10005;</td>
+	<td>—</td>
+	<td>&amp;#10005;</td>
+	<td>&amp;#x2715;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy multiplication X</td>
+	<td class="sym">&#10006;</td>
+	<td>—</td>
+	<td>&amp;#10006;</td>
+	<td>&amp;#x2716;</td>
+
+</tr>
+<tr>
+	<td class="one">Ballot X</td>
+	<td class="sym">&#10007;</td>
+	<td>—</td>
+	<td>&amp;#10007;</td>
+	<td>&amp;#x2717;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy ballot X</td>
+	<td class="sym">&#10008;</td>
+	<td>—</td>
+	<td>&amp;#10008;</td>
+	<td>&amp;#x2718;</td>
+
+</tr>
+<tr>
+	<td class="one">Outlined Greek cross</td>
+	<td class="sym">&#10009;</td>
+	<td>—</td>
+	<td>&amp;#10009;</td>
+	<td>&amp;#x2719;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy Greek cross</td>
+	<td class="sym">&#10010;</td>
+	<td>—</td>
+	<td>&amp;#10010;</td>
+	<td>&amp;#x271A;</td>
+
+</tr>
+<tr>
+	<td class="one">Open center cross</td>
+	<td class="sym">&#10011;</td>
+	<td>—</td>
+	<td>&amp;#10011;</td>
+	<td>&amp;#x271B;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy open center cross</td>
+	<td class="sym">&#10012;</td>
+	<td>—</td>
+	<td>&amp;#10012;</td>
+	<td>&amp;#x271C;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin cross</td>
+	<td class="sym">&#10013;</td>
+	<td>—</td>
+	<td>&amp;#10013;</td>
+	<td>&amp;#x271D;</td>
+
+</tr>
+<tr>
+	<td class="one">Shadowed white Latin cross</td>
+	<td class="sym">&#10014;</td>
+	<td>—</td>
+	<td>&amp;#10014;</td>
+	<td>&amp;#x271E;</td>
+
+</tr>
+<tr>
+	<td class="one">Outlined Latin cross</td>
+	<td class="sym">&#10015;</td>
+	<td>—</td>
+	<td>&amp;#10015;</td>
+	<td>&amp;#x271F;</td>
+
+</tr>
+<tr>
+	<td class="one">Maltese cross (cross form&eacute;)</td>
+	<td class="sym">&#10016;</td>
+	<td>—</td>
+	<td>&amp;#10016;</td>
+	<td>&amp;#x2720;</td>
+
+</tr>
+<tr>
+	<td class="one">Star of David</td>
+	<td class="sym">&#10017;</td>
+	<td>—</td>
+	<td>&amp;#10017;</td>
+	<td>&amp;#x2721;</td>
+
+</tr>
+<tr>
+	<td class="one">Four teardrop-spoked asterisk</td>
+	<td class="sym">&#10018;</td>
+	<td>—</td>
+	<td>&amp;#10018;</td>
+	<td>&amp;#x2722;</td>
+
+</tr>
+<tr>
+	<td class="one">Four balloon-spoked asterisk</td>
+	<td class="sym">&#10019;</td>
+	<td>—</td>
+	<td>&amp;#10019;</td>
+	<td>&amp;#x2723;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy four balloon-spoked asterisk</td>
+	<td class="sym">&#10020;</td>
+	<td>—</td>
+	<td>&amp;#10020;</td>
+	<td>&amp;#x2724;</td>
+
+</tr>
+<tr>
+	<td class="one">Four club-spoked asterisk</td>
+	<td class="sym">&#10021;</td>
+	<td>—</td>
+	<td>&amp;#10021;</td>
+	<td>&amp;#x2725;</td>
+
+</tr>
+<tr>
+	<td class="one">Black four-pointed star</td>
+	<td class="sym">&#10022;</td>
+	<td>—</td>
+	<td>&amp;#10022;</td>
+	<td>&amp;#x2726;</td>
+
+</tr>
+<tr>
+	<td class="one">White four-pointed star</td>
+	<td class="sym">&#10023;</td>
+	<td>—</td>
+	<td>&amp;#10023;</td>
+	<td>&amp;#x2727;</td>
+
+</tr>
+<tr>
+	<td class="one">Stress outlined white star</td>
+	<td class="sym">&#10025;</td>
+	<td>—</td>
+	<td>&amp;#10025;</td>
+	<td>&amp;#x2729;</td>
+
+</tr>
+<tr>
+	<td class="one">Circled white star</td>
+	<td class="sym">&#10026;</td>
+	<td>—</td>
+	<td>&amp;#10026;</td>
+	<td>&amp;#x272A;</td>
+
+</tr>
+<tr>
+	<td class="one">Open center black star</td>
+	<td class="sym">&#10027;</td>
+	<td>—</td>
+	<td>&amp;#10027;</td>
+	<td>&amp;#x272B;</td>
+
+</tr>
+<tr>
+	<td class="one">Black center white star</td>
+	<td class="sym">&#10028;</td>
+	<td>—</td>
+	<td>&amp;#10028;</td>
+	<td>&amp;#x272C;</td>
+
+</tr>
+<tr>
+	<td class="one">Outlined black star</td>
+	<td class="sym">&#10029;</td>
+	<td>—</td>
+	<td>&amp;#10029;</td>
+	<td>&amp;#x272D;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy outlined black star</td>
+	<td class="sym">&#10030;</td>
+	<td>—</td>
+	<td>&amp;#10030;</td>
+	<td>&amp;#x272E;</td>
+
+</tr>
+<tr>
+	<td class="one">Pinwheel star</td>
+	<td class="sym">&#10031;</td>
+	<td>—</td>
+	<td>&amp;#10031;</td>
+	<td>&amp;#x272F;</td>
+
+</tr>
+<tr>
+	<td class="one">Shadowed white star</td>
+	<td class="sym">&#10032;</td>
+	<td>—</td>
+	<td>&amp;#10032;</td>
+	<td>&amp;#x2730;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy asterisk</td>
+	<td class="sym">&#10033;</td>
+	<td>—</td>
+	<td>&amp;#10033;</td>
+	<td>&amp;#x2731;</td>
+
+</tr>
+<tr>
+	<td class="one">Open center asterisk</td>
+	<td class="sym">&#10034;</td>
+	<td>—</td>
+	<td>&amp;#10034;</td>
+	<td>&amp;#x2732;</td>
+
+</tr>
+<tr>
+	<td class="one">Eight-spoked asterisk</td>
+	<td class="sym">&#10035;</td>
+	<td>—</td>
+	<td>&amp;#10035;</td>
+	<td>&amp;#x2733;</td>
+
+</tr>
+<tr>
+	<td class="one">Eight-pointed black star</td>
+	<td class="sym">&#10036;</td>
+	<td>—</td>
+	<td>&amp;#10036;</td>
+	<td>&amp;#x2734;</td>
+
+</tr>
+<tr>
+	<td class="one">Eight-pointed pinwheel star</td>
+	<td class="sym">&#10037;</td>
+	<td>—</td>
+	<td>&amp;#10037;</td>
+	<td>&amp;#x2735;</td>
+
+</tr>
+<tr>
+	<td class="one">Six-pointed black star</td>
+	<td class="sym">&#10038;</td>
+	<td>—</td>
+	<td>&amp;#10038;</td>
+	<td>&amp;#x2736;</td>
+
+</tr>
+<tr>
+	<td class="one">Eight-pointed rectilinear black star</td>
+	<td class="sym">&#10039;</td>
+	<td>—</td>
+	<td>&amp;#10039;</td>
+	<td>&amp;#x2737;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy eight-pointed rectilinear black star</td>
+	<td class="sym">&#10040;</td>
+	<td>—</td>
+	<td>&amp;#10040;</td>
+	<td>&amp;#x2738;</td>
+
+</tr>
+<tr>
+	<td class="one">Twelve-pointed black star</td>
+	<td class="sym">&#10041;</td>
+	<td>—</td>
+	<td>&amp;#10041;</td>
+	<td>&amp;#x2739;</td>
+
+</tr>
+<tr>
+	<td class="one">Sixteen-pointed asterisk</td>
+	<td class="sym">&#10042;</td>
+	<td>—</td>
+	<td>&amp;#10042;</td>
+	<td>&amp;#x273A;</td>
+
+</tr>
+<tr>
+	<td class="one">Teardrop-spoked asterisk</td>
+	<td class="sym">&#10043;</td>
+	<td>—</td>
+	<td>&amp;#10043;</td>
+	<td>&amp;#x273B;</td>
+
+</tr>
+<tr>
+	<td class="one">Open-center teardrop-spoked asterisk</td>
+	<td class="sym">&#10044;</td>
+	<td>—</td>
+	<td>&amp;#10044;</td>
+	<td>&amp;#x273C;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy teardrop-spoked asterisk</td>
+	<td class="sym">&#10045;</td>
+	<td>—</td>
+	<td>&amp;#10045;</td>
+	<td>&amp;#x273D;</td>
+
+</tr>
+<tr>
+	<td class="one">Six-petalled black-and-white florette</td>
+	<td class="sym">&#10046;</td>
+	<td>—</td>
+	<td>&amp;#10046;</td>
+	<td>&amp;#x273E;</td>
+
+</tr>
+<tr>
+	<td class="one">Black florette</td>
+	<td class="sym">&#10047;</td>
+	<td>—</td>
+	<td>&amp;#10047;</td>
+	<td>&amp;#x273F;</td>
+
+</tr>
+<tr>
+	<td class="one">White florette</td>
+	<td class="sym">&#10048;</td>
+	<td>—</td>
+	<td>&amp;#10048;</td>
+	<td>&amp;#x2740;</td>
+
+</tr>
+<tr>
+	<td class="one">Eight-petalled outlined black florette</td>
+	<td class="sym">&#10049;</td>
+	<td>—</td>
+	<td>&amp;#10049;</td>
+	<td>&amp;#x2741;</td>
+
+</tr>
+<tr>
+	<td class="one">Circled open-center eight-pointed star</td>
+	<td class="sym">&#10050;</td>
+	<td>—</td>
+	<td>&amp;#10050;</td>
+	<td>&amp;#x2742;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy teardrop-spoked pinwheel asterisk</td>
+	<td class="sym">&#10051;</td>
+	<td>—</td>
+	<td>&amp;#10051;</td>
+	<td>&amp;#x2743;</td>
+
+</tr>
+<tr>
+	<td class="one">Snowflake</td>
+	<td class="sym">&#10052;</td>
+	<td>—</td>
+	<td>&amp;#10052;</td>
+	<td>&amp;#x2744;</td>
+
+</tr>
+<tr>
+	<td class="one">Tight trifoliate snowflake</td>
+	<td class="sym">&#10053;</td>
+	<td>—</td>
+	<td>&amp;#10053;</td>
+	<td>&amp;#x2745;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy chevron snowflake</td>
+	<td class="sym">&#10054;</td>
+	<td>—</td>
+	<td>&amp;#10054;</td>
+	<td>&amp;#x2746;</td>
+
+</tr>
+<tr>
+	<td class="one">Sparkle</td>
+	<td class="sym">&#10055;</td>
+	<td>—</td>
+	<td>&amp;#10055;</td>
+	<td>&amp;#x2747;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy sparkle</td>
+	<td class="sym">&#10056;</td>
+	<td>—</td>
+	<td>&amp;#10056;</td>
+	<td>&amp;#x2748;</td>
+
+</tr>
+<tr>
+	<td class="one">Balloon-spoked asterisk</td>
+	<td class="sym">&#10057;</td>
+	<td>—</td>
+	<td>&amp;#10057;</td>
+	<td>&amp;#x2749;</td>
+
+</tr>
+<tr>
+	<td class="one">Eight teardrop-spoked propeller asterisk</td>
+	<td class="sym">&#10058;</td>
+	<td>—</td>
+	<td>&amp;#10058;</td>
+	<td>&amp;#x274A;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy eight teardrop-spoked propeller asterisk</td>
+	<td class="sym">&#10059;</td>
+	<td>—</td>
+	<td>&amp;#10059;</td>
+	<td>&amp;#x274B;</td>
+
+</tr>
+<tr>
+	<td class="one">Shadowed white circle</td>
+	<td class="sym">&#10061;</td>
+	<td>—</td>
+	<td>&amp;#10061;</td>
+	<td>&amp;#x274D;</td>
+
+</tr>
+<tr>
+	<td class="one">Lower-right drop-shadowed white square</td>
+	<td class="sym">&#10063;</td>
+	<td>—</td>
+	<td>&amp;#10063;</td>
+	<td>&amp;#x274F;</td>
+
+</tr>
+<tr>
+	<td class="one">Upper-right drop-shadowed white square</td>
+	<td class="sym">&#10064;</td>
+	<td>—</td>
+	<td>&amp;#10064;</td>
+	<td>&amp;#x2750;</td>
+
+</tr>
+<tr>
+	<td class="one">Lower-right shadowed white square</td>
+	<td class="sym">&#10065;</td>
+	<td>—</td>
+	<td>&amp;#10065;</td>
+	<td>&amp;#x2751;</td>
+
+</tr>
+<tr>
+	<td class="one">Upper-right shadowed white square</td>
+	<td class="sym">&#10066;</td>
+	<td>—</td>
+	<td>&amp;#10066;</td>
+	<td>&amp;#x2752;</td>
+
+</tr>
+<tr>
+	<td class="one">Black diamond minus white X</td>
+	<td class="sym">&#10070;</td>
+	<td>—</td>
+	<td>&amp;#10070;</td>
+	<td>&amp;#x2756;</td>
+
+</tr>
+<tr>
+	<td class="one">Light vertical bar</td>
+	<td class="sym">&#10072;</td>
+	<td>—</td>
+	<td>&amp;#10072;</td>
+	<td>&amp;#x2758;</td>
+
+</tr>
+<tr>
+	<td class="one">Medium vertical bar</td>
+	<td class="sym">&#10073;</td>
+	<td>—</td>
+	<td>&amp;#10073;</td>
+	<td>&amp;#x2759;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy vertical bar</td>
+	<td class="sym">&#10074;</td>
+	<td>—</td>
+	<td>&amp;#10074;</td>
+	<td>&amp;#x275A;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy single turned comma quotation mark ornament</td>
+	<td class="sym">&#10075;</td>
+	<td>—</td>
+	<td>&amp;#10075;</td>
+	<td>&amp;#x275B;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy single comma quotation mark ornament</td>
+	<td class="sym">&#10076;</td>
+	<td>—</td>
+	<td>&amp;#10076;</td>
+	<td>&amp;#x275C;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy double turned comma quotation mark ornament</td>
+	<td class="sym">&#10077;</td>
+	<td>—</td>
+	<td>&amp;#10077;</td>
+	<td>&amp;#x275D;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy double comma quotation mark ornament</td>
+	<td class="sym">&#10078;</td>
+	<td>—</td>
+	<td>&amp;#10078;</td>
+	<td>&amp;#x275E;</td>
+
+</tr>
+<tr>
+	<td class="one">Curved stem paragraph sign ornament</td>
+	<td class="sym">&#10081;</td>
+	<td>—</td>
+	<td>&amp;#10081;</td>
+	<td>&amp;#x2761;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy exclamation mark ornament</td>
+	<td class="sym">&#10082;</td>
+	<td>—</td>
+	<td>&amp;#10082;</td>
+	<td>&amp;#x2762;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy heart exclamation mark ornament</td>
+	<td class="sym">&#10083;</td>
+	<td>—</td>
+	<td>&amp;#10083;</td>
+	<td>&amp;#x2763;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy black heart</td>
+	<td class="sym">&#10084;</td>
+	<td>—</td>
+	<td>&amp;#10084;</td>
+	<td>&amp;#x2764;</td>
+
+</tr>
+<tr>
+	<td class="one">Rotated heavy black heart bullet</td>
+	<td class="sym">&#10085;</td>
+	<td>—</td>
+	<td>&amp;#10085;</td>
+	<td>&amp;#x2765;</td>
+
+</tr>
+<tr>
+	<td class="one">Floral heart</td>
+	<td class="sym">&#10086;</td>
+	<td>—</td>
+	<td>&amp;#10086;</td>
+	<td>&amp;#x2766;</td>
+
+</tr>
+<tr>
+	<td class="one">Rotated floral heart bullet</td>
+	<td class="sym">&#10087;</td>
+	<td>—</td>
+	<td>&amp;#10087;</td>
+	<td>&amp;#x2767;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled digit one</td>
+	<td class="sym">&#10102;</td>
+	<td>—</td>
+	<td>&amp;#10102;</td>
+	<td>&amp;#x2776;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled digit two</td>
+	<td class="sym">&#10103;</td>
+	<td>—</td>
+	<td>&amp;#10103;</td>
+	<td>&amp;#x2777;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled digit three</td>
+	<td class="sym">&#10104;</td>
+	<td>—</td>
+	<td>&amp;#10104;</td>
+	<td>&amp;#x2778;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled digit four</td>
+	<td class="sym">&#10105;</td>
+	<td>—</td>
+	<td>&amp;#10105;</td>
+	<td>&amp;#x2779;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled digit five</td>
+	<td class="sym">&#10106;</td>
+	<td>—</td>
+	<td>&amp;#10106;</td>
+	<td>&amp;#x277A;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled digit six</td>
+	<td class="sym">&#10107;</td>
+	<td>—</td>
+	<td>&amp;#10107;</td>
+	<td>&amp;#x277B;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled digit seven</td>
+	<td class="sym">&#10108;</td>
+	<td>—</td>
+	<td>&amp;#10108;</td>
+	<td>&amp;#x277C;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled digit eight</td>
+	<td class="sym">&#10109;</td>
+	<td>—</td>
+	<td>&amp;#10109;</td>
+	<td>&amp;#x277D;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled digit nine</td>
+	<td class="sym">&#10110;</td>
+	<td>—</td>
+	<td>&amp;#10110;</td>
+	<td>&amp;#x277E;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled number 10</td>
+	<td class="sym">&#10111;</td>
+	<td>—</td>
+	<td>&amp;#10111;</td>
+	<td>&amp;#x277F;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat circled sans-serif digit one</td>
+	<td class="sym">&#10112;</td>
+	<td>—</td>
+	<td>&amp;#10112;</td>
+	<td>&amp;#x2780;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat circled sans-serif digit two</td>
+	<td class="sym">&#10113;</td>
+	<td>—</td>
+	<td>&amp;#10113;</td>
+	<td>&amp;#x2781;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat circled sans-serif digit three</td>
+	<td class="sym">&#10114;</td>
+	<td>—</td>
+	<td>&amp;#10114;</td>
+	<td>&amp;#x2782;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat circled sans-serif digit four</td>
+	<td class="sym">&#10115;</td>
+	<td>—</td>
+	<td>&amp;#10115;</td>
+	<td>&amp;#x2783;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat circled sans-serif digit five</td>
+	<td class="sym">&#10116;</td>
+	<td>—</td>
+	<td>&amp;#10116;</td>
+	<td>&amp;#x2784;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat circled sans-serif digit six</td>
+	<td class="sym">&#10117;</td>
+	<td>—</td>
+	<td>&amp;#10117;</td>
+	<td>&amp;#x2785;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat circled sans-serif digit seven</td>
+	<td class="sym">&#10118;</td>
+	<td>—</td>
+	<td>&amp;#10118;</td>
+	<td>&amp;#x2786;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat circled sans-serif digit eight</td>
+	<td class="sym">&#10119;</td>
+	<td>—</td>
+	<td>&amp;#10119;</td>
+	<td>&amp;#x2787;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat circled sans-serif digit nine</td>
+	<td class="sym">&#10120;</td>
+	<td>—</td>
+	<td>&amp;#10120;</td>
+	<td>&amp;#x2788;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat circled sans-serif number ten</td>
+	<td class="sym">&#10121;</td>
+	<td>—</td>
+	<td>&amp;#10121;</td>
+	<td>&amp;#x2789;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled sans-serif digit one</td>
+	<td class="sym">&#10122;</td>
+	<td>—</td>
+	<td>&amp;#10122;</td>
+	<td>&amp;#x278A;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled sans-serif digit two</td>
+	<td class="sym">&#10123;</td>
+	<td>—</td>
+	<td>&amp;#10123;</td>
+	<td>&amp;#x278B;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled sans-serif digit three</td>
+	<td class="sym">&#10124;</td>
+	<td>—</td>
+	<td>&amp;#10124;</td>
+	<td>&amp;#x278C;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled sans-serif digit four</td>
+	<td class="sym">&#10125;</td>
+	<td>—</td>
+	<td>&amp;#10125;</td>
+	<td>&amp;#x278D;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled sans-serif digit five</td>
+	<td class="sym">&#10126;</td>
+	<td>—</td>
+	<td>&amp;#10126;</td>
+	<td>&amp;#x278E;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled sans-serif digit six</td>
+	<td class="sym">&#10127;</td>
+	<td>—</td>
+	<td>&amp;#10127;</td>
+	<td>&amp;#x278F;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled sans-serif digit seven</td>
+	<td class="sym">&#10128;</td>
+	<td>—</td>
+	<td>&amp;#10128;</td>
+	<td>&amp;#x2790;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled sans-serif digit eight</td>
+	<td class="sym">&#10129;</td>
+	<td>—</td>
+	<td>&amp;#10129;</td>
+	<td>&amp;#x2791;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled sans-serif digit nine</td>
+	<td class="sym">&#10130;</td>
+	<td>—</td>
+	<td>&amp;#10130;</td>
+	<td>&amp;#x2792;</td>
+
+</tr>
+<tr>
+	<td class="one">Dingbat negative circled sans-serif number ten</td>
+	<td class="sym">&#10131;</td>
+	<td>—</td>
+	<td>&amp;#10131;</td>
+	<td>&amp;#x2793;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy wide-headed rightwards arrow</td>
+	<td class="sym">&#10132;</td>
+	<td>—</td>
+	<td>&amp;#10132;</td>
+	<td>&amp;#x2794;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy southeast arrow</td>
+	<td class="sym">&#10136;</td>
+	<td>—</td>
+	<td>&amp;#10136;</td>
+	<td>&amp;#x2798;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy rightwards arrow</td>
+	<td class="sym">&#10137;</td>
+	<td>—</td>
+	<td>&amp;#10137;</td>
+	<td>&amp;#x2799;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy northeast arrow</td>
+	<td class="sym">&#10138;</td>
+	<td>—</td>
+	<td>&amp;#10138;</td>
+	<td>&amp;#x279A;</td>
+
+</tr>
+<tr>
+	<td class="one">Drafting point rightwards arrow</td>
+	<td class="sym">&#10139;</td>
+	<td>—</td>
+	<td>&amp;#10139;</td>
+	<td>&amp;#x279B;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy round-tipped rightwards arrow</td>
+	<td class="sym">&#10140;</td>
+	<td>—</td>
+	<td>&amp;#10140;</td>
+	<td>&amp;#x279C;</td>
+
+</tr>
+<tr>
+	<td class="one">Triangle-headed rightwards arrow</td>
+	<td class="sym">&#10141;</td>
+	<td>—</td>
+	<td>&amp;#10141;</td>
+	<td>&amp;#x279D;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy triangle-headed rightwards arrow</td>
+	<td class="sym">&#10142;</td>
+	<td>—</td>
+	<td>&amp;#10142;</td>
+	<td>&amp;#x279E;</td>
+
+</tr>
+<tr>
+	<td class="one">Dashed triangle-headed rightwards arrow</td>
+	<td class="sym">&#10143;</td>
+	<td>—</td>
+	<td>&amp;#10143;</td>
+	<td>&amp;#x279F;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy dashed triangle-headed rightwards arrow</td>
+	<td class="sym">&#10144;</td>
+	<td>—</td>
+	<td>&amp;#10144;</td>
+	<td>&amp;#x27A0;</td>
+
+</tr>
+<tr>
+	<td class="one">Black rightwards arrow</td>
+	<td class="sym">&#10145;</td>
+	<td>—</td>
+	<td>&amp;#10145;</td>
+	<td>&amp;#x27A1;</td>
+
+</tr>
+<tr>
+	<td class="one">Three-D top-lighted rightwards arrowhead</td>
+	<td class="sym">&#10146;</td>
+	<td>—</td>
+	<td>&amp;#10146;</td>
+	<td>&amp;#x27A2;</td>
+
+</tr>
+<tr>
+	<td class="one">Three-D bottom-lighted rightwards arrowhead</td>
+	<td class="sym">&#10147;</td>
+	<td>—</td>
+	<td>&amp;#10147;</td>
+	<td>&amp;#x27A3;</td>
+
+</tr>
+<tr>
+	<td class="one">Black rightwards arrowhead</td>
+	<td class="sym">&#10148;</td>
+	<td>—</td>
+	<td>&amp;#10148;</td>
+	<td>&amp;#x27A4;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy black curved downwards and rightwards arrow</td>
+	<td class="sym">&#10149;</td>
+	<td>—</td>
+	<td>&amp;#10149;</td>
+	<td>&amp;#x27A5;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy black curved upwards and rightwards arrow</td>
+	<td class="sym">&#10150;</td>
+	<td>—</td>
+	<td>&amp;#10150;</td>
+	<td>&amp;#x27A6;</td>
+
+</tr>
+<tr>
+	<td class="one">Square black rightwards arrow</td>
+	<td class="sym">&#10151;</td>
+	<td>—</td>
+	<td>&amp;#10151;</td>
+	<td>&amp;#x27A7;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy concave-pointed black rightwards arrow</td>
+	<td class="sym">&#10152;</td>
+	<td>—</td>
+	<td>&amp;#10152;</td>
+	<td>&amp;#x27A8;</td>
+
+</tr>
+<tr>
+	<td class="one">Right-shaded white rightwards arrow</td>
+	<td class="sym">&#10153;</td>
+	<td>—</td>
+	<td>&amp;#10153;</td>
+	<td>&amp;#x27A9;</td>
+
+</tr>
+<tr>
+	<td class="one">Left-shaded white rightwards arrow</td>
+	<td class="sym">&#10154;</td>
+	<td>—</td>
+	<td>&amp;#10154;</td>
+	<td>&amp;#x27AA;</td>
+
+</tr>
+<tr>
+	<td class="one">Back-tilted shadowed white rightwards arrow</td>
+	<td class="sym">&#10155;</td>
+	<td>—</td>
+	<td>&amp;#10155;</td>
+	<td>&amp;#x27AB;</td>
+
+</tr>
+<tr>
+	<td class="one">Front-tilted shadowed white rightwards arrow</td>
+	<td class="sym">&#10156;</td>
+	<td>—</td>
+	<td>&amp;#10156;</td>
+	<td>&amp;#x27AC;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy lower right-shadowed white rightwards arrow</td>
+	<td class="sym">&#10157;</td>
+	<td>—</td>
+	<td>&amp;#10157;</td>
+	<td>&amp;#x27AD;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy upper right-shadowed white rightwards arrow</td>
+	<td class="sym">&#10158;</td>
+	<td>—</td>
+	<td>&amp;#10158;</td>
+	<td>&amp;#x27AE;</td>
+
+</tr>
+<tr>
+	<td class="one">Notched lower right-shadowed white rightwards arrow</td>
+	<td class="sym">&#10159;</td>
+	<td>—</td>
+	<td>&amp;#10159;</td>
+	<td>&amp;#x27AF;</td>
+
+</tr>
+<tr>
+	<td class="one">Notched upper right-shadowed white rightwards arrow</td>
+	<td class="sym">&#10161;</td>
+	<td>—</td>
+	<td>&amp;#10161;</td>
+	<td>&amp;#x27B1;</td>
+
+</tr>
+<tr>
+	<td class="one">Circled heavy white rightwards arrow</td>
+	<td class="sym">&#10162;</td>
+	<td>—</td>
+	<td>&amp;#10162;</td>
+	<td>&amp;#x27B2;</td>
+
+</tr>
+<tr>
+	<td class="one">White-feathered rightwards arrow</td>
+	<td class="sym">&#10163;</td>
+	<td>—</td>
+	<td>&amp;#10163;</td>
+	<td>&amp;#x27B3;</td>
+
+</tr>
+<tr>
+	<td class="one">Black-feathered southeast arrow</td>
+	<td class="sym">&#10164;</td>
+	<td>—</td>
+	<td>&amp;#10164;</td>
+	<td>&amp;#x27B4;</td>
+
+</tr>
+<tr>
+	<td class="one">Black-feathered rightwards arrow</td>
+	<td class="sym">&#10165;</td>
+	<td>—</td>
+	<td>&amp;#10165;</td>
+	<td>&amp;#x27B5;</td>
+
+</tr>
+<tr>
+	<td class="one">Black-feathered northeast arrow</td>
+	<td class="sym">&#10166;</td>
+	<td>—</td>
+	<td>&amp;#10166;</td>
+	<td>&amp;#x27B6;</td>
+
+</tr>
+<tr>
+	<td class="one">Black-feathered southeast arrow</td>
+	<td class="sym">&#10167;</td>
+	<td>—</td>
+	<td>&amp;#10167;</td>
+	<td>&amp;#x27B7;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy black-feathered rightwards arrow</td>
+	<td class="sym">&#10168;</td>
+	<td>—</td>
+	<td>&amp;#10168;</td>
+	<td>&amp;#x27B8;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy black-feathered northeast arrow</td>
+	<td class="sym">&#10169;</td>
+	<td>—</td>
+	<td>&amp;#10169;</td>
+	<td>&amp;#x27B9;</td>
+
+</tr>
+<tr>
+	<td class="one">Teardrop-barbed rightwards arrow</td>
+	<td class="sym">&#10170;</td>
+	<td>—</td>
+	<td>&amp;#10170;</td>
+	<td>&amp;#x27BA;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy teardrop-shanked rightwards arrow</td>
+	<td class="sym">&#10171;</td>
+	<td>—</td>
+	<td>&amp;#10171;</td>
+	<td>&amp;#x27BB;</td>
+
+</tr>
+<tr>
+	<td class="one">Wedge-tailed rightwards arrow</td>
+	<td class="sym">&#10172;</td>
+	<td>—</td>
+	<td>&amp;#10172;</td>
+	<td>&amp;#x27BC;</td>
+
+</tr>
+<tr>
+	<td class="one">Heavy wedge-tailed rightwards arrow</td>
+	<td class="sym">&#10173;</td>
+	<td>—</td>
+	<td>&amp;#10173;</td>
+	<td>&amp;#x27BD;</td>
+
+</tr>
+<tr>
+	<td class="one">Open-outlined rightwards arrow</td>
+	<td class="sym">&#10174;</td>
+	<td>—</td>
+	<td>&amp;#10174;</td>
+	<td>&amp;#x27BE;</td>
+
+</tr>
+<tr>
+	<td class="one">Black sun with rays</td>
+	<td class="sym">&#9728;</td>
+	<td>—</td>
+	<td>&amp;#9728;</td>
+	<td>&amp;#x2600;</td>
+
+</tr>
+<tr>
+	<td class="one">Cloud</td>
+	<td class="sym">&#9729;</td>
+	<td>—</td>
+	<td>&amp;#9729;</td>
+	<td>&amp;#x2601;</td>
+
+</tr>
+<tr>
+	<td class="one">Umbrella</td>
+	<td class="sym">&#9730;</td>
+	<td>—</td>
+	<td>&amp;#9730;</td>
+	<td>&amp;#x2602;</td>
+
+</tr>
+<tr>
+	<td class="one">Snowman</td>
+	<td class="sym">&#9731;</td>
+	<td>—</td>
+	<td>&amp;#9731;</td>
+	<td>&amp;#x2603;</td>
+
+</tr>
+<tr>
+	<td class="one">Comet</td>
+	<td class="sym">&#9732;</td>
+	<td>—</td>
+	<td>&amp;#9732;</td>
+	<td>&amp;#x2604;</td>
+
+</tr>
+<tr>
+	<td class="one">Black star</td>
+	<td class="sym">&#9733;</td>
+	<td>—</td>
+	<td>&amp;#9733;</td>
+	<td>&amp;#x2605;</td>
+
+</tr>
+<tr>
+	<td class="one">White star</td>
+	<td class="sym">&#9734;</td>
+	<td>—</td>
+	<td>&amp;#9734;</td>
+	<td>&amp;#x2606;</td>
+
+</tr>
+<tr>
+	<td class="one">Lightning</td>
+	<td class="sym">&#9735;</td>
+	<td>—</td>
+	<td>&amp;#9735;</td>
+	<td>&amp;#x2607;</td>
+
+</tr>
+<tr>
+	<td class="one">Thunderstorm</td>
+	<td class="sym">&#9736;</td>
+	<td>—</td>
+	<td>&amp;#9736;</td>
+	<td>&amp;#x2608;</td>
+
+</tr>
+<tr>
+	<td class="one">Sun</td>
+	<td class="sym">&#9737;</td>
+	<td>—</td>
+	<td>&amp;#9737;</td>
+	<td>&amp;#x2609;</td>
+
+</tr>
+<tr>
+	<td class="one">Black left pointing index</td>
+	<td class="sym">&#9754;</td>
+	<td>—</td>
+	<td>&amp;#9754;</td>
+	<td>&amp;#x261A;</td>
+
+</tr>
+<tr>
+	<td class="one">Black right pointing index</td>
+	<td class="sym">&#9755;</td>
+	<td>—</td>
+	<td>&amp;#9755;</td>
+	<td>&amp;#x261B;</td>
+
+</tr>
+<tr>
+	<td class="one">White left pointing index</td>
+	<td class="sym">&#9756;</td>
+	<td>—</td>
+	<td>&amp;#9756;</td>
+	<td>&amp;#x261C;</td>
+
+</tr>
+<tr>
+	<td class="one">White up pointing index</td>
+	<td class="sym">&#9757;</td>
+	<td>—</td>
+	<td>&amp;#9757;</td>
+	<td>&amp;#x261D;</td>
+
+</tr>
+<tr>
+	<td class="one">White right pointing index</td>
+	<td class="sym">&#9758;</td>
+	<td>—</td>
+	<td>&amp;#9758;</td>
+	<td>&amp;#x261E;</td>
+
+</tr>
+<tr>
+	<td class="one">White down pointing index</td>
+	<td class="sym">&#9759;</td>
+	<td>—</td>
+	<td>&amp;#9759;</td>
+	<td>&amp;#x261F;</td>
+</tr>
+<tr>
+	<td class="one">OCR hook</td>
+	<td class="sym">&#9280;</td>
+	<td>—</td>
+	<td>&amp;#9280;</td>
+	<td>&amp;#x2440;</td>
+
+</tr>
+<tr>
+	<td class="one">OCR chair</td>
+	<td class="sym">&#9281;</td>
+	<td>—</td>
+	<td>&amp;#9281;</td>
+	<td>&amp;#x2441;</td>
+
+</tr>
+<tr>
+	<td class="one">OCR fork</td>
+	<td class="sym">&#9282;</td>
+	<td>—</td>
+	<td>&amp;#9282;</td>
+	<td>&amp;#x2442;</td>
+
+</tr>
+<tr>
+	<td class="one">OCR inverted fork</td>
+	<td class="sym">&#9283;</td>
+	<td>—</td>
+	<td>&amp;#9283;</td>
+	<td>&amp;#x2443;</td>
+
+</tr>
+<tr>
+	<td class="one">OCR belt buckle</td>
+	<td class="sym">&#9284;</td>
+	<td>—</td>
+	<td>&amp;#9284;</td>
+	<td>&amp;#x2444;</td>
+
+</tr>
+<tr>
+	<td class="one">OCR bow tie</td>
+	<td class="sym">&#9285;</td>
+	<td>—</td>
+	<td>&amp;#9285;</td>
+	<td>&amp;#x2445;</td>
+
+</tr>
+<tr>
+	<td class="one">OCR branch bank identification</td>
+	<td class="sym">&#9286;</td>
+	<td>—</td>
+	<td>&amp;#9286;</td>
+	<td>&amp;#x2446;</td>
+
+</tr>
+<tr>
+	<td class="one">OCR amount of check</td>
+	<td class="sym">&#9287;</td>
+	<td>—</td>
+	<td>&amp;#9287;</td>
+	<td>&amp;#x2447;</td>
+
+</tr>
+<tr>
+	<td class="one">OCR dash</td>
+	<td class="sym">&#9288;</td>
+	<td>—</td>
+	<td>&amp;#9288;</td>
+	<td>&amp;#x2448;</td>
+
+</tr>
+<tr>
+	<td class="one">OCR customer account number</td>
+	<td class="sym">&#9289;</td>
+	<td>—</td>
+	<td>&amp;#9289;</td>
+	<td>&amp;#x2449;</td>
+
+</tr>
+<tr>
+	<td class="one">OCR double backslash</td>
+	<td class="sym">&#9290;</td>
+	<td>—</td>
+	<td>&amp;#9290;</td>
+	<td>&amp;#x244A;</td>
+</tr>
+<tr>
+	<td class="one">Hyphen-minus</td>
+	<td class="sym">&#45;</td>
+	<td>—</td>
+	<td>&amp;#45;</td>
+	<td>&amp;#x2D;</td>
+
+</tr>
+<tr>
+	<td class="one">Hyphen</td>
+	<td class="sym">&#8208;</td>
+	<td>—</td>
+	<td>&amp;#8208;</td>
+	<td>&amp;#x2010;</td>
+
+</tr>
+<tr>
+	<td class="one">Nonbreaking hyphen</td>
+	<td class="sym">&#8209;</td>
+	<td>—</td>
+	<td>&amp;#8209;</td>
+	<td>&amp;#x2011;</td>
+
+</tr>
+<tr>
+	<td class="one">Hyphen</td>
+	<td class="sym">&#8210;</td>
+	<td>—</td>
+	<td>&amp;#8210;</td>
+	<td>&amp;#x2012;</td>
+
+</tr>
+<tr>
+	<td class="one">En dash</td>
+	<td class="sym">&ndash;</td>
+	<td>&amp;ndash;</td>
+	<td>&amp;#8211;</td>
+	<td>&amp;#x2013;</td>
+
+</tr>
+<tr>
+	<td class="one">Em dash</td>
+	<td class="sym">&mdash;</td>
+	<td>&amp;mdash;</td>
+	<td>&amp;#8212;</td>
+	<td>&amp;#x2014;</td>
+
+</tr>
+<tr>
+	<td class="one">Quotation dash</td>
+	<td class="sym">&#8213;</td>
+	<td>—</td>
+	<td>&amp;#8213;</td>
+	<td>&amp;#x2015;</td>
+
+</tr>
+<tr>
+	<td class="one">Minus sign</td>
+	<td class="sym">&minus;</td>
+	<td>&amp;minus;</td>
+	<td>&amp;#8722;</td>
+	<td>&amp;#x2212;</td>
+</tr>
+<tr>
+	<td class="one">Swung dash</td>
+	<td class="sym">&#8275;</td>
+	<td>—</td>
+	<td>&amp;#8275;</td>
+	<td>&amp;#x2053;</td>
+</tr>
+<tr>
+	<td class="one">Hyphen bullet</td>
+	<td class="sym">&#8259;</td>
+	<td>—</td>
+	<td>&amp;#8259;</td>
+	<td>&amp;#x2043;</td>
+</tr>
+<tr>
+	<td class="one">Quarter note</td>
+	<td class="sym">&#9833;</td>
+	<td>—</td>
+	<td>&amp;#9833;</td>
+	<td>&amp;#x2669;</td>
+</tr>
+<tr>
+	<td class="one">Eighth note</td>
+	<td class="sym">&#9834;</td>
+	<td>—</td>
+	<td>&amp;#9834;</td>
+	<td>&amp;#x266A;</td>
+</tr>
+<tr>
+	<td class="one">Beamed eighth notes</td>
+	<td class="sym">&#9835;</td>
+	<td>—</td>
+	<td>&amp;#9835;</td>
+	<td>&amp;#x266B;</td>
+</tr>
+<tr>
+	<td class="one">Beamed sixteenth notes</td>
+	<td class="sym">&#9836;</td>
+	<td>—</td>
+	<td>&amp;#9836;</td>
+	<td>&amp;#x266C;</td>
+</tr>
+<tr>
+	<td class="one">Flat sign</td>
+	<td class="sym">&#9837;</td>
+	<td>—</td>
+	<td>&amp;#9837;</td>
+	<td>&amp;#x266D;</td>
+</tr>
+<tr>
+	<td class="one">Natural sign</td>
+	<td class="sym">&#9838;</td>
+	<td>—</td>
+	<td>&amp;#9838;</td>
+	<td>&amp;#x266E;</td>
+</tr>
+<tr>
+	<td class="one">Sharp sign</td>
+	<td class="sym">&#9839;</td>
+	<td>—</td>
+	<td>&amp;#9839;</td>
+	<td>&amp;#x266F;</td>
+</tr>
+<tr>
+	<td class="one">Ankh</td>
+	<td class="sym">&#9765;</td>
+	<td>—</td>
+	<td>&amp;#9765;</td>
+	<td>&amp;#x2625;</td>
+
+</tr>
+<tr>
+	<td class="one">Orthodox cross</td>
+	<td class="sym">&#9766;</td>
+	<td>—</td>
+	<td>&amp;#9766;</td>
+	<td>&amp;#x2626;</td>
+
+</tr>
+<tr>
+	<td class="one">Chi rho</td>
+	<td class="sym">&#9767;</td>
+	<td>—</td>
+	<td>&amp;#9767;</td>
+	<td>&amp;#x2627;</td>
+
+</tr>
+<tr>
+	<td class="one">Cross of Lorraine</td>
+	<td class="sym">&#9768;</td>
+	<td>—</td>
+	<td>&amp;#9768;</td>
+	<td>&amp;#x2628;</td>
+
+</tr>
+<tr>
+	<td class="one">Cross of Jerusalem</td>
+	<td class="sym">&#9769;</td>
+	<td>—</td>
+	<td>&amp;#9769;</td>
+	<td>&amp;#x2629;</td>
+
+</tr>
+<tr>
+	<td class="one">Star &amp; crescent (Islam)</td>
+	<td class="sym">&#9770;</td>
+	<td>—</td>
+	<td>&amp;#9770;</td>
+
+	<td>&amp;#x262A;</td>
+</tr>
+<tr>
+	<td class="one">Farsi symbol</td>
+	<td class="sym">&#9771;</td>
+	<td>—</td>
+	<td>&amp;#9771;</td>
+
+	<td>&amp;#x262B;</td>
+</tr>
+<tr>
+	<td class="one">Adi Shakti</td>
+	<td class="sym">&#9772;</td>
+	<td>—</td>
+	<td>&amp;#9772;</td>
+
+	<td>&amp;#x262C;</td>
+</tr>
+<tr>
+	<td class="one">Hammer &amp; Sickle</td>
+	<td class="sym">&#9773;</td>
+	<td>—</td>
+
+	<td>&amp;#9773;</td>
+	<td>&amp;#x262D;</td>
+</tr>
+<tr>
+	<td class="one">Peace Symbol</td>
+	<td class="sym">&#9774;</td>
+	<td>—</td>
+
+	<td>&amp;#9774;</td>
+	<td>&amp;#x262E;</td>
+</tr>
+<tr>
+	<td class="one">Yin yang</td>
+	<td class="sym">&#9775;</td>
+	<td>—</td>
+
+	<td>&amp;#9775;</td>
+	<td>&amp;#x262F;</td>
+</tr>
+<tr>
+	<td class="one">I Ching trigram: Heaven</td>
+	<td class="sym">&#9776;</td>
+	<td>—</td>
+
+	<td>&amp;#9776;</td>
+	<td>&amp;#x2630;</td>
+</tr>
+<tr>
+	<td class="one">I Ching trigram: Lake</td>
+	<td class="sym">&#9777;</td>
+	<td>—</td>
+
+	<td>&amp;#9777;</td>
+	<td>&amp;#x2631;</td>
+</tr>
+<tr>
+	<td class="one">I Ching trigram: Fire</td>
+	<td class="sym">&#9778;</td>
+	<td>—</td>
+
+	<td>&amp;#9778;</td>
+	<td>&amp;#x2632;</td>
+</tr>
+<tr>
+	<td class="one">I Ching trigram: Thunder</td>
+	<td class="sym">&#9779;</td>
+	<td>—</td>
+
+	<td>&amp;#9779;</td>
+	<td>&amp;#x2633;</td>
+</tr>
+<tr>
+	<td class="one">I Ching trigram: Wind</td>
+	<td class="sym">&#9780;</td>
+	<td>—</td>
+
+	<td>&amp;#9780;</td>
+	<td>&amp;#x2634;</td>
+</tr>
+<tr>
+	<td class="one">I Ching trigram: Water</td>
+	<td class="sym">&#9781;</td>
+	<td>—</td>
+
+	<td>&amp;#9781;</td>
+	<td>&amp;#x2635;</td>
+</tr>
+<tr>
+	<td class="one">I Ching trigram: Mountain</td>
+	<td class="sym">&#9782;</td>
+	<td>—</td>
+
+	<td>&amp;#9782;</td>
+	<td>&amp;#x2636;</td>
+</tr>
+<tr>
+	<td class="one">I Ching trigram: Earth</td>
+	<td class="sym">&#9783;</td>
+	<td>—</td>
+
+	<td>&amp;#9783;</td>
+	<td>&amp;#x2637;</td>
+</tr>
+<tr>
+	<td class="one">Mandala (wheel of Dharma)</td>
+	<td class="sym">&#9784;</td>
+	<td>—</td>
+
+	<td>&amp;#9784;</td>
+	<td>&amp;#x2638;</td>
+</tr>
+<tr>
+	<td class="one">East Syriac cross</td>
+	<td class="sym">&#9840;</td>
+	<td>—</td>
+
+	<td>&amp;#9840;</td>
+	<td>&amp;#x2670;</td>
+</tr>
+<tr>
+	<td class="one">West Syriac cross</td>
+	<td class="sym">&#9841;</td>
+	<td>—</td>
+
+	<td>&amp;#9841;</td>
+	<td>&amp;#x2671;</td>
+</tr>
+<tr>
+	<td class="one">Star of David</td>
+	<td class="sym">&#10017;</td>
+	<td>—</td>
+
+	<td>&amp;#10017;</td>
+	<td>&amp;#x2721;</td>
+</tr>
+<tr>
+	<td class="one">Skull &amp; Crossbones (Poison)</td>
+	<td class="sym">&#9760;</td>
+	<td>—</td>
+	<td>&amp;#9760;</td>
+
+	<td>&amp;#x2620;</td>
+</tr>
+<tr>
+	<td class="one">Caution</td>
+	<td class="sym">&#9761;</td>
+	<td>—</td>
+	<td>&amp;#9761;</td>
+
+	<td>&amp;#x2621;</td>
+</tr>
+<tr>
+	<td class="one">Radioactive</td>
+	<td class="sym">&#9762;</td>
+	<td>—</td>
+	<td>&amp;#9762;</td>
+
+	<td>&amp;#x2622;</td>
+</tr>
+<tr>
+	<td class="one">Biohazard</td>
+	<td class="sym">&#9763;</td>
+	<td>—</td>
+	<td>&amp;#9763;</td>
+
+	<td>&amp;#x2623;</td>
+</tr>
+<tr>
+	<td class="one">Caduceus</td>
+	<td class="sym">&#9764;</td>
+	<td>—</td>
+	<td>&amp;#9764;</td>
+
+	<td>&amp;#x2624;</td>
+</tr>
+<tr>
+	<td class="one">Alef symbol</td>
+	<td class="sym">&alefsym;</td>
+	<td>&amp;alefsym;</td>
+	<td>&amp;#8501;</td>
+	<td>&amp;#x2135;</td>
+
+</tr>
+<tr>
+	<td class="one">Carriage return</td>
+	<td class="sym">&crarr;</td>
+	<td>&amp;crarr;</td>
+	<td>&amp;#8629;</td>
+	<td>&amp;#x21B5;</td>
+
+</tr>
+<tr>
+	<td class="one">Script capital P</td>
+	<td class="sym">&weierp;</td>
+	<td>&amp;weierp;</td>
+	<td>&amp;#8472;</td>
+	<td>&amp;#x2118;</td>
+
+</tr>
+<tr>
+	<td class="one">Blackletter capital I</td>
+	<td class="sym">&image;</td>
+	<td>&amp;image;</td>
+	<td>&amp;#8465;</td>
+	<td>&amp;#x2111;</td>
+
+</tr>
+<tr>
+	<td class="one">Blackletter capital R</td>
+	<td class="sym">&real;</td>
+	<td>&amp;real;</td>
+	<td>&amp;#8476;</td>
+	<td>&amp;#x211C;</td>
+
+</tr>
+<tr>
+	<td class="one">Lozenge</td>
+	<td class="sym">&loz;</td>
+	<td>&amp;loz;</td>
+	<td>&amp;#9674;</td>
+	<td>&amp;#x25CA;</td>
+
+</tr>
+<tr>
+	<td class="one">Left-to-right mark</td>
+	<td class="sym">&lrm;</td>
+	<td>&amp;lrm;</td>
+	<td>&amp;#8206;</td>
+	<td>&amp;#x200E;</td>
+
+</tr>
+<tr>
+	<td class="one">Right-to-left mark</td>
+	<td class="sym">&rlm;</td>
+	<td>&amp;rlm;</td>
+	<td>&amp;#8207;</td>
+	<td>&amp;#x200F;</td>
+
+</tr>
+<tr>
+	<td class="one">Section</td>
+	<td class="sym">&sect;</td>
+	<td>&amp;sect;</td>
+	<td>&amp;#167;</td>
+	<td>&amp;#xA7;</td>
+
+</tr>
+<tr>
+	<td class="one">Copyright</td>
+	<td class="sym">&copy;</td>
+	<td>&amp;copy;</td>
+	<td>&amp;#169;</td>
+	<td>&amp;#xA9;</td>
+
+</tr>
+<tr>
+	<td class="one">Registered trademark</td>
+	<td class="sym">&reg;</td>
+	<td>&amp;reg;</td>
+	<td>&amp;#174;</td>
+	<td>&amp;#xAE;</td>
+
+</tr>
+<tr>
+	<td class="one">Trademark</td>
+	<td class="sym">&trade;</td>
+	<td>&amp;trade;</td>
+	<td>&amp;#8482;</td>
+	<td>&amp;#x2122;</td>
+
+</tr>
+<tr>
+	<td class="one">Feminine ordinal</td>
+	<td class="sym">&ordf;</td>
+	<td>&amp;ordf;</td>
+	<td>&amp;#170;</td>
+	<td>&amp;#xAA;</td>
+
+</tr>
+<tr>
+	<td class="one">Masculine ordinal</td>
+	<td class="sym">&ordm;</td>
+	<td>&amp;ordm;</td>
+	<td>&amp;#186;</td>
+	<td>&amp;#xBA;</td>
+
+</tr>
+<tr>
+	<td class="one">Not sign</td>
+	<td class="sym">&not;</td>
+	<td>&amp;not;</td>
+	<td>&amp;#172;</td>
+	<td>&amp;#xAC;</td>
+
+</tr>
+<tr>
+	<td class="one">Soft hyphen</td>
+	<td class="sym">&shy;</td>
+	<td>&amp;shy;</td>
+	<td>&amp;#173;</td>
+	<td>&amp;#xAD;</td>
+
+</tr>
+<tr>
+	<td class="one">Macron accent</td>
+	<td class="sym">&macr;</td>
+	<td>&amp;macr;</td>
+	<td>&amp;#175;</td>
+	<td>&amp;#xAF;</td>
+
+</tr>
+<tr>
+	<td class="one">Degrees</td>
+	<td class="sym">&deg;</td>
+	<td>&amp;deg;</td>
+	<td>&amp;#176;</td>
+	<td>&amp;#xB0;</td>
+
+</tr>
+<tr>
+	<td class="one">Dagger</td>
+	<td class="sym">&dagger;</td>
+	<td>&amp;dagger;</td>
+	<td>&amp;#8224;</td>
+	<td>&amp;#x2020;</td>
+
+</tr>
+<tr>
+	<td class="one">Double dagger</td>
+	<td class="sym">&Dagger;</td>
+	<td>&amp;Dagger;</td>
+	<td>&amp;#8225;</td>
+	<td>&amp;#x2021;</td>
+
+</tr>
+<tr>
+	<td class="one">Superscript 1</td>
+	<td class="sym">&sup1;</td>
+	<td>&amp;sup1;</td>
+	<td>&amp;#185;</td>
+	<td>&amp;#xB9;</td>
+
+</tr>
+<tr>
+	<td class="one">Superscript 2</td>
+	<td class="sym">&sup2;</td>
+	<td>&amp;sup2;</td>
+	<td>&amp;#178;</td>
+	<td>&amp;#xB2;</td>
+
+</tr>
+<tr>
+	<td class="one">Superscript 3</td>
+	<td class="sym">&sup3;</td>
+	<td>&amp;sup3;</td>
+	<td>&amp;#179;</td>
+	<td>&amp;#xB3;</td>
+
+</tr>
+<tr>
+	<td class="one">Accent acute</td>
+	<td class="sym">&acute;</td>
+	<td>&amp;acute;</td>
+	<td>&amp;#180;</td>
+	<td>&amp;#xB4;</td>
+
+</tr>
+<tr>
+	<td class="one">Micro sign</td>
+	<td class="sym">&micro;</td>
+	<td>&amp;micro;</td>
+	<td>&amp;#181;</td>
+	<td>&amp;#xB5;</td>
+
+</tr>
+<tr>
+	<td class="one">Paragraph symbol (pilcrow)</td>
+	<td class="sym">&para;</td>
+	<td>&amp;para;</td>
+	<td>&amp;#182;</td>
+	<td>&amp;#xB6;</td>
+
+</tr>
+<tr>
+	<td class="one">Middle dot</td>
+	<td class="sym">&middot;</td>
+	<td>&amp;middot;</td>
+	<td>&amp;#183;</td>
+	<td>&amp;#xB7;</td>
+
+</tr>
+<tr>
+	<td class="one">Cedilla</td>
+	<td class="sym">&cedil;</td>
+	<td>&amp;cedil;</td>
+	<td>&amp;#184;</td>
+	<td>&amp;#xB8;</td>
+
+</tr>
+<tr>
+	<td class="one">Zero-width joiner</td>
+	<td class="sym">&zwj;</td>
+	<td>&amp;zwj;</td>
+	<td>&amp;#8205;</td>
+	<td>&amp;#x200D;</td>
+
+</tr>
+<tr>
+	<td class="one">Zero-width non-joiner</td>
+	<td class="sym">&zwnj;</td>
+	<td>&amp;zwnj;</td>
+	<td>&amp;#8204;</td>
+	<td>&amp;#x200C;</td>
+
+</tr>
+
+<tr>
+<th class="one">Description</th>
+<th>Character<br />(click)</th>
+<th>HTML<br />Entity</th>
+<th>Code<br />Decimal</th>
+<th>Code<br />Hex</th>
+</tr>
+
+<tr>
+	<td class="one">Chess: White king</td>
+	<td class="sym">&#9812;</td>
+	<td>—</td>
+	<td>&amp;#9812;</td>
+	<td>&amp;#x2654;</td>
+
+</tr>
+<tr>
+	<td class="one">Chess: White queen</td>
+	<td class="sym">&#9813;</td>
+	<td>—</td>
+	<td>&amp;#9813;</td>
+	<td>&amp;#x2655;</td>
+
+</tr>
+<tr>
+	<td class="one">Chess: White rook</td>
+	<td class="sym">&#9814;</td>
+	<td>—</td>
+	<td>&amp;#9814;</td>
+	<td>&amp;#x2656;</td>
+
+</tr>
+<tr>
+	<td class="one">Chess: White bishop</td>
+	<td class="sym">&#9815;</td>
+	<td>—</td>
+	<td>&amp;#9815;</td>
+	<td>&amp;#x2657;</td>
+
+</tr>
+<tr>
+	<td class="one">Chess: White knight</td>
+	<td class="sym">&#9816;</td>
+	<td>—</td>
+	<td>&amp;#9816;</td>
+	<td>&amp;#x2658;</td>
+
+</tr>
+<tr>
+	<td class="one">Chess: White pawn</td>
+	<td class="sym">&#9817;</td>
+	<td>—</td>
+	<td>&amp;#9817;</td>
+	<td>&amp;#x2659;</td>
+
+</tr>
+<tr>
+	<td class="one">Chess: Black king</td>
+	<td class="sym">&#9818;</td>
+	<td>—</td>
+	<td>&amp;#9818;</td>
+	<td>&amp;#x265A;</td>
+
+</tr>
+<tr>
+	<td class="one">Chess: Black queen</td>
+	<td class="sym">&#9819;</td>
+	<td>—</td>
+	<td>&amp;#9819;</td>
+	<td>&amp;#x265B;</td>
+
+</tr>
+<tr>
+	<td class="one">Chess: Black rook</td>
+	<td class="sym">&#9820;</td>
+	<td>—</td>
+	<td>&amp;#9820;</td>
+	<td>&amp;#x265C;</td>
+
+</tr>
+<tr>
+	<td class="one">Chess: Black bishop</td>
+	<td class="sym">&#9821;</td>
+	<td>—</td>
+	<td>&amp;#9821;</td>
+	<td>&amp;#x265D;</td>
+
+</tr>
+<tr>
+	<td class="one">Chess: Black knight</td>
+	<td class="sym">&#9822;</td>
+	<td>—</td>
+	<td>&amp;#9822;</td>
+	<td>&amp;#x265E;</td>
+
+</tr>
+<tr>
+	<td class="one">Chess: Black pawn</td>
+	<td class="sym">&#9823;</td>
+	<td>—</td>
+	<td>&amp;#9823;</td>
+	<td>&amp;#x265F;</td>
+
+</tr>
+	<tr>
+	<td class="one">Sex: Female (symbol for Venus)</td>
+	<td class="sym">&#9792;</td>
+	<td>—</td>
+	<td>&amp;#9792;</td>
+	<td>&amp;#x2640;</td>
+
+</tr>
+<tr>
+	<td class="one">Sex: Male (symbol for Mars)</td>
+	<td class="sym">&#9794;</td>
+	<td>—</td>
+	<td>&amp;#9794;</td>
+	<td>&amp;#x2642;</td>
+
+</tr>
+<tr>
+	<td class="one">Planet: Mercury</td>
+	<td class="sym">&#9791;</td>
+	<td>—</td>
+	<td>&amp;#9791;</td>
+	<td>&amp;#x263F;</td>
+
+</tr>
+<tr>
+	<td class="one">Planet: Venus (also female symbol)</td>
+	<td class="sym">&#9792;</td>
+	<td>—</td>
+	<td>&amp;#9792;</td>
+	<td>&amp;#x2640;</td>
+
+</tr>
+<tr>
+	<td class="one">Planet: Earth</td>
+	<td class="sym">&#9793;</td>
+	<td>—</td>
+	<td>&amp;#9793;</td>
+	<td>&amp;#x2641;</td>
+
+</tr>
+<tr>
+	<td class="one">Planet: Mars (also male symbol)</td>
+	<td class="sym">&#9794;</td>
+	<td>—</td>
+	<td>&amp;#9794;</td>
+	<td>&amp;#x2642;</td>
+
+</tr>
+<tr>
+	<td class="one">Planet: Jupiter</td>
+	<td class="sym">&#9795;</td>
+	<td>—</td>
+	<td>&amp;#9795;</td>
+	<td>&amp;#x2643;</td>
+
+</tr>
+<tr>
+	<td class="one">Planet: Saturn</td>
+	<td class="sym">&#9796;</td>
+	<td>—</td>
+	<td>&amp;#9796;</td>
+	<td>&amp;#x2644;</td>
+
+</tr>
+<tr>
+	<td class="one">Planet: Uranus</td>
+	<td class="sym">&#9797;</td>
+	<td>—</td>
+	<td>&amp;#9797;</td>
+	<td>&amp;#x2645;</td>
+
+</tr>
+<tr>
+	<td class="one">Planet: Neptune</td>
+	<td class="sym">&#9798;</td>
+	<td>—</td>
+	<td>&amp;#9798;</td>
+	<td>&amp;#x2646;</td>
+
+</tr>
+<tr>
+	<td class="one">Planet: Pluto</td>
+	<td class="sym">&#9799;</td>
+	<td>—</td>
+	<td>&amp;#9799;</td>
+	<td>&amp;#x2647;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Alpha, capital</td>
+	<td class="sym">&Alpha;</td>
+	<td>&amp;Alpha;</td>
+	<td>&amp;#913;</td>
+	<td>&amp;#x391;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Beta, capital</td>
+	<td class="sym">&Beta;</td>
+	<td>&amp;Beta;</td>
+	<td>&amp;#914;</td>
+	<td>&amp;#x392;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Gamma, capital</td>
+	<td class="sym">&Gamma;</td>
+	<td>&amp;Gamma;</td>
+	<td>&amp;#915;</td>
+	<td>&amp;#x393;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Delta, capital</td>
+	<td class="sym">&Delta;</td>
+	<td>&amp;Delta;</td>
+	<td>&amp;#916;</td>
+	<td>&amp;#x394;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Epsilon, capital</td>
+	<td class="sym">&Epsilon;</td>
+	<td>&amp;Epsilon;</td>
+	<td>&amp;#917;</td>
+	<td>&amp;#x395;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Zeta, capital</td>
+	<td class="sym">&Zeta;</td>
+	<td>&amp;Zeta;</td>
+	<td>&amp;#918;</td>
+	<td>&amp;#x396;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Eta, capital</td>
+	<td class="sym">&Eta;</td>
+	<td>&amp;Eta;</td>
+	<td>&amp;#919;</td>
+	<td>&amp;#x397;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Theta, capital</td>
+	<td class="sym">&Theta;</td>
+	<td>&amp;Theta;</td>
+	<td>&amp;#920;</td>
+	<td>&amp;#x398;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Iota, capital</td>
+	<td class="sym">&Iota;</td>
+	<td>&amp;Iota;</td>
+	<td>&amp;#921;</td>
+	<td>&amp;#x399;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Kappa, capital</td>
+	<td class="sym">&Kappa;</td>
+	<td>&amp;Kappa;</td>
+	<td>&amp;#922;</td>
+	<td>&amp;#x39A;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Lambda, capital</td>
+	<td class="sym">&Lambda;</td>
+	<td>&amp;Lambda;</td>
+	<td>&amp;#923;</td>
+	<td>&amp;#x39B;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Mu, capital</td>
+	<td class="sym">&Mu;</td>
+	<td>&amp;Mu;</td>
+	<td>&amp;#924;</td>
+	<td>&amp;#x39C;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Nu, capital</td>
+	<td class="sym">&Nu;</td>
+	<td>&amp;Nu;</td>
+	<td>&amp;#925;</td>
+	<td>&amp;#x39D;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Xi, capital</td>
+	<td class="sym">&Xi;</td>
+	<td>&amp;Xi;</td>
+	<td>&amp;#926;</td>
+	<td>&amp;#x39E;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Omicron, capital</td>
+	<td class="sym">&Omicron;</td>
+	<td>&amp;Omicron;</td>
+	<td>&amp;#927;</td>
+	<td>&amp;#x39F;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Pi, capital</td>
+	<td class="sym">&Pi;</td>
+	<td>&amp;Pi;</td>
+	<td>&amp;#928;</td>
+	<td>&amp;#x3A0;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Rho, capital</td>
+	<td class="sym">&Rho;</td>
+	<td>&amp;Rho;</td>
+	<td>&amp;#929;</td>
+	<td>&amp;#x3A1;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Sigma, capital</td>
+	<td class="sym">&Sigma;</td>
+	<td>&amp;Sigma;</td>
+	<td>&amp;#931;</td>
+	<td>&amp;#x3A3;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Tau, capital</td>
+	<td class="sym">&Tau;</td>
+	<td>&amp;Tau;</td>
+	<td>&amp;#932;</td>
+	<td>&amp;#x3A4;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Upsilon, capital</td>
+	<td class="sym">&Upsilon;</td>
+	<td>&amp;Upsilon;</td>
+	<td>&amp;#933;</td>
+	<td>&amp;#x3A5;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Phi, capital</td>
+	<td class="sym">&Phi;</td>
+	<td>&amp;Phi;</td>
+	<td>&amp;#934;</td>
+	<td>&amp;#x3A6;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Chi, capital</td>
+	<td class="sym">&Chi;</td>
+	<td>&amp;Chi;</td>
+	<td>&amp;#935;</td>
+	<td>&amp;#x3A7;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Psi, capital</td>
+	<td class="sym">&Psi;</td>
+	<td>&amp;Psi;</td>
+	<td>&amp;#936;</td>
+	<td>&amp;#x3A8;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Omega, capital</td>
+	<td class="sym">&Omega;</td>
+	<td>&amp;Omega;</td>
+	<td>&amp;#937;</td>
+	<td>&amp;#x3A9;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Alpha, lower-case</td>
+	<td class="sym">&alpha;</td>
+	<td>&amp;alpha;</td>
+	<td>&amp;#945;</td>
+	<td>&amp;#x3B1;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Beta, lower-case</td>
+	<td class="sym">&beta;</td>
+	<td>&amp;beta;</td>
+	<td>&amp;#946;</td>
+	<td>&amp;#x3B2;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Gamma, lower-case</td>
+	<td class="sym">&gamma;</td>
+	<td>&amp;gamma;</td>
+	<td>&amp;#947;</td>
+	<td>&amp;#x3B3;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Delta, lower-case</td>
+	<td class="sym">&delta;</td>
+	<td>&amp;delta;</td>
+	<td>&amp;#948;</td>
+	<td>&amp;#x3B4;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Epsilon, lower-case</td>
+	<td class="sym">&epsilon;</td>
+	<td>&amp;epsilon;</td>
+	<td>&amp;#949;</td>
+	<td>&amp;#x3B5;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Zeta, lower-case</td>
+	<td class="sym">&zeta;</td>
+	<td>&amp;zeta;</td>
+	<td>&amp;#950;</td>
+	<td>&amp;#x3B6;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Eta, lower-case</td>
+	<td class="sym">&eta;</td>
+	<td>&amp;eta;</td>
+	<td>&amp;#951;</td>
+	<td>&amp;#x3B7;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Theta, lower-case</td>
+	<td class="sym">&theta;</td>
+	<td>&amp;theta;</td>
+	<td>&amp;#952;</td>
+	<td>&amp;#x3B8;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Iota, lower-case</td>
+	<td class="sym">&iota;</td>
+	<td>&amp;iota;</td>
+	<td>&amp;#953;</td>
+	<td>&amp;#x3B9;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Kappa, lower-case</td>
+	<td class="sym">&kappa;</td>
+	<td>&amp;kappa;</td>
+	<td>&amp;#954;</td>
+	<td>&amp;#x3BA;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Lambda, lower-case</td>
+	<td class="sym">&lambda;</td>
+	<td>&amp;lambda;</td>
+	<td>&amp;#955;</td>
+	<td>&amp;#x3BB;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Mu, lower-case</td>
+	<td class="sym">&mu;</td>
+	<td>&amp;mu;</td>
+	<td>&amp;#956;</td>
+	<td>&amp;#x3BC;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Nu, lower-case</td>
+	<td class="sym">&nu;</td>
+	<td>&amp;nu;</td>
+	<td>&amp;#957;</td>
+	<td>&amp;#x3BD;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Xi, lower-case</td>
+	<td class="sym">&xi;</td>
+	<td>&amp;xi;</td>
+	<td>&amp;#958;</td>
+	<td>&amp;#x3BE;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Omicron, lower-case</td>
+	<td class="sym">&omicron;</td>
+	<td>&amp;omicron;</td>
+	<td>&amp;#959;</td>
+	<td>&amp;#x3BF;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Pi, lower-case</td>
+	<td class="sym">&pi;</td>
+	<td>&amp;pi;</td>
+	<td>&amp;#960;</td>
+	<td>&amp;#x3C0;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Rho, lower-case</td>
+	<td class="sym">&rho;</td>
+	<td>&amp;rho;</td>
+	<td>&amp;#961;</td>
+	<td>&amp;#x3C1;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Sigma, lower-case</td>
+	<td class="sym">&sigma;</td>
+	<td>&amp;sigma;</td>
+	<td>&amp;#963;</td>
+	<td>&amp;#x3C3;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Small letter final sigma</td>
+	<td class="sym">&sigmaf;</td>
+	<td>&amp;sigmaf;</td>
+	<td>&amp;#962;</td>
+	<td>&amp;#x3C2;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Tau, lower-case</td>
+	<td class="sym">&tau;</td>
+	<td>&amp;tau;</td>
+	<td>&amp;#964;</td>
+	<td>&amp;#x3C4;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Upsilon, lower-case</td>
+	<td class="sym">&upsilon;</td>
+	<td>&amp;upsilon;</td>
+	<td>&amp;#965;</td>
+	<td>&amp;#x3C5;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Phi, lower-case</td>
+	<td class="sym">&phi;</td>
+	<td>&amp;phi;</td>
+	<td>&amp;#966;</td>
+	<td>&amp;#x3C6;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Chi, lower-case</td>
+	<td class="sym">&chi;</td>
+	<td>&amp;chi;</td>
+	<td>&amp;#967;</td>
+	<td>&amp;#x3C7;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Psi, lower-case</td>
+	<td class="sym">&psi;</td>
+	<td>&amp;psi;</td>
+	<td>&amp;#968;</td>
+	<td>&amp;#x3C8;</td>
+
+</tr>
+<tr>
+	<td class="one">Greek letter: Omega, lower-case</td>
+	<td class="sym">&omega;</td>
+	<td>&amp;omega;</td>
+	<td>&amp;#969;</td>
+	<td>&amp;#x3C9;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Plus or minus</td>
+	<td class="sym">&plusmn;</td>
+	<td>&amp;plusmn;</td>
+	<td>&amp;#177;</td>
+	<td>&amp;#xB1;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Multiplication sign</td>
+	<td class="sym">&times;</td>
+	<td>&amp;times;</td>
+	<td>&amp;#215;</td>
+	<td>&amp;#xD7;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Division sign</td>
+	<td class="sym">&divide;</td>
+	<td>&amp;divide;</td>
+	<td>&amp;#247;</td>
+	<td>&amp;#xF7;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Logical AND</td>
+	<td class="sym">&and;</td>
+	<td>&amp;and;</td>
+	<td>&amp;#8743;</td>
+	<td>&amp;#x2227;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Logical OR</td>
+	<td class="sym">&or;</td>
+	<td>&amp;or;</td>
+	<td>&amp;#8744;</td>
+	<td>&amp;#x2228;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Angle</td>
+	<td class="sym">&ang;</td>
+	<td>&amp;ang;</td>
+	<td>&amp;#8736;</td>
+	<td>&amp;#x2220;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Union</td>
+	<td class="sym">&cup;</td>
+	<td>&amp;cup;</td>
+	<td>&amp;#8746;</td>
+	<td>&amp;#x222A;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Intersection</td>
+	<td class="sym">&cap;</td>
+	<td>&amp;cap;</td>
+	<td>&amp;#8745;</td>
+	<td>&amp;#x2229;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Empty set/null set/diameter</td>
+	<td class="sym">&empty;</td>
+	<td>&amp;empty;</td>
+	<td>&amp;#8709;</td>
+	<td>&amp;#x2205;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: There exists</td>
+	<td class="sym">&exist;</td>
+	<td>&amp;exist;</td>
+	<td>&amp;#8707;</td>
+	<td>&amp;#x2203;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Small f with hook (function)</td>
+	<td class="sym">&fnof;</td>
+	<td>&amp;fnof;</td>
+	<td>&amp;#402;</td>
+	<td>&amp;#x192;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: For all</td>
+	<td class="sym">&forall;</td>
+	<td>&amp;forall;</td>
+	<td>&amp;#8704;</td>
+	<td>&amp;#x2200;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Fraction slash</td>
+	<td class="sym">&frasl;</td>
+	<td>&amp;frasl;</td>
+	<td>&amp;#8260;</td>
+	<td>&amp;#x2044;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Less-than or equal-to</td>
+	<td class="sym">&le;</td>
+	<td>&amp;le;</td>
+	<td>&amp;#8804;</td>
+	<td>&amp;#x2264;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Greater-than or equal-to</td>
+	<td class="sym">&ge;</td>
+	<td>&amp;ge;</td>
+	<td>&amp;#8805;</td>
+	<td>&amp;#x2265;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Not equal to</td>
+	<td class="sym">&ne;</td>
+	<td>&amp;ne;</td>
+	<td>&amp;#8800;</td>
+	<td>&amp;#x2260;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Approximately equal to</td>
+	<td class="sym">&cong;</td>
+	<td>&amp;cong;</td>
+	<td>&amp;#8773;</td>
+	<td>&amp;#x2245;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Almost equal to</td>
+	<td class="sym">&asymp;</td>
+	<td>&amp;asymp;</td>
+	<td>&amp;#8776;</td>
+	<td>&amp;#x2248;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Identical to</td>
+	<td class="sym">&equiv;</td>
+	<td>&amp;equiv;</td>
+	<td>&amp;#8801;</td>
+	<td>&amp;#x2261;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Infinity</td>
+	<td class="sym">&infin;</td>
+	<td>&amp;infin;</td>
+	<td>&amp;#8734;</td>
+	<td>&amp;#x221E;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Integral</td>
+	<td class="sym">&int;</td>
+	<td>&amp;int;</td>
+	<td>&amp;#8747;</td>
+	<td>&amp;#x222B;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Element of</td>
+	<td class="sym">&isin;</td>
+	<td>&amp;isin;</td>
+	<td>&amp;#8712;</td>
+	<td>&amp;#x2208;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Not an element of</td>
+	<td class="sym">&notin;</td>
+	<td>&amp;notin;</td>
+	<td>&amp;#8713;</td>
+	<td>&amp;#x2209;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Contains as a member</td>
+	<td class="sym">&ni;</td>
+	<td>&amp;ni;</td>
+	<td>&amp;#8715;</td>
+	<td>&amp;#x220B;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Subset of</td>
+	<td class="sym">&sub;</td>
+	<td>&amp;sub;</td>
+	<td>&amp;#8834;</td>
+	<td>&amp;#x2282;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Not a subset of</td>
+	<td class="sym">&nsub;</td>
+	<td>&amp;nsub;</td>
+	<td>&amp;#8836;</td>
+	<td>&amp;#x2284;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Subset of or equal to</td>
+	<td class="sym">&sube;</td>
+	<td>&amp;sube;</td>
+	<td>&amp;#8838;</td>
+	<td>&amp;#x2286;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Superset of</td>
+	<td class="sym">&sup;</td>
+	<td>&amp;sup;</td>
+	<td>&amp;#8835;</td>
+	<td>&amp;#x2283;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Superset of or equal to</td>
+	<td class="sym">&supe;</td>
+	<td>&amp;supe;</td>
+	<td>&amp;#8839;</td>
+	<td>&amp;#x2287;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Left angle bracket</td>
+	<td class="sym">&lang;</td>
+	<td>&amp;lang;</td>
+	<td>&amp;#9001;</td>
+	<td>&amp;#x2329;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Right angle bracket (ket)</td>
+	<td class="sym">&rang;</td>
+	<td>&amp;rang;</td>
+	<td>&amp;#9002;</td>
+	<td>&amp;#x232A;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Right ceiling</td>
+	<td class="sym">&rceil;</td>
+	<td>&amp;rceil;</td>
+	<td>&amp;#8969;</td>
+	<td>&amp;#x2309;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Right floor</td>
+	<td class="sym">&rfloor;</td>
+	<td>&amp;rfloor;</td>
+	<td>&amp;#8971;</td>
+	<td>&amp;#x230B;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Left ceiling</td>
+	<td class="sym">&lceil;</td>
+	<td>&amp;lceil;</td>
+	<td>&amp;#8968;</td>
+	<td>&amp;#x2308;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Left floor</td>
+	<td class="sym">&lfloor;</td>
+	<td>&amp;lfloor;</td>
+	<td>&amp;#8970;</td>
+	<td>&amp;#x230A;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Asterisk operator</td>
+	<td class="sym">&lowast;</td>
+	<td>&amp;lowast;</td>
+	<td>&amp;#8727;</td>
+	<td>&amp;#x2217;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Minus sign</td>
+	<td class="sym">&minus;</td>
+	<td>&amp;minus;</td>
+	<td>&amp;#8722;</td>
+	<td>&amp;#x2212;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Nabla</td>
+	<td class="sym">&nabla;</td>
+	<td>&amp;nabla;</td>
+	<td>&amp;#8711;</td>
+	<td>&amp;#x2207;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Circled plus (direct sum)</td>
+	<td class="sym">&oplus;</td>
+	<td>&amp;oplus;</td>
+	<td>&amp;#8853;</td>
+	<td>&amp;#x2295;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Circled times (vector product)</td>
+	<td class="sym">&otimes;</td>
+	<td>&amp;otimes;</td>
+	<td>&amp;#8855;</td>
+	<td>&amp;#x2297;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Partial differential</td>
+	<td class="sym">&part;</td>
+	<td>&amp;part;</td>
+	<td>&amp;#8706;</td>
+	<td>&amp;#x2202;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Per mille sign</td>
+	<td class="sym">&permil;</td>
+	<td>&amp;permil;</td>
+	<td>&amp;#8240;</td>
+	<td>&amp;#x2030;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Orthogonal to/perpendicular</td>
+	<td class="sym">&perp;</td>
+	<td>&amp;perp;</td>
+	<td>&amp;#8869;</td>
+	<td>&amp;#x22A5;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Greek Pi symbol</td>
+	<td class="sym">&piv;</td>
+	<td>&amp;piv;</td>
+	<td>&amp;#982;</td>
+	<td>&amp;#x3D6;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: N-ary product (product sign)</td>
+	<td class="sym">&prod;</td>
+	<td>&amp;prod;</td>
+	<td>&amp;#8719;</td>
+	<td>&amp;#x220F;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: N-ary summation</td>
+	<td class="sym">&sum;</td>
+	<td>&amp;sum;</td>
+	<td>&amp;#8721;</td>
+	<td>&amp;#x2211;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Proportional to</td>
+	<td class="sym">&prop;</td>
+	<td>&amp;prop;</td>
+	<td>&amp;#8733;</td>
+	<td>&amp;#x221D;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Square root/radical</td>
+	<td class="sym">&radic;</td>
+	<td>&amp;radic;</td>
+	<td>&amp;#8730;</td>
+	<td>&amp;#x221A;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Dot operator</td>
+	<td class="sym">&sdot;</td>
+	<td>&amp;sdot;</td>
+	<td>&amp;#8901;</td>
+	<td>&amp;#x22C5;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Tilde operator</td>
+	<td class="sym">&sim;</td>
+	<td>&amp;sim;</td>
+	<td>&amp;#8764;</td>
+	<td>&amp;#x223C;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Therefore</td>
+	<td class="sym">&there4;</td>
+	<td>&amp;there4;</td>
+	<td>&amp;#8756;</td>
+	<td>&amp;#x2234;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Small letter theta symbol</td>
+	<td class="sym">&thetasym;</td>
+	<td>&amp;thetasym;</td>
+	<td>&amp;#977;</td>
+	<td>&amp;#x3D1;</td>
+
+</tr>
+<tr>
+	<td class="one">Math: Upsilon with hook symbol</td>
+	<td class="sym">&upsih;</td>
+	<td>&amp;upsih;</td>
+	<td>&amp;#978;</td>
+	<td>&amp;#x3D2;</td>
+
+</tr>
+<tr>
+	<td class="one">Card: Spades</td>
+	<td class="sym">&spades;</td>
+	<td>&amp;spades;</td>
+	<td>&amp;#9824;</td>
+	<td>&amp;#x2660;</td>
+
+</tr>
+<tr>
+	<td class="one">Card: Clubs</td>
+	<td class="sym">&clubs;</td>
+	<td>&amp;clubs;</td>
+	<td>&amp;#9827;</td>
+	<td>&amp;#x2663;</td>
+
+</tr>
+<tr>
+	<td class="one">Card: Hearts</td>
+	<td class="sym">&hearts;</td>
+	<td>&amp;hearts;</td>
+	<td>&amp;#9829;</td>
+	<td>&amp;#x2665;</td>
+
+</tr>
+<tr>
+	<td class="one">Card: Diamonds</td>
+	<td class="sym">&diams;</td>
+	<td>&amp;diams;</td>
+	<td>&amp;#9830;</td>
+	<td>&amp;#x2666;</td>
+
+</tr>
+<tr>
+	<td class="one">Card: Spades</td>
+	<td class="sym">&#9828;</td>
+	<td>—</td>
+	<td>&amp;#9828;</td>
+	<td>&amp;#x2664;</td>
+
+</tr>
+<tr>
+	<td class="one">Card: Clubs</td>
+	<td class="sym">&#9831;</td>
+	<td>—</td>
+	<td>&amp;#9831;</td>
+	<td>&amp;#x2667;</td>
+
+</tr>
+<tr>
+	<td class="one">Card: Hearts</td>
+	<td class="sym">&#9825;</td>
+	<td>—</td>
+	<td>&amp;#9825;</td>
+	<td>&amp;#x2661;</td>
+
+</tr>
+<tr>
+	<td class="one">Card: Diamonds</td>
+	<td class="sym">&#9826;</td>
+	<td>—</td>
+	<td>&amp;#9826;</td>
+	<td>&amp;#x2662;</td>
+
+</tr>
+<tr>
+	<td class="one">Zodiac: Aries</td>
+	<td class="sym">&#9800;</td>
+	<td>—</td>
+	<td>&amp;#9800;</td>
+	<td>&amp;#x2648;</td>
+
+</tr>
+<tr>
+	<td class="one">Zodiac: Taurus</td>
+	<td class="sym">&#9801;</td>
+	<td>—</td>
+	<td>&amp;#9801;</td>
+	<td>&amp;#x2649;</td>
+
+</tr>
+<tr>
+	<td class="one">Zodiac: Gemini</td>
+	<td class="sym">&#9802;</td>
+	<td>—</td>
+	<td>&amp;#9802;</td>
+	<td>&amp;#x264A;</td>
+
+</tr>
+<tr>
+	<td class="one">Zodiac: Cancer</td>
+	<td class="sym">&#9803;</td>
+	<td>—</td>
+	<td>&amp;#9803;</td>
+	<td>&amp;#x264B;</td>
+
+</tr>
+<tr>
+	<td class="one">Zodiac: Leo</td>
+	<td class="sym">&#9804;</td>
+	<td>—</td>
+	<td>&amp;#9804;</td>
+	<td>&amp;#x264C;</td>
+
+</tr>
+<tr>
+	<td class="one">Zodiac: Virgo</td>
+	<td class="sym">&#9805;</td>
+	<td>—</td>
+	<td>&amp;#9805;</td>
+	<td>&amp;#x264D;</td>
+
+</tr>
+<tr>
+	<td class="one">Zodiac: Libra</td>
+	<td class="sym">&#9806;</td>
+	<td>—</td>
+	<td>&amp;#9806;</td>
+	<td>&amp;#x264E;</td>
+
+</tr>
+<tr>
+	<td class="one">Zodiac: Scorpio</td>
+	<td class="sym">&#9807;</td>
+	<td>—</td>
+	<td>&amp;#9807;</td>
+	<td>&amp;#x264F;</td>
+
+</tr>
+<tr>
+	<td class="one">Zodiac: Sagittarius</td>
+	<td class="sym">&#9808;</td>
+	<td>—</td>
+	<td>&amp;#9808;</td>
+	<td>&amp;#x2650;</td>
+
+</tr>
+<tr>
+	<td class="one">Zodiac: Capricorn</td>
+	<td class="sym">&#9809;</td>
+	<td>—</td>
+	<td>&amp;#9809;</td>
+	<td>&amp;#x2651;</td>
+
+</tr>
+<tr>
+	<td class="one">Zodiac: Aquarius</td>
+	<td class="sym">&#9810;</td>
+	<td>—</td>
+	<td>&amp;#9810;</td>
+	<td>&amp;#x2652;</td>
+
+</tr>
+<tr>
+	<td class="one">Zodiac: Pisces</td>
+	<td class="sym">&#9811;</td>
+	<td>—</td>
+	<td>&amp;#9811;</td>
+	<td>&amp;#x2653;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: Cents sign</td>
+	<td class="sym">&cent;</td>
+	<td>&amp;cent;</td>
+	<td>&amp;#162;</td>
+	<td>&amp;#xA2;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: Pound Sterling</td>
+	<td class="sym">&pound;</td>
+	<td>&amp;pound;</td>
+	<td>&amp;#163;</td>
+	<td>&amp;#xA3;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: General currency</td>
+	<td class="sym">&curren;</td>
+	<td>&amp;curren;</td>
+	<td>&amp;#164;</td>
+	<td>&amp;#xA4;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: Yen</td>
+	<td class="sym">&yen;</td>
+	<td>&amp;yen;</td>
+	<td>&amp;#165;</td>
+	<td>&amp;#xA5;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: Euro</td>
+	<td class="sym">&euro;</td>
+	<td>&amp;euro;</td>
+	<td>&amp;#8364;</td>
+	<td>&amp;#x20AC;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: Franc (French)</td>
+	<td class="sym">&#8355;</td>
+	<td>—</td>
+	<td>&amp;#8355;</td>
+	<td>&amp;#x20A3;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: Euro-currency sign</td>
+	<td class="sym">&#8352;</td>
+	<td>—</td>
+	<td>&amp;#8352;</td>
+	<td>&amp;#x20A0;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: Colon (Costa Rica, El Salvador)</td>
+	<td class="sym">&#8353;</td>
+	<td>—</td>
+	<td>&amp;#8353;</td>
+	<td>&amp;#x20A1;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: Cruzeiro (Brazil)</td>
+	<td class="sym">&#8354;</td>
+	<td>—</td>
+	<td>&amp;#8354;</td>
+	<td>&amp;#x20A2;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: Lira (Italy)</td>
+	<td class="sym">&#8356;</td>
+	<td>—</td>
+	<td>&amp;#8356;</td>
+	<td>&amp;#x20A4;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: Mill (US$.001)</td>
+	<td class="sym">&#8357;</td>
+	<td>—</td>
+	<td>&amp;#8357;</td>
+	<td>&amp;#x20A5;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: Naira (Nigeria)</td>
+	<td class="sym">&#8358;</td>
+	<td>—</td>
+	<td>&amp;#8358;</td>
+	<td>&amp;#x20A6;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: Peseta (Spain)</td>
+	<td class="sym">&#8359;</td>
+	<td>—</td>
+	<td>&amp;#8359;</td>
+	<td>&amp;#x20A7;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: Rupee (India)</td>
+	<td class="sym">&#8360;</td>
+	<td>—</td>
+	<td>&amp;#8360;</td>
+	<td>&amp;#x20A8;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: Won (Korea)</td>
+	<td class="sym">&#8361;</td>
+	<td>—</td>
+	<td>&amp;#8361;</td>
+	<td>&amp;#x20A9;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: New sheqel (Israel)</td>
+	<td class="sym">&#8362;</td>
+	<td>—</td>
+	<td>&amp;#8362;</td>
+	<td>&amp;#x20AA;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: Dong (Vietnam)</td>
+	<td class="sym">&#8363;</td>
+	<td>—</td>
+	<td>&amp;#8363;</td>
+	<td>&amp;#x20AB;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: Kip (Laos)</td>
+	<td class="sym">&#8365;</td>
+	<td>—</td>
+	<td>&amp;#8365;</td>
+	<td>&amp;#x20AD;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: Tugrik (Mongolia)</td>
+	<td class="sym">&#8366;</td>
+	<td>—</td>
+	<td>&amp;#8366;</td>
+	<td>&amp;#x20AE;</td>
+
+</tr>
+<tr>
+	<td class="one">Monetary: Drachma (Greece)</td>
+	<td class="sym">&#8367;</td>
+	<td>—</td>
+	<td>&amp;#8367;</td>
+	<td>&amp;#x20AF;</td>
+
+</tr>
+<tr>
+	<td class="one">Fraction 1/4</td>
+	<td class="sym">&frac14;</td>
+	<td>&amp;frac14;</td>
+	<td>&amp;#188;</td>
+	<td>&amp;#xBC;</td>
+
+</tr>
+<tr>
+	<td class="one">Fraction 1/2</td>
+	<td class="sym">&frac12;</td>
+	<td>&amp;frac12;</td>
+	<td>&amp;#189;</td>
+	<td>&amp;#xBD;</td>
+
+</tr>
+<tr>
+	<td class="one">Fraction 3/4</td>
+	<td class="sym">&frac34;</td>
+	<td>&amp;frac34;</td>
+	<td>&amp;#190;</td>
+	<td>&amp;#xBE;</td>
+
+</tr>
+<tr>
+	<td class="one">Fraction 1/8</td>
+	<td class="sym">&#8539;</td>
+	<td>—</td>
+	<td>&amp;#8539;</td>
+	<td>&amp;#x215B;</td>
+
+</tr>
+<tr>
+	<td class="one">Fraction 3/8</td>
+	<td class="sym">&#8540;</td>
+	<td>—</td>
+	<td>&amp;#8540;</td>
+	<td>&amp;#x215C;</td>
+
+</tr>
+<tr>
+	<td class="one">Fraction 5/8</td>
+	<td class="sym">&#8541;</td>
+	<td>—</td>
+	<td>&amp;#8541;</td>
+	<td>&amp;#x215D;</td>
+
+</tr>
+<tr>
+	<td class="one">Fraction 7/8</td>
+	<td class="sym">&#8542;</td>
+	<td>—</td>
+	<td>&amp;#8542;</td>
+	<td>&amp;#x215E;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: A, accent grave</td>
+	<td class="sym">&Agrave;</td>
+	<td>&amp;Agrave;</td>
+	<td>&amp;#192;</td>
+	<td>&amp;#xC0;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: A, accent acute</td>
+	<td class="sym">&Aacute;</td>
+	<td>&amp;Aacute;</td>
+	<td>&amp;#193;</td>
+	<td>&amp;#xC1;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: A, circumflex</td>
+	<td class="sym">&Acirc;</td>
+	<td>&amp;Acirc;</td>
+	<td>&amp;#194;</td>
+	<td>&amp;#xC2;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: A, tilde</td>
+	<td class="sym">&Atilde;</td>
+	<td>&amp;Atilde;</td>
+	<td>&amp;#195;</td>
+	<td>&amp;#xC3;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: A, umlaut or dieresis</td>
+	<td class="sym">&Auml;</td>
+	<td>&amp;Auml;</td>
+	<td>&amp;#196;</td>
+	<td>&amp;#xC4;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: A, ring</td>
+	<td class="sym">&Aring;</td>
+	<td>&amp;Aring;</td>
+	<td>&amp;#197;</td>
+	<td>&amp;#xC5;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: A-E ligature</td>
+	<td class="sym">&AElig;</td>
+	<td>&amp;AElig;</td>
+	<td>&amp;#198;</td>
+	<td>&amp;#xC6;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: C, cedilla</td>
+	<td class="sym">&Ccedil;</td>
+	<td>&amp;Ccedil;</td>
+	<td>&amp;#199;</td>
+	<td>&amp;#xC7;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: E, accent grave</td>
+	<td class="sym">&Egrave;</td>
+	<td>&amp;Egrave;</td>
+	<td>&amp;#200;</td>
+	<td>&amp;#xC8;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: E, accent acute</td>
+	<td class="sym">&Eacute;</td>
+	<td>&amp;Eacute;</td>
+	<td>&amp;#201;</td>
+	<td>&amp;#xC9;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: E, circumflex</td>
+	<td class="sym">&Ecirc;</td>
+	<td>&amp;Ecirc;</td>
+	<td>&amp;#202;</td>
+	<td>&amp;#xCA;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: E, umlaut or dieresis</td>
+	<td class="sym">&Euml;</td>
+	<td>&amp;Euml;</td>
+	<td>&amp;#203;</td>
+	<td>&amp;#xCB;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: I, accent grave</td>
+	<td class="sym">&Igrave;</td>
+	<td>&amp;Igrave;</td>
+	<td>&amp;#204;</td>
+	<td>&amp;#xCC;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: I, accent acute</td>
+	<td class="sym">&Iacute;</td>
+	<td>&amp;Iacute;</td>
+	<td>&amp;#205;</td>
+	<td>&amp;#xCD;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: I, circumflex</td>
+	<td class="sym">&Icirc;</td>
+	<td>&amp;Icirc;</td>
+	<td>&amp;#206;</td>
+	<td>&amp;#xCE;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: I, umlaut or dieresis</td>
+	<td class="sym">&Iuml;</td>
+	<td>&amp;Iuml;</td>
+	<td>&amp;#207;</td>
+	<td>&amp;#xCF;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: Eth, capital (Icelandic)</td>
+	<td class="sym">&ETH;</td>
+	<td>&amp;ETH;</td>
+	<td>&amp;#208;</td>
+	<td>&amp;#xD0;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: N, tilde</td>
+	<td class="sym">&Ntilde;</td>
+	<td>&amp;Ntilde;</td>
+	<td>&amp;#209;</td>
+	<td>&amp;#xD1;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: O, accent grave</td>
+	<td class="sym">&Ograve;</td>
+	<td>&amp;Ograve;</td>
+	<td>&amp;#210;</td>
+	<td>&amp;#xD2;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: O, accent acute</td>
+	<td class="sym">&Oacute;</td>
+	<td>&amp;Oacute;</td>
+	<td>&amp;#211;</td>
+	<td>&amp;#xD3;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: O, circumflex</td>
+	<td class="sym">&Ocirc;</td>
+	<td>&amp;Ocirc;</td>
+	<td>&amp;#212;</td>
+	<td>&amp;#xD4;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: O, tilde</td>
+	<td class="sym">&Otilde;</td>
+	<td>&amp;Otilde;</td>
+	<td>&amp;#213;</td>
+	<td>&amp;#xD5;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: O, umlaut or dieresis</td>
+	<td class="sym">&Ouml;</td>
+	<td>&amp;Ouml;</td>
+	<td>&amp;#214;</td>
+	<td>&amp;#xD6;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: O, slash</td>
+	<td class="sym">&Oslash;</td>
+	<td>&amp;Oslash;</td>
+	<td>&amp;#216;</td>
+	<td>&amp;#xD8;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: O-E ligature</td>
+	<td class="sym">&OElig;</td>
+	<td>&amp;OElig;</td>
+	<td>&amp;#338;</td>
+	<td>&amp;#x152;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: S, with caron</td>
+	<td class="sym">&Scaron;</td>
+	<td>&amp;Scaron;</td>
+	<td>&amp;#352;</td>
+	<td>&amp;#x160;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: U, accent grave</td>
+	<td class="sym">&Ugrave;</td>
+	<td>&amp;Ugrave;</td>
+	<td>&amp;#217;</td>
+	<td>&amp;#xD9;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: U, accent acute</td>
+	<td class="sym">&Uacute;</td>
+	<td>&amp;Uacute;</td>
+	<td>&amp;#218;</td>
+	<td>&amp;#xDA;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: U, circumflex</td>
+	<td class="sym">&Ucirc;</td>
+	<td>&amp;Ucirc;</td>
+	<td>&amp;#219;</td>
+	<td>&amp;#xDB;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: U, umlaut or dieresis</td>
+	<td class="sym">&Uuml;</td>
+	<td>&amp;Uuml;</td>
+	<td>&amp;#220;</td>
+	<td>&amp;#xDC;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: Y, accent acute</td>
+	<td class="sym">&Yacute;</td>
+	<td>&amp;Yacute;</td>
+	<td>&amp;#221;</td>
+	<td>&amp;#xDD;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: Y, umlaut or dieresis</td>
+	<td class="sym">&#376;</td>
+	<td>—</td>
+	<td>&amp;#376;</td>
+	<td>&amp;#x178;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: Z, with caron</td>
+	<td class="sym">&#381;</td>
+	<td>—</td>
+	<td>&amp;#381;</td>
+	<td>&amp;#x17D;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: Thorn, capital (Icelandic)</td>
+	<td class="sym">&THORN;</td>
+	<td>&amp;THORN;</td>
+	<td>&amp;#222;</td>
+	<td>&amp;#xDE;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: Sharp s (German s-z ligature)</td>
+	<td class="sym">&szlig;</td>
+	<td>&amp;szlig;</td>
+	<td>&amp;#223;</td>
+	<td>&amp;#xDF;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: a, accent grave</td>
+	<td class="sym">&agrave;</td>
+	<td>&amp;agrave;</td>
+	<td>&amp;#224;</td>
+	<td>&amp;#xE0;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: a, accent acute</td>
+	<td class="sym">&aacute;</td>
+	<td>&amp;aacute;</td>
+	<td>&amp;#225;</td>
+	<td>&amp;#xE1;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: a, circumflex</td>
+	<td class="sym">&acirc;</td>
+	<td>&amp;acirc;</td>
+	<td>&amp;#226;</td>
+	<td>&amp;#xE2;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: a, tilde</td>
+	<td class="sym">&atilde;</td>
+	<td>&amp;atilde;</td>
+	<td>&amp;#227;</td>
+	<td>&amp;#xE3;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: a, umlaut or dieresis</td>
+	<td class="sym">&auml;</td>
+	<td>&amp;auml;</td>
+	<td>&amp;#228;</td>
+	<td>&amp;#xE4;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: a, ring</td>
+	<td class="sym">&aring;</td>
+	<td>&amp;aring;</td>
+	<td>&amp;#229;</td>
+	<td>&amp;#xE5;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: a-e ligature</td>
+	<td class="sym">&aelig;</td>
+	<td>&amp;aelig;</td>
+	<td>&amp;#230;</td>
+	<td>&amp;#xE6;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: c, cedilla</td>
+	<td class="sym">&ccedil;</td>
+	<td>&amp;ccedil;</td>
+	<td>&amp;#231;</td>
+	<td>&amp;#xE7;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: e, accent grave</td>
+	<td class="sym">&egrave;</td>
+	<td>&amp;egrave;</td>
+	<td>&amp;#232;</td>
+	<td>&amp;#xE8;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: e, accent acute</td>
+	<td class="sym">&eacute;</td>
+	<td>&amp;eacute;</td>
+	<td>&amp;#233;</td>
+	<td>&amp;#xE9;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: e, circumflex</td>
+	<td class="sym">&ecirc;</td>
+	<td>&amp;ecirc;</td>
+	<td>&amp;#234;</td>
+	<td>&amp;#xEA;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: e, umlaut or dieresis</td>
+	<td class="sym">&euml;</td>
+	<td>&amp;euml;</td>
+	<td>&amp;#235;</td>
+	<td>&amp;#xEB;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: i, accent grave</td>
+	<td class="sym">&igrave;</td>
+	<td>&amp;igrave;</td>
+	<td>&amp;#236;</td>
+	<td>&amp;#xEC;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: i, accent acute</td>
+	<td class="sym">&iacute;</td>
+	<td>&amp;iacute;</td>
+	<td>&amp;#237;</td>
+	<td>&amp;#xED;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: i, circumflex</td>
+	<td class="sym">&icirc;</td>
+	<td>&amp;icirc;</td>
+	<td>&amp;#238;</td>
+	<td>&amp;#xEE;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: i, umlaut or dieresis</td>
+	<td class="sym">&iuml;</td>
+	<td>&amp;iuml;</td>
+	<td>&amp;#239;</td>
+	<td>&amp;#xEF;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: eth, lower-case (Icelandic)</td>
+	<td class="sym">&eth;</td>
+	<td>&amp;eth;</td>
+	<td>&amp;#240;</td>
+	<td>&amp;#xF0;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: n, tilde</td>
+	<td class="sym">&ntilde;</td>
+	<td>&amp;ntilde;</td>
+	<td>&amp;#241;</td>
+	<td>&amp;#xF1;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: o, accent grave</td>
+	<td class="sym">&ograve;</td>
+	<td>&amp;ograve;</td>
+	<td>&amp;#242;</td>
+	<td>&amp;#xF2;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: o, accent acute</td>
+	<td class="sym">&oacute;</td>
+	<td>&amp;oacute;</td>
+	<td>&amp;#243;</td>
+	<td>&amp;#xF3;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: o, circumflex</td>
+	<td class="sym">&ocirc;</td>
+	<td>&amp;ocirc;</td>
+	<td>&amp;#244;</td>
+	<td>&amp;#xF4;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: o, tilde</td>
+	<td class="sym">&otilde;</td>
+	<td>&amp;otilde;</td>
+	<td>&amp;#245;</td>
+	<td>&amp;#xF5;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: o, umlaut or dieresis</td>
+	<td class="sym">&ouml;</td>
+	<td>&amp;ouml;</td>
+	<td>&amp;#246;</td>
+	<td>&amp;#xF6;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: o, slash</td>
+	<td class="sym">&oslash;</td>
+	<td>&amp;oslash;</td>
+	<td>&amp;#248;</td>
+	<td>&amp;#xF8;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: o-e ligature</td>
+	<td class="sym">&oelig;</td>
+	<td>&amp;oelig;</td>
+	<td>&amp;#339;</td>
+	<td>&amp;#x153;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: s, with caron</td>
+	<td class="sym">&scaron;</td>
+	<td>&amp;scaron;</td>
+	<td>&amp;#353;</td>
+	<td>&amp;#x161;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: u, accent grave</td>
+	<td class="sym">&ugrave;</td>
+	<td>&amp;ugrave;</td>
+	<td>&amp;#249;</td>
+	<td>&amp;#xF9;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: u, accent acute</td>
+	<td class="sym">&uacute;</td>
+	<td>&amp;uacute;</td>
+	<td>&amp;#250;</td>
+	<td>&amp;#xFA;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: u, circumflex</td>
+	<td class="sym">&ucirc;</td>
+	<td>&amp;ucirc;</td>
+	<td>&amp;#251;</td>
+	<td>&amp;#xFB;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: u, umlaut or dieresis</td>
+	<td class="sym">&uuml;</td>
+	<td>&amp;uuml;</td>
+	<td>&amp;#252;</td>
+	<td>&amp;#xFC;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: y, accent acute</td>
+	<td class="sym">&yacute;</td>
+	<td>&amp;yacute;</td>
+	<td>&amp;#253;</td>
+	<td>&amp;#xFD;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: y, umlaut or dieresis</td>
+	<td class="sym">&yuml;</td>
+	<td>&amp;yuml;</td>
+	<td>&amp;#255;</td>
+	<td>&amp;#xFF;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: z, with caron</td>
+	<td class="sym">&#382;</td>
+	<td>—</td>
+	<td>&amp;#382;</td>
+	<td>&amp;#x17E;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin: thorn, lower-case (Icelandic)</td>
+	<td class="sym">&thorn;</td>
+	<td>&amp;thorn;</td>
+	<td>&amp;#254;</td>
+	<td>&amp;#xFE;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter turned A</td>
+	<td class="sym">&#592;</td>
+	<td>—</td>
+	<td>&amp;#592;</td>
+	<td>&amp;#x250;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Alpha</td>
+	<td class="sym">&#593;</td>
+	<td>—</td>
+	<td>&amp;#593;</td>
+	<td>&amp;#x251;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter turned Alpha</td>
+	<td class="sym">&#594;</td>
+	<td>—</td>
+	<td>&amp;#594;</td>
+	<td>&amp;#x252;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter B with hook</td>
+	<td class="sym">&#595;</td>
+	<td>—</td>
+	<td>&amp;#595;</td>
+	<td>&amp;#x253;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter open O</td>
+	<td class="sym">&#596;</td>
+	<td>—</td>
+	<td>&amp;#596;</td>
+	<td>&amp;#x254;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter C with curl</td>
+	<td class="sym">&#597;</td>
+	<td>—</td>
+	<td>&amp;#597;</td>
+	<td>&amp;#x255;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter D with tail</td>
+	<td class="sym">&#598;</td>
+	<td>—</td>
+	<td>&amp;#598;</td>
+	<td>&amp;#x256;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter D with hook</td>
+	<td class="sym">&#599;</td>
+	<td>—</td>
+	<td>&amp;#599;</td>
+	<td>&amp;#x257;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter reversed E</td>
+	<td class="sym">&#600;</td>
+	<td>—</td>
+	<td>&amp;#600;</td>
+	<td>&amp;#x258;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter schwa</td>
+	<td class="sym">&#601;</td>
+	<td>—</td>
+	<td>&amp;#601;</td>
+	<td>&amp;#x259;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter schwa with hook</td>
+	<td class="sym">&#602;</td>
+	<td>—</td>
+	<td>&amp;#602;</td>
+	<td>&amp;#x25A;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter open E</td>
+	<td class="sym">&#603;</td>
+	<td>—</td>
+	<td>&amp;#603;</td>
+	<td>&amp;#x25B;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter reversed open E</td>
+	<td class="sym">&#604;</td>
+	<td>—</td>
+	<td>&amp;#604;</td>
+	<td>&amp;#x25C;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter reversed open E with hook</td>
+	<td class="sym">&#605;</td>
+	<td>—</td>
+	<td>&amp;#605;</td>
+	<td>&amp;#x25D;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter closed reversed open E</td>
+	<td class="sym">&#606;</td>
+	<td>—</td>
+	<td>&amp;#606;</td>
+	<td>&amp;#x25E;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter dotless J with stroke</td>
+	<td class="sym">&#607;</td>
+	<td>—</td>
+	<td>&amp;#607;</td>
+	<td>&amp;#x25F;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter G with hook</td>
+	<td class="sym">&#608;</td>
+	<td>—</td>
+	<td>&amp;#608;</td>
+	<td>&amp;#x260;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter script G</td>
+	<td class="sym">&#609;</td>
+	<td>—</td>
+	<td>&amp;#609;</td>
+	<td>&amp;#x261;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin letter small capital G</td>
+	<td class="sym">&#610;</td>
+	<td>—</td>
+	<td>&amp;#610;</td>
+	<td>&amp;#x262;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Gamma</td>
+	<td class="sym">&#611;</td>
+	<td>—</td>
+	<td>&amp;#611;</td>
+	<td>&amp;#x263;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Rams horn</td>
+	<td class="sym">&#612;</td>
+	<td>—</td>
+	<td>&amp;#612;</td>
+	<td>&amp;#x264;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter turned H</td>
+	<td class="sym">&#613;</td>
+	<td>—</td>
+	<td>&amp;#613;</td>
+	<td>&amp;#x265;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter H with hook</td>
+	<td class="sym">&#614;</td>
+	<td>—</td>
+	<td>&amp;#614;</td>
+	<td>&amp;#x266;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Heng with hook</td>
+	<td class="sym">&#615;</td>
+	<td>—</td>
+	<td>&amp;#615;</td>
+	<td>&amp;#x267;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter I with stroke</td>
+	<td class="sym">&#616;</td>
+	<td>—</td>
+	<td>&amp;#616;</td>
+	<td>&amp;#x268;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Iota</td>
+	<td class="sym">&#617;</td>
+	<td>—</td>
+	<td>&amp;#617;</td>
+	<td>&amp;#x269;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin letter small capital I</td>
+	<td class="sym">&#618;</td>
+	<td>—</td>
+	<td>&amp;#618;</td>
+	<td>&amp;#x26A;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter L with middle tilde</td>
+	<td class="sym">&#619;</td>
+	<td>—</td>
+	<td>&amp;#619;</td>
+	<td>&amp;#x26B;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter L with belt</td>
+	<td class="sym">&#620;</td>
+	<td>—</td>
+	<td>&amp;#620;</td>
+	<td>&amp;#x26C;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter L with retroflex hook</td>
+	<td class="sym">&#621;</td>
+	<td>—</td>
+	<td>&amp;#621;</td>
+	<td>&amp;#x26D;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Lezh</td>
+	<td class="sym">&#622;</td>
+	<td>—</td>
+	<td>&amp;#622;</td>
+	<td>&amp;#x26E;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter turned M</td>
+	<td class="sym">&#623;</td>
+	<td>—</td>
+	<td>&amp;#623;</td>
+	<td>&amp;#x26F;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter turned M with long leg</td>
+	<td class="sym">&#624;</td>
+	<td>—</td>
+	<td>&amp;#624;</td>
+	<td>&amp;#x270;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter M with hook</td>
+	<td class="sym">&#625;</td>
+	<td>—</td>
+	<td>&amp;#625;</td>
+	<td>&amp;#x271;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter N with left hook</td>
+	<td class="sym">&#626;</td>
+	<td>—</td>
+	<td>&amp;#626;</td>
+	<td>&amp;#x272;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter N with retroflex hook</td>
+	<td class="sym">&#627;</td>
+	<td>—</td>
+	<td>&amp;#627;</td>
+	<td>&amp;#x273;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin letter small capital N</td>
+	<td class="sym">&#628;</td>
+	<td>—</td>
+	<td>&amp;#628;</td>
+	<td>&amp;#x274;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter barred O</td>
+	<td class="sym">&#629;</td>
+	<td>—</td>
+	<td>&amp;#629;</td>
+	<td>&amp;#x275;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin letter small capital OE</td>
+	<td class="sym">&#630;</td>
+	<td>—</td>
+	<td>&amp;#630;</td>
+	<td>&amp;#x276;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter closed Omega</td>
+	<td class="sym">&#631;</td>
+	<td>—</td>
+	<td>&amp;#631;</td>
+	<td>&amp;#x277;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Phi</td>
+	<td class="sym">&#632;</td>
+	<td>—</td>
+	<td>&amp;#632;</td>
+	<td>&amp;#x278;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter turned R</td>
+	<td class="sym">&#633;</td>
+	<td>—</td>
+	<td>&amp;#633;</td>
+	<td>&amp;#x279;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter turned R with long leg</td>
+	<td class="sym">&#634;</td>
+	<td>—</td>
+	<td>&amp;#634;</td>
+	<td>&amp;#x27A;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter turned R with hook</td>
+	<td class="sym">&#635;</td>
+	<td>—</td>
+	<td>&amp;#635;</td>
+	<td>&amp;#x27B;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter R with long leg</td>
+	<td class="sym">&#636;</td>
+	<td>—</td>
+	<td>&amp;#636;</td>
+	<td>&amp;#x27C;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter R with tail</td>
+	<td class="sym">&#637;</td>
+	<td>—</td>
+	<td>&amp;#637;</td>
+	<td>&amp;#x27D;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter R with fishhook</td>
+	<td class="sym">&#638;</td>
+	<td>—</td>
+	<td>&amp;#638;</td>
+	<td>&amp;#x27E;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter reversed R with fishhook</td>
+	<td class="sym">&#639;</td>
+	<td>—</td>
+	<td>&amp;#639;</td>
+	<td>&amp;#x27F;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin letter small capital R</td>
+	<td class="sym">&#640;</td>
+	<td>—</td>
+	<td>&amp;#640;</td>
+	<td>&amp;#x280;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin letter small capital inverted R</td>
+	<td class="sym">&#641;</td>
+	<td>—</td>
+	<td>&amp;#641;</td>
+	<td>&amp;#x281;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter S with hook</td>
+	<td class="sym">&#642;</td>
+	<td>—</td>
+	<td>&amp;#642;</td>
+	<td>&amp;#x282;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Esh</td>
+	<td class="sym">&#643;</td>
+	<td>—</td>
+	<td>&amp;#643;</td>
+	<td>&amp;#x283;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter dotless J with stroke and hook</td>
+	<td class="sym">&#644;</td>
+	<td>—</td>
+	<td>&amp;#644;</td>
+	<td>&amp;#x284;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter squat reversed Esh</td>
+	<td class="sym">&#645;</td>
+	<td>—</td>
+	<td>&amp;#645;</td>
+	<td>&amp;#x285;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Esh with curl</td>
+	<td class="sym">&#646;</td>
+	<td>—</td>
+	<td>&amp;#646;</td>
+	<td>&amp;#x286;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter turned T</td>
+	<td class="sym">&#647;</td>
+	<td>—</td>
+	<td>&amp;#647;</td>
+	<td>&amp;#x287;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter T with retroflex hook</td>
+	<td class="sym">&#648;</td>
+	<td>—</td>
+	<td>&amp;#648;</td>
+	<td>&amp;#x288;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter U bar</td>
+	<td class="sym">&#649;</td>
+	<td>—</td>
+	<td>&amp;#649;</td>
+	<td>&amp;#x289;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Upsilon</td>
+	<td class="sym">&#650;</td>
+	<td>—</td>
+	<td>&amp;#650;</td>
+	<td>&amp;#x28A;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter V with hook</td>
+	<td class="sym">&#651;</td>
+	<td>—</td>
+	<td>&amp;#651;</td>
+	<td>&amp;#x28B;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter turned V</td>
+	<td class="sym">&#652;</td>
+	<td>—</td>
+	<td>&amp;#652;</td>
+	<td>&amp;#x28C;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter turned W</td>
+	<td class="sym">&#653;</td>
+	<td>—</td>
+	<td>&amp;#653;</td>
+	<td>&amp;#x28D;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter turned Y</td>
+	<td class="sym">&#654;</td>
+	<td>—</td>
+	<td>&amp;#654;</td>
+	<td>&amp;#x28E;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin letter small capital Y</td>
+	<td class="sym">&#655;</td>
+	<td>—</td>
+	<td>&amp;#655;</td>
+	<td>&amp;#x28F;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Z with retroflex hook</td>
+	<td class="sym">&#656;</td>
+	<td>—</td>
+	<td>&amp;#656;</td>
+	<td>&amp;#x290;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Z with curl</td>
+	<td class="sym">&#657;</td>
+	<td>—</td>
+	<td>&amp;#657;</td>
+	<td>&amp;#x291;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Ezh</td>
+	<td class="sym">&#658;</td>
+	<td>—</td>
+	<td>&amp;#658;</td>
+	<td>&amp;#x292;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Ezh with curl</td>
+	<td class="sym">&#659;</td>
+	<td>—</td>
+	<td>&amp;#659;</td>
+	<td>&amp;#x293;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin letter glottal stop</td>
+	<td class="sym">&#660;</td>
+	<td>—</td>
+	<td>&amp;#660;</td>
+	<td>&amp;#x294;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin letter pharyngeal voiced fricative</td>
+	<td class="sym">&#661;</td>
+	<td>—</td>
+	<td>&amp;#661;</td>
+	<td>&amp;#x295;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin letter inverted glottal stop</td>
+	<td class="sym">&#662;</td>
+	<td>—</td>
+	<td>&amp;#662;</td>
+	<td>&amp;#x296;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin letter stretched C</td>
+	<td class="sym">&#663;</td>
+	<td>—</td>
+	<td>&amp;#663;</td>
+	<td>&amp;#x297;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin letter bilabial click</td>
+	<td class="sym">&#664;</td>
+	<td>—</td>
+	<td>&amp;#664;</td>
+	<td>&amp;#x298;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin letter small capital B</td>
+	<td class="sym">&#665;</td>
+	<td>—</td>
+	<td>&amp;#665;</td>
+	<td>&amp;#x299;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter closed open E</td>
+	<td class="sym">&#666;</td>
+	<td>—</td>
+	<td>&amp;#666;</td>
+	<td>&amp;#x29A;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin letter small capital G with hook</td>
+	<td class="sym">&#667;</td>
+	<td>—</td>
+	<td>&amp;#667;</td>
+	<td>&amp;#x29B;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin letter small capital H</td>
+	<td class="sym">&#668;</td>
+	<td>—</td>
+	<td>&amp;#668;</td>
+	<td>&amp;#x29C;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter J with crossed-tail</td>
+	<td class="sym">&#669;</td>
+	<td>—</td>
+	<td>&amp;#669;</td>
+	<td>&amp;#x29D;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter turned K</td>
+	<td class="sym">&#670;</td>
+	<td>—</td>
+	<td>&amp;#670;</td>
+	<td>&amp;#x29E;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin letter small capital L</td>
+	<td class="sym">&#671;</td>
+	<td>—</td>
+	<td>&amp;#671;</td>
+	<td>&amp;#x29F;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Q with hook</td>
+	<td class="sym">&#672;</td>
+	<td>—</td>
+	<td>&amp;#672;</td>
+	<td>&amp;#x2A0;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin letter glottal stop with stroke</td>
+	<td class="sym">&#673;</td>
+	<td>—</td>
+	<td>&amp;#673;</td>
+	<td>&amp;#x2A1;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin letter reversed glottal stop with stroke</td>
+	<td class="sym">&#674;</td>
+	<td>—</td>
+	<td>&amp;#674;</td>
+	<td>&amp;#x2A2;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Dz digraph</td>
+	<td class="sym">&#675;</td>
+	<td>—</td>
+	<td>&amp;#675;</td>
+	<td>&amp;#x2A3;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Dezh digraph</td>
+	<td class="sym">&#676;</td>
+	<td>—</td>
+	<td>&amp;#676;</td>
+	<td>&amp;#x2A4;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Dz digraph with curl</td>
+	<td class="sym">&#677;</td>
+	<td>—</td>
+	<td>&amp;#677;</td>
+	<td>&amp;#x2A5;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Ts digraph</td>
+	<td class="sym">&#678;</td>
+	<td>—</td>
+	<td>&amp;#678;</td>
+	<td>&amp;#x2A6;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Tesh digraph</td>
+	<td class="sym">&#679;</td>
+	<td>—</td>
+	<td>&amp;#679;</td>
+	<td>&amp;#x2A7;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter TC digraph with curl</td>
+	<td class="sym">&#680;</td>
+	<td>—</td>
+	<td>&amp;#680;</td>
+	<td>&amp;#x2A8;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Feng digraph</td>
+	<td class="sym">&#681;</td>
+	<td>—</td>
+	<td>&amp;#681;</td>
+	<td>&amp;#x2A9;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Ls digraph</td>
+	<td class="sym">&#682;</td>
+	<td>—</td>
+	<td>&amp;#682;</td>
+	<td>&amp;#x2AA;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter Lz digraph</td>
+	<td class="sym">&#683;</td>
+	<td>—</td>
+	<td>&amp;#683;</td>
+	<td>&amp;#x2AB;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter bilabial percussive</td>
+	<td class="sym">&#684;</td>
+	<td>—</td>
+	<td>&amp;#684;</td>
+	<td>&amp;#x2AC;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter bidental percussive</td>
+	<td class="sym">&#685;</td>
+	<td>—</td>
+	<td>&amp;#685;</td>
+	<td>&amp;#x2AD;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter turned H with fishhook</td>
+	<td class="sym">&#686;</td>
+	<td>—</td>
+	<td>&amp;#686;</td>
+	<td>&amp;#x2AE;</td>
+
+</tr>
+<tr>
+	<td class="one">Latin small letter turned H with fishhook and tail</td>
+	<td class="sym">&#687;</td>
+	<td>—</td>
+	<td>&amp;#687;</td>
+	<td>&amp;#x2AF;</td>
+
+</tr>
+</table>
+
+<table cellpadding="0" cellspacing="1">
+<tr>
+<th class="one">Description</th>
+<th>Character<br />(click)</th>
+<th>HTML<br />Entity</th>
+<th>Code<br />Decimal</th>
+<th>Code<br />Hex</th>
+</tr>
+<tr>
+	<td class="one">Capital A with macron</td>
+	<td class="sym">&#256;</td>
+	<td>—</td>
+	<td>&amp;#256;</td>
+	<td>&amp;#x100;</td>
+
+</tr>
+<tr>
+	<td class="one">Small A with macron</td>
+	<td class="sym">&#257;</td>
+	<td>—</td>
+	<td>&amp;#257;</td>
+	<td>&amp;#x101;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital A with breve</td>
+	<td class="sym">&#258;</td>
+	<td>—</td>
+	<td>&amp;#258;</td>
+	<td>&amp;#x102;</td>
+
+</tr>
+<tr>
+	<td class="one">Small A with breve</td>
+	<td class="sym">&#259;</td>
+	<td>—</td>
+	<td>&amp;#259;</td>
+	<td>&amp;#x103;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital A with ogonek</td>
+	<td class="sym">&#260;</td>
+	<td>—</td>
+	<td>&amp;#260;</td>
+	<td>&amp;#x104;</td>
+
+</tr>
+<tr>
+	<td class="one">Small A with ogonek</td>
+	<td class="sym">&#261;</td>
+	<td>—</td>
+	<td>&amp;#261;</td>
+	<td>&amp;#x105;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital C with acute</td>
+	<td class="sym">&#262;</td>
+	<td>—</td>
+	<td>&amp;#262;</td>
+	<td>&amp;#x106;</td>
+
+</tr>
+<tr>
+	<td class="one">Small C with acute</td>
+	<td class="sym">&#263;</td>
+	<td>—</td>
+	<td>&amp;#263;</td>
+	<td>&amp;#x107;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital C with circumflex</td>
+	<td class="sym">&#264;</td>
+	<td>—</td>
+	<td>&amp;#264;</td>
+	<td>&amp;#x108;</td>
+
+</tr>
+<tr>
+	<td class="one">Small C with circumflex</td>
+	<td class="sym">&#265;</td>
+	<td>—</td>
+	<td>&amp;#265;</td>
+	<td>&amp;#x109;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital C with dot above</td>
+	<td class="sym">&#266;</td>
+	<td>—</td>
+	<td>&amp;#266;</td>
+	<td>&amp;#x10A;</td>
+
+</tr>
+<tr>
+	<td class="one">Small C with dot above</td>
+	<td class="sym">&#267;</td>
+	<td>—</td>
+	<td>&amp;#267;</td>
+	<td>&amp;#x10B;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital C with caron</td>
+	<td class="sym">&#268;</td>
+	<td>—</td>
+	<td>&amp;#268;</td>
+	<td>&amp;#x10C;</td>
+
+</tr>
+<tr>
+	<td class="one">Small C with caron</td>
+	<td class="sym">&#269;</td>
+	<td>—</td>
+	<td>&amp;#269;</td>
+	<td>&amp;#x10D;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital D with caron</td>
+	<td class="sym">&#270;</td>
+	<td>—</td>
+	<td>&amp;#270;</td>
+	<td>&amp;#x10E;</td>
+
+</tr>
+<tr>
+	<td class="one">Small D with caron</td>
+	<td class="sym">&#271;</td>
+	<td>—</td>
+	<td>&amp;#271;</td>
+	<td>&amp;#x10F;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital D with stroke</td>
+	<td class="sym">&#272;</td>
+	<td>—</td>
+	<td>&amp;#272;</td>
+	<td>&amp;#x110;</td>
+
+</tr>
+<tr>
+	<td class="one">Small D with stroke</td>
+	<td class="sym">&#273;</td>
+	<td>—</td>
+	<td>&amp;#273;</td>
+	<td>&amp;#x111;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital E with macron</td>
+	<td class="sym">&#274;</td>
+	<td>—</td>
+	<td>&amp;#274;</td>
+	<td>&amp;#x112;</td>
+
+</tr>
+<tr>
+	<td class="one">Small E with macron</td>
+	<td class="sym">&#275;</td>
+	<td>—</td>
+	<td>&amp;#275;</td>
+	<td>&amp;#x113;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital E with breve</td>
+	<td class="sym">&#276;</td>
+	<td>—</td>
+	<td>&amp;#276;</td>
+	<td>&amp;#x114;</td>
+
+</tr>
+<tr>
+	<td class="one">Small E with breve</td>
+	<td class="sym">&#277;</td>
+	<td>—</td>
+	<td>&amp;#277;</td>
+	<td>&amp;#x115;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital E with dot above</td>
+	<td class="sym">&#278;</td>
+	<td>—</td>
+	<td>&amp;#278;</td>
+	<td>&amp;#x116;</td>
+
+</tr>
+<tr>
+	<td class="one">Small E with dot above</td>
+	<td class="sym">&#279;</td>
+	<td>—</td>
+	<td>&amp;#279;</td>
+	<td>&amp;#x117;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital E with ogonek</td>
+	<td class="sym">&#280;</td>
+	<td>—</td>
+	<td>&amp;#280;</td>
+	<td>&amp;#x118;</td>
+
+</tr>
+<tr>
+	<td class="one">Small E with ogonek</td>
+	<td class="sym">&#281;</td>
+	<td>—</td>
+	<td>&amp;#281;</td>
+	<td>&amp;#x119;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital E with caron</td>
+	<td class="sym">&#282;</td>
+	<td>—</td>
+	<td>&amp;#282;</td>
+	<td>&amp;#x11A;</td>
+
+</tr>
+<tr>
+	<td class="one">Small E with caron</td>
+	<td class="sym">&#283;</td>
+	<td>—</td>
+	<td>&amp;#283;</td>
+	<td>&amp;#x11B;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital G with circumflex</td>
+	<td class="sym">&#284;</td>
+	<td>—</td>
+	<td>&amp;#284;</td>
+	<td>&amp;#x11C;</td>
+
+</tr>
+<tr>
+	<td class="one">Small G with circumflex</td>
+	<td class="sym">&#285;</td>
+	<td>—</td>
+	<td>&amp;#285;</td>
+	<td>&amp;#x11D;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital G with breve</td>
+	<td class="sym">&#286;</td>
+	<td>—</td>
+	<td>&amp;#286;</td>
+	<td>&amp;#x11E;</td>
+
+</tr>
+<tr>
+	<td class="one">Small G with breve</td>
+	<td class="sym">&#287;</td>
+	<td>—</td>
+	<td>&amp;#287;</td>
+	<td>&amp;#x11F;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital G with dot above</td>
+	<td class="sym">&#288;</td>
+	<td>—</td>
+	<td>&amp;#288;</td>
+	<td>&amp;#x120;</td>
+
+</tr>
+<tr>
+	<td class="one">Small G with dot above</td>
+	<td class="sym">&#289;</td>
+	<td>—</td>
+	<td>&amp;#289;</td>
+	<td>&amp;#x121;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital G with cedilla</td>
+	<td class="sym">&#290;</td>
+	<td>—</td>
+	<td>&amp;#290;</td>
+	<td>&amp;#x122;</td>
+
+</tr>
+<tr>
+	<td class="one">Small G with cedilla</td>
+	<td class="sym">&#291;</td>
+	<td>—</td>
+	<td>&amp;#291;</td>
+	<td>&amp;#x123;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital H with circumflex</td>
+	<td class="sym">&#292;</td>
+	<td>—</td>
+	<td>&amp;#292;</td>
+	<td>&amp;#x124;</td>
+
+</tr>
+<tr>
+	<td class="one">Small H with circumflex</td>
+	<td class="sym">&#293;</td>
+	<td>—</td>
+	<td>&amp;#293;</td>
+	<td>&amp;#x125;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital H with stroke</td>
+	<td class="sym">&#294;</td>
+	<td>—</td>
+	<td>&amp;#294;</td>
+	<td>&amp;#x126;</td>
+
+</tr>
+<tr>
+	<td class="one">Small H with stroke</td>
+	<td class="sym">&#295;</td>
+	<td>—</td>
+	<td>&amp;#295;</td>
+	<td>&amp;#x127;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital I with tilde</td>
+	<td class="sym">&#296;</td>
+	<td>—</td>
+	<td>&amp;#296;</td>
+	<td>&amp;#x128;</td>
+
+</tr>
+<tr>
+	<td class="one">Small I with tilde</td>
+	<td class="sym">&#297;</td>
+	<td>—</td>
+	<td>&amp;#297;</td>
+	<td>&amp;#x129;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital I with macron</td>
+	<td class="sym">&#298;</td>
+	<td>—</td>
+	<td>&amp;#298;</td>
+	<td>&amp;#x12A;</td>
+
+</tr>
+<tr>
+	<td class="one">Small I with macron</td>
+	<td class="sym">&#299;</td>
+	<td>—</td>
+	<td>&amp;#299;</td>
+	<td>&amp;#x12B;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital I with breve</td>
+	<td class="sym">&#300;</td>
+	<td>—</td>
+	<td>&amp;#300;</td>
+	<td>&amp;#x12C;</td>
+
+</tr>
+<tr>
+	<td class="one">Small I with breve</td>
+	<td class="sym">&#301;</td>
+	<td>—</td>
+	<td>&amp;#301;</td>
+	<td>&amp;#x12D;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital I with ogonek</td>
+	<td class="sym">&#302;</td>
+	<td>—</td>
+	<td>&amp;#302;</td>
+	<td>&amp;#x12E;</td>
+
+</tr>
+<tr>
+	<td class="one">Small I with ogonek</td>
+	<td class="sym">&#303;</td>
+	<td>—</td>
+	<td>&amp;#303;</td>
+	<td>&amp;#x12F;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital I with dot above</td>
+	<td class="sym">&#304;</td>
+	<td>—</td>
+	<td>&amp;#304;</td>
+	<td>&amp;#x130;</td>
+
+</tr>
+<tr>
+	<td class="one">Small dotless I</td>
+	<td class="sym">&#305;</td>
+	<td>—</td>
+	<td>&amp;#305;</td>
+	<td>&amp;#x131;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital ligature IJ</td>
+	<td class="sym">&#306;</td>
+	<td>—</td>
+	<td>&amp;#306;</td>
+	<td>&amp;#x132;</td>
+
+</tr>
+<tr>
+	<td class="one">Small ligature IJ</td>
+	<td class="sym">&#307;</td>
+	<td>—</td>
+	<td>&amp;#307;</td>
+	<td>&amp;#x133;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital J with circumflex</td>
+	<td class="sym">&#308;</td>
+	<td>—</td>
+	<td>&amp;#308;</td>
+	<td>&amp;#x134;</td>
+
+</tr>
+<tr>
+	<td class="one">Small J with circumflex</td>
+	<td class="sym">&#309;</td>
+	<td>—</td>
+	<td>&amp;#309;</td>
+	<td>&amp;#x135;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital K with cedilla</td>
+	<td class="sym">&#310;</td>
+	<td>—</td>
+	<td>&amp;#310;</td>
+	<td>&amp;#x136;</td>
+
+</tr>
+<tr>
+	<td class="one">Small K with cedilla</td>
+	<td class="sym">&#311;</td>
+	<td>—</td>
+	<td>&amp;#311;</td>
+	<td>&amp;#x137;</td>
+
+</tr>
+<tr>
+	<td class="one">Small kra</td>
+	<td class="sym">&#312;</td>
+	<td>—</td>
+	<td>&amp;#312;</td>
+	<td>&amp;#x138;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital L with acute</td>
+	<td class="sym">&#313;</td>
+	<td>—</td>
+	<td>&amp;#313;</td>
+	<td>&amp;#x139;</td>
+
+</tr>
+<tr>
+	<td class="one">Small L with acute</td>
+	<td class="sym">&#314;</td>
+	<td>—</td>
+	<td>&amp;#314;</td>
+	<td>&amp;#x13A;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital L with cedilla</td>
+	<td class="sym">&#315;</td>
+	<td>—</td>
+	<td>&amp;#315;</td>
+	<td>&amp;#x13B;</td>
+
+</tr>
+<tr>
+	<td class="one">Small L with cedilla</td>
+	<td class="sym">&#316;</td>
+	<td>—</td>
+	<td>&amp;#316;</td>
+	<td>&amp;#x13C;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital L with caron</td>
+	<td class="sym">&#317;</td>
+	<td>—</td>
+	<td>&amp;#317;</td>
+	<td>&amp;#x13D;</td>
+
+</tr>
+<tr>
+	<td class="one">Small L with caron</td>
+	<td class="sym">&#318;</td>
+	<td>—</td>
+	<td>&amp;#318;</td>
+	<td>&amp;#x13E;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital L with middle dot</td>
+	<td class="sym">&#319;</td>
+	<td>—</td>
+	<td>&amp;#319;</td>
+	<td>&amp;#x13F;</td>
+
+</tr>
+<tr>
+	<td class="one">Small L with middle dot</td>
+	<td class="sym">&#320;</td>
+	<td>—</td>
+	<td>&amp;#320;</td>
+	<td>&amp;#x140;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital L with stroke</td>
+	<td class="sym">&#321;</td>
+	<td>—</td>
+	<td>&amp;#321;</td>
+	<td>&amp;#x141;</td>
+
+</tr>
+<tr>
+	<td class="one">Small L with stroke</td>
+	<td class="sym">&#322;</td>
+	<td>—</td>
+	<td>&amp;#322;</td>
+	<td>&amp;#x142;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital N with acute</td>
+	<td class="sym">&#323;</td>
+	<td>—</td>
+	<td>&amp;#323;</td>
+	<td>&amp;#x143;</td>
+
+</tr>
+<tr>
+	<td class="one">Small N with acute</td>
+	<td class="sym">&#324;</td>
+	<td>—</td>
+	<td>&amp;#324;</td>
+	<td>&amp;#x144;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital N with cedilla</td>
+	<td class="sym">&#325;</td>
+	<td>—</td>
+	<td>&amp;#325;</td>
+	<td>&amp;#x145;</td>
+
+</tr>
+<tr>
+	<td class="one">Small N with cedilla</td>
+	<td class="sym">&#326;</td>
+	<td>—</td>
+	<td>&amp;#326;</td>
+	<td>&amp;#x146;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital N with caron</td>
+	<td class="sym">&#327;</td>
+	<td>—</td>
+	<td>&amp;#327;</td>
+	<td>&amp;#x147;</td>
+
+</tr>
+<tr>
+	<td class="one">Small N with caron</td>
+	<td class="sym">&#328;</td>
+	<td>—</td>
+	<td>&amp;#328;</td>
+	<td>&amp;#x148;</td>
+
+</tr>
+<tr>
+	<td class="one">Small N preceded by apostrophe</td>
+	<td class="sym">&#329;</td>
+	<td>—</td>
+	<td>&amp;#329;</td>
+	<td>&amp;#x149;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital letter eng</td>
+	<td class="sym">&#330;</td>
+	<td>—</td>
+	<td>&amp;#330;</td>
+	<td>&amp;#x14A;</td>
+
+</tr>
+<tr>
+	<td class="one">Small letter eng</td>
+	<td class="sym">&#331;</td>
+	<td>—</td>
+	<td>&amp;#331;</td>
+	<td>&amp;#x14B;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital O with macron</td>
+	<td class="sym">&#332;</td>
+	<td>—</td>
+	<td>&amp;#332;</td>
+	<td>&amp;#x14C;</td>
+
+</tr>
+<tr>
+	<td class="one">Small O with macron</td>
+	<td class="sym">&#333;</td>
+	<td>—</td>
+	<td>&amp;#333;</td>
+	<td>&amp;#x14D;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital O with breve</td>
+	<td class="sym">&#334;</td>
+	<td>—</td>
+	<td>&amp;#334;</td>
+	<td>&amp;#x14E;</td>
+
+</tr>
+<tr>
+	<td class="one">Small O with breve</td>
+	<td class="sym">&#335;</td>
+	<td>—</td>
+	<td>&amp;#335;</td>
+	<td>&amp;#x14F;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital O with double acute</td>
+	<td class="sym">&#336;</td>
+	<td>—</td>
+	<td>&amp;#336;</td>
+	<td>&amp;#x150;</td>
+
+</tr>
+<tr>
+	<td class="one">Small O with double acute</td>
+	<td class="sym">&#337;</td>
+	<td>—</td>
+	<td>&amp;#337;</td>
+	<td>&amp;#x151;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital ligature OE</td>
+	<td class="sym">&OElig;</td>
+	<td>&amp;OElig;</td>
+	<td>&amp;#338;</td>
+	<td>&amp;#x152;</td>
+
+</tr>
+<tr>
+	<td class="one">Small ligature OE</td>
+	<td class="sym">&oelig;</td>
+	<td>&amp;oelig;</td>
+	<td>&amp;#339;</td>
+	<td>&amp;#x153;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital R with acute</td>
+	<td class="sym">&#340;</td>
+	<td>—</td>
+	<td>&amp;#340;</td>
+	<td>&amp;#x154;</td>
+
+</tr>
+<tr>
+	<td class="one">Small R with acute</td>
+	<td class="sym">&#341;</td>
+	<td>—</td>
+	<td>&amp;#341;</td>
+	<td>&amp;#x155;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital R with cedilla</td>
+	<td class="sym">&#342;</td>
+	<td>—</td>
+	<td>&amp;#342;</td>
+	<td>&amp;#x156;</td>
+
+</tr>
+<tr>
+	<td class="one">Small R with cedilla</td>
+	<td class="sym">&#343;</td>
+	<td>—</td>
+	<td>&amp;#343;</td>
+	<td>&amp;#x157;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital R with caron</td>
+	<td class="sym">&#344;</td>
+	<td>—</td>
+	<td>&amp;#344;</td>
+	<td>&amp;#x158;</td>
+
+</tr>
+<tr>
+	<td class="one">Small R with caron</td>
+	<td class="sym">&#345;</td>
+	<td>—</td>
+	<td>&amp;#345;</td>
+	<td>&amp;#x159;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital S with acute</td>
+	<td class="sym">&#346;</td>
+	<td>—</td>
+	<td>&amp;#346;</td>
+	<td>&amp;#x15A;</td>
+
+</tr>
+<tr>
+	<td class="one">Small S with acute</td>
+	<td class="sym">&#347;</td>
+	<td>—</td>
+	<td>&amp;#347;</td>
+	<td>&amp;#x15B;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital S with circumflex</td>
+	<td class="sym">&#348;</td>
+	<td>—</td>
+	<td>&amp;#348;</td>
+	<td>&amp;#x15C;</td>
+
+</tr>
+<tr>
+	<td class="one">Small S with circumflex</td>
+	<td class="sym">&#349;</td>
+	<td>—</td>
+	<td>&amp;#349;</td>
+	<td>&amp;#x15D;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital S with cedilla</td>
+	<td class="sym">&#350;</td>
+	<td>—</td>
+	<td>&amp;#350;</td>
+	<td>&amp;#x15E;</td>
+
+</tr>
+<tr>
+	<td class="one">Small S with cedilla</td>
+	<td class="sym">&#351;</td>
+	<td>—</td>
+	<td>&amp;#351;</td>
+	<td>&amp;#x15F;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital S with caron</td>
+	<td class="sym">&Scaron;</td>
+	<td>&amp;Scaron;</td>
+	<td>&amp;#352;</td>
+	<td>&amp;#x160;</td>
+
+</tr>
+<tr>
+	<td class="one">Small S with caron</td>
+	<td class="sym">&scaron;</td>
+	<td>&amp;scaron;</td>
+	<td>&amp;#353;</td>
+	<td>&amp;#x161;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital T with cedilla</td>
+	<td class="sym">&#354;</td>
+	<td>—</td>
+	<td>&amp;#354;</td>
+	<td>&amp;#x162;</td>
+
+</tr>
+<tr>
+	<td class="one">Small T with cedilla</td>
+	<td class="sym">&#355;</td>
+	<td>—</td>
+	<td>&amp;#355;</td>
+	<td>&amp;#x163;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital T with caron</td>
+	<td class="sym">&#356;</td>
+	<td>—</td>
+	<td>&amp;#356;</td>
+	<td>&amp;#x164;</td>
+
+</tr>
+<tr>
+	<td class="one">Small T with caron</td>
+	<td class="sym">&#357;</td>
+	<td>—</td>
+	<td>&amp;#357;</td>
+	<td>&amp;#x165;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital T with stroke</td>
+	<td class="sym">&#358;</td>
+	<td>—</td>
+	<td>&amp;#358;</td>
+	<td>&amp;#x166;</td>
+
+</tr>
+<tr>
+	<td class="one">Small T with stroke</td>
+	<td class="sym">&#359;</td>
+	<td>—</td>
+	<td>&amp;#359;</td>
+	<td>&amp;#x167;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital U with tilde</td>
+	<td class="sym">&#360;</td>
+	<td>—</td>
+	<td>&amp;#360;</td>
+	<td>&amp;#x168;</td>
+
+</tr>
+<tr>
+	<td class="one">Small U with tilde</td>
+	<td class="sym">&#361;</td>
+	<td>—</td>
+	<td>&amp;#361;</td>
+	<td>&amp;#x169;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital U with macron</td>
+	<td class="sym">&#362;</td>
+	<td>—</td>
+	<td>&amp;#362;</td>
+	<td>&amp;#x16A;</td>
+
+</tr>
+<tr>
+	<td class="one">Small U with macron</td>
+	<td class="sym">&#363;</td>
+	<td>—</td>
+	<td>&amp;#363;</td>
+	<td>&amp;#x16B;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital U with breve</td>
+	<td class="sym">&#364;</td>
+	<td>—</td>
+	<td>&amp;#364;</td>
+	<td>&amp;#x16C;</td>
+
+</tr>
+<tr>
+	<td class="one">Small U with breve</td>
+	<td class="sym">&#365;</td>
+	<td>—</td>
+	<td>&amp;#365;</td>
+	<td>&amp;#x16D;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital U with ring above</td>
+	<td class="sym">&#366;</td>
+	<td>—</td>
+	<td>&amp;#366;</td>
+	<td>&amp;#x16E;</td>
+
+</tr>
+<tr>
+	<td class="one">Small U with ring above</td>
+	<td class="sym">&#367;</td>
+	<td>—</td>
+	<td>&amp;#367;</td>
+	<td>&amp;#x16F;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital U with double acute</td>
+	<td class="sym">&#368;</td>
+	<td>—</td>
+	<td>&amp;#368;</td>
+	<td>&amp;#x170;</td>
+
+</tr>
+<tr>
+	<td class="one">Small U with double acute</td>
+	<td class="sym">&#369;</td>
+	<td>—</td>
+	<td>&amp;#369;</td>
+	<td>&amp;#x171;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital U with ogonek</td>
+	<td class="sym">&#370;</td>
+	<td>—</td>
+	<td>&amp;#370;</td>
+	<td>&amp;#x172;</td>
+
+</tr>
+<tr>
+	<td class="one">Small U with ogonek</td>
+	<td class="sym">&#371;</td>
+	<td>—</td>
+	<td>&amp;#371;</td>
+	<td>&amp;#x173;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital W with circumflex</td>
+	<td class="sym">&#372;</td>
+	<td>—</td>
+	<td>&amp;#372;</td>
+	<td>&amp;#x174;</td>
+
+</tr>
+<tr>
+	<td class="one">Small W with circumflex</td>
+	<td class="sym">&#373;</td>
+	<td>—</td>
+	<td>&amp;#373;</td>
+	<td>&amp;#x175;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital Y with circumflex</td>
+	<td class="sym">&#374;</td>
+	<td>—</td>
+	<td>&amp;#374;</td>
+	<td>&amp;#x176;</td>
+
+</tr>
+<tr>
+	<td class="one">Small Y with circumflex</td>
+	<td class="sym">&#375;</td>
+	<td>—</td>
+	<td>&amp;#375;</td>
+	<td>&amp;#x177;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital Y with diaeresis</td>
+	<td class="sym">&Yuml;</td>
+	<td>&amp;Yuml;</td>
+	<td>&amp;#376;</td>
+	<td>&amp;#x178;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital Z with acute</td>
+	<td class="sym">&#377;</td>
+	<td>—</td>
+	<td>&amp;#377;</td>
+	<td>&amp;#x179;</td>
+
+</tr>
+<tr>
+	<td class="one">Small Z with acute</td>
+	<td class="sym">&#378;</td>
+	<td>—</td>
+	<td>&amp;#378;</td>
+	<td>&amp;#x17A;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital Z with dot above</td>
+	<td class="sym">&#379;</td>
+	<td>—</td>
+	<td>&amp;#379;</td>
+	<td>&amp;#x17B;</td>
+
+</tr>
+<tr>
+	<td class="one">Small Z with dot above</td>
+	<td class="sym">&#380;</td>
+	<td>—</td>
+	<td>&amp;#380;</td>
+	<td>&amp;#x17C;</td>
+
+</tr>
+<tr>
+	<td class="one">Capital Z with caron</td>
+	<td class="sym">&#381;</td>
+	<td>—</td>
+	<td>&amp;#381;</td>
+	<td>&amp;#x17D;</td>
+
+</tr>
+<tr>
+	<td class="one">Small Z with caron</td>
+	<td class="sym">&#382;</td>
+	<td>—</td>
+	<td>&amp;#382;</td>
+	<td>&amp;#x17E;</td>
+
+</tr>
+<tr>
+	<td class="one">Small letter long S</td>
+	<td class="sym">&#383;</td>
+	<td>—</td>
+	<td>&amp;#383;</td>
+	<td>&amp;#x17F;</td>
+
+</tr>
+<tr>
+	<td class="one">Frequencies: Hertz</td>
+	<td class="sym">&#13200;</td>
+	<td>—</td>
+	<td>&amp;#13200;</td>
+	<td>&amp;#x3390;</td>
+
+</tr>
+<tr>
+	<td class="one">Frequencies: Kilohertz</td>
+	<td class="sym">&#13201;</td>
+	<td>—</td>
+	<td>&amp;#13201;</td>
+	<td>&amp;#x3391;</td>
+
+</tr>
+<tr>
+	<td class="one">Frequencies: Megahertz</td>
+	<td class="sym">&#13202;</td>
+	<td>—</td>
+	<td>&amp;#13202;</td>
+	<td>&amp;#x3392;</td>
+
+</tr>
+<tr>
+	<td class="one">Frequencies: Gigahertz</td>
+	<td class="sym">&#13203;</td>
+	<td>—</td>
+	<td>&amp;#13203;</td>
+	<td>&amp;#x3393;</td>
+
+</tr>
+<tr>
+	<td class="one">Frequencies: Terahertz</td>
+	<td class="sym">&#13204;</td>
+	<td>—</td>
+	<td>&amp;#13204;</td>
+	<td>&amp;#x3394;</td>
+
+</tr>
+	<tr>
+	<td class="one">Control: NUL - null</td>
+	<td class="sym">&#9216;</td>
+	<td>—</td>
+	<td>&amp;#9216;</td>
+	<td>&amp;#x2400;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: SOH - start of heading</td>
+	<td class="sym">&#9217;</td>
+	<td>—</td>
+	<td>&amp;#9217;</td>
+	<td>&amp;#x2401;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: STX - start of text</td>
+	<td class="sym">&#9218;</td>
+	<td>—</td>
+	<td>&amp;#9218;</td>
+	<td>&amp;#x2402;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: ETX - end of text</td>
+	<td class="sym">&#9219;</td>
+	<td>—</td>
+	<td>&amp;#9219;</td>
+	<td>&amp;#x2403;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: EOT - end of transmission</td>
+	<td class="sym">&#9220;</td>
+	<td>—</td>
+	<td>&amp;#9220;</td>
+	<td>&amp;#x2404;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: ENQ - enquiry</td>
+	<td class="sym">&#9221;</td>
+	<td>—</td>
+	<td>&amp;#9221;</td>
+	<td>&amp;#x2405;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: ACK - acknowledge</td>
+	<td class="sym">&#9222;</td>
+	<td>—</td>
+	<td>&amp;#9222;</td>
+	<td>&amp;#x2406;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: BEL - bell</td>
+	<td class="sym">&#9223;</td>
+	<td>—</td>
+	<td>&amp;#9223;</td>
+	<td>&amp;#x2407;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: BS - backspace</td>
+	<td class="sym">&#9224;</td>
+	<td>—</td>
+	<td>&amp;#9224;</td>
+	<td>&amp;#x2408;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: HT - horizontal tabulation</td>
+	<td class="sym">&#9225;</td>
+	<td>—</td>
+	<td>&amp;#9225;</td>
+	<td>&amp;#x2409;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: LF - line feed</td>
+	<td class="sym">&#9226;</td>
+	<td>—</td>
+	<td>&amp;#9226;</td>
+	<td>&amp;#x240A;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: VT - vertical tabulation</td>
+	<td class="sym">&#9227;</td>
+	<td>—</td>
+	<td>&amp;#9227;</td>
+	<td>&amp;#x240B;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: FF - form feed</td>
+	<td class="sym">&#9228;</td>
+	<td>—</td>
+	<td>&amp;#9228;</td>
+	<td>&amp;#x240C;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: CR - carriage return</td>
+	<td class="sym">&#9229;</td>
+	<td>—</td>
+	<td>&amp;#9229;</td>
+	<td>&amp;#x240D;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: SO - shift out</td>
+	<td class="sym">&#9230;</td>
+	<td>—</td>
+	<td>&amp;#9230;</td>
+	<td>&amp;#x240E;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: SI - shift in</td>
+	<td class="sym">&#9231;</td>
+	<td>—</td>
+	<td>&amp;#9231;</td>
+	<td>&amp;#x240F;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: DLE - data link escape</td>
+	<td class="sym">&#9232;</td>
+	<td>—</td>
+	<td>&amp;#9232;</td>
+	<td>&amp;#x2410;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: DC1 - device control 1</td>
+	<td class="sym">&#9233;</td>
+	<td>—</td>
+	<td>&amp;#9233;</td>
+	<td>&amp;#x2411;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: DC2 - device control 2</td>
+	<td class="sym">&#9234;</td>
+	<td>—</td>
+	<td>&amp;#9234;</td>
+	<td>&amp;#x2412;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: DC3 - device control 3</td>
+	<td class="sym">&#9235;</td>
+	<td>—</td>
+	<td>&amp;#9235;</td>
+	<td>&amp;#x2413;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: DC4 - device control 4</td>
+	<td class="sym">&#9236;</td>
+	<td>—</td>
+	<td>&amp;#9236;</td>
+	<td>&amp;#x2414;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: NAK - negative acknowledge</td>
+	<td class="sym">&#9237;</td>
+	<td>—</td>
+	<td>&amp;#9237;</td>
+	<td>&amp;#x2415;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: SYN - synchronous idle</td>
+	<td class="sym">&#9238;</td>
+	<td>—</td>
+	<td>&amp;#9238;</td>
+	<td>&amp;#x2416;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: ETB - end of transmission block</td>
+	<td class="sym">&#9239;</td>
+	<td>—</td>
+	<td>&amp;#9239;</td>
+	<td>&amp;#x2417;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: CAN - cancel</td>
+	<td class="sym">&#9240;</td>
+	<td>—</td>
+	<td>&amp;#9240;</td>
+	<td>&amp;#x2418;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: EM - end of medium</td>
+	<td class="sym">&#9241;</td>
+	<td>—</td>
+	<td>&amp;#9241;</td>
+	<td>&amp;#x2419;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: SUB - substitute</td>
+	<td class="sym">&#9242;</td>
+	<td>—</td>
+	<td>&amp;#9242;</td>
+	<td>&amp;#x241A;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: ESC - escape</td>
+	<td class="sym">&#9243;</td>
+	<td>—</td>
+	<td>&amp;#9243;</td>
+	<td>&amp;#x241B;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: FS - file separator</td>
+	<td class="sym">&#9244;</td>
+	<td>—</td>
+	<td>&amp;#9244;</td>
+	<td>&amp;#x241C;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: GS - group separator</td>
+	<td class="sym">&#9245;</td>
+	<td>—</td>
+	<td>&amp;#9245;</td>
+	<td>&amp;#x241D;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: RS - record separator</td>
+	<td class="sym">&#9246;</td>
+	<td>—</td>
+	<td>&amp;#9246;</td>
+	<td>&amp;#x241E;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: US - unit separator</td>
+	<td class="sym">&#9247;</td>
+	<td>—</td>
+	<td>&amp;#9247;</td>
+	<td>&amp;#x241F;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: SP - space</td>
+	<td class="sym">&#9248;</td>
+	<td>—</td>
+	<td>&amp;#9248;</td>
+	<td>&amp;#x2420;</td>
+
+</tr>
+<tr>
+	<td class="one">Control: DEL - delete</td>
+	<td class="sym">&#9249;</td>
+	<td>—</td>
+	<td>&amp;#9249;</td>
+	<td>&amp;#x2421;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ayb, capital</td>
+	<td class="sym">&#1329;</td>
+	<td>—</td>
+	<td>&amp;#1329;</td>
+	<td>&amp;#x531;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ben, capital</td>
+	<td class="sym">&#1330;</td>
+	<td>—</td>
+	<td>&amp;#1330;</td>
+	<td>&amp;#x532;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Gim, capital</td>
+	<td class="sym">&#1331;</td>
+	<td>—</td>
+	<td>&amp;#1331;</td>
+	<td>&amp;#x533;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Da, capital</td>
+	<td class="sym">&#1332;</td>
+	<td>—</td>
+	<td>&amp;#1332;</td>
+	<td>&amp;#x534;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ech, capital</td>
+	<td class="sym">&#1333;</td>
+	<td>—</td>
+	<td>&amp;#1333;</td>
+	<td>&amp;#x535;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Za, capital</td>
+	<td class="sym">&#1334;</td>
+	<td>—</td>
+	<td>&amp;#1334;</td>
+	<td>&amp;#x536;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Eh, capital</td>
+	<td class="sym">&#1335;</td>
+	<td>—</td>
+	<td>&amp;#1335;</td>
+	<td>&amp;#x537;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Et, capital</td>
+	<td class="sym">&#1336;</td>
+	<td>—</td>
+	<td>&amp;#1336;</td>
+	<td>&amp;#x538;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: To, capital</td>
+	<td class="sym">&#1337;</td>
+	<td>—</td>
+	<td>&amp;#1337;</td>
+	<td>&amp;#x539;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Zhe, capital</td>
+	<td class="sym">&#1338;</td>
+	<td>—</td>
+	<td>&amp;#1338;</td>
+	<td>&amp;#x53A;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ini, capital</td>
+	<td class="sym">&#1339;</td>
+	<td>—</td>
+	<td>&amp;#1339;</td>
+	<td>&amp;#x53B;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Liwn, capital</td>
+	<td class="sym">&#1340;</td>
+	<td>—</td>
+	<td>&amp;#1340;</td>
+	<td>&amp;#x53C;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Xeh, capital</td>
+	<td class="sym">&#1341;</td>
+	<td>—</td>
+	<td>&amp;#1341;</td>
+	<td>&amp;#x53D;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ca, capital</td>
+	<td class="sym">&#1342;</td>
+	<td>—</td>
+	<td>&amp;#1342;</td>
+	<td>&amp;#x53E;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ken, capital</td>
+	<td class="sym">&#1343;</td>
+	<td>—</td>
+	<td>&amp;#1343;</td>
+	<td>&amp;#x53F;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ho, capital</td>
+	<td class="sym">&#1344;</td>
+	<td>—</td>
+	<td>&amp;#1344;</td>
+	<td>&amp;#x540;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ja, capital</td>
+	<td class="sym">&#1345;</td>
+	<td>—</td>
+	<td>&amp;#1345;</td>
+	<td>&amp;#x541;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ghad, capital</td>
+	<td class="sym">&#1346;</td>
+	<td>—</td>
+	<td>&amp;#1346;</td>
+	<td>&amp;#x542;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Cheh, capital</td>
+	<td class="sym">&#1347;</td>
+	<td>—</td>
+	<td>&amp;#1347;</td>
+	<td>&amp;#x543;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Men, capital</td>
+	<td class="sym">&#1348;</td>
+	<td>—</td>
+	<td>&amp;#1348;</td>
+	<td>&amp;#x544;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Yi, capital</td>
+	<td class="sym">&#1349;</td>
+	<td>—</td>
+	<td>&amp;#1349;</td>
+	<td>&amp;#x545;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Now, capital</td>
+	<td class="sym">&#1350;</td>
+	<td>—</td>
+	<td>&amp;#1350;</td>
+	<td>&amp;#x546;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Sha, capital</td>
+	<td class="sym">&#1351;</td>
+	<td>—</td>
+	<td>&amp;#1351;</td>
+	<td>&amp;#x547;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Vo, capital</td>
+	<td class="sym">&#1352;</td>
+	<td>—</td>
+	<td>&amp;#1352;</td>
+	<td>&amp;#x548;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Cha, capital</td>
+	<td class="sym">&#1353;</td>
+	<td>—</td>
+	<td>&amp;#1353;</td>
+	<td>&amp;#x549;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Peh, capital</td>
+	<td class="sym">&#1354;</td>
+	<td>—</td>
+	<td>&amp;#1354;</td>
+	<td>&amp;#x54A;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Jheh, capital</td>
+	<td class="sym">&#1355;</td>
+	<td>—</td>
+	<td>&amp;#1355;</td>
+	<td>&amp;#x54B;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ra, capital</td>
+	<td class="sym">&#1356;</td>
+	<td>—</td>
+	<td>&amp;#1356;</td>
+	<td>&amp;#x54C;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Seh, capital</td>
+	<td class="sym">&#1357;</td>
+	<td>—</td>
+	<td>&amp;#1357;</td>
+	<td>&amp;#x54D;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Vew, capital</td>
+	<td class="sym">&#1358;</td>
+	<td>—</td>
+	<td>&amp;#1358;</td>
+	<td>&amp;#x54E;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Tiwn, capital</td>
+	<td class="sym">&#1359;</td>
+	<td>—</td>
+	<td>&amp;#1359;</td>
+	<td>&amp;#x54F;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Reh, capital</td>
+	<td class="sym">&#1360;</td>
+	<td>—</td>
+	<td>&amp;#1360;</td>
+	<td>&amp;#x550;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Co, capital</td>
+	<td class="sym">&#1361;</td>
+	<td>—</td>
+	<td>&amp;#1361;</td>
+	<td>&amp;#x551;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Yiwn, capital</td>
+	<td class="sym">&#1362;</td>
+	<td>—</td>
+	<td>&amp;#1362;</td>
+	<td>&amp;#x552;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Piwr, capital</td>
+	<td class="sym">&#1363;</td>
+	<td>—</td>
+	<td>&amp;#1363;</td>
+	<td>&amp;#x553;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Keh, capital</td>
+	<td class="sym">&#1364;</td>
+	<td>—</td>
+	<td>&amp;#1364;</td>
+	<td>&amp;#x554;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Oh, capital</td>
+	<td class="sym">&#1365;</td>
+	<td>—</td>
+	<td>&amp;#1365;</td>
+	<td>&amp;#x555;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Feh, capital</td>
+	<td class="sym">&#1366;</td>
+	<td>—</td>
+	<td>&amp;#1366;</td>
+	<td>&amp;#x556;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ayb, lower-case</td>
+	<td class="sym">&#1377;</td>
+	<td>—</td>
+	<td>&amp;#1377;</td>
+	<td>&amp;#x561;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ben, lower-case</td>
+	<td class="sym">&#1378;</td>
+	<td>—</td>
+	<td>&amp;#1378;</td>
+	<td>&amp;#x562;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Gim, lower-case</td>
+	<td class="sym">&#1379;</td>
+	<td>—</td>
+	<td>&amp;#1379;</td>
+	<td>&amp;#x563;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Da, lower-case</td>
+	<td class="sym">&#1380;</td>
+	<td>—</td>
+	<td>&amp;#1380;</td>
+	<td>&amp;#x564;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ech, lower-case</td>
+	<td class="sym">&#1381;</td>
+	<td>—</td>
+	<td>&amp;#1381;</td>
+	<td>&amp;#x565;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Za, lower-case</td>
+	<td class="sym">&#1382;</td>
+	<td>—</td>
+	<td>&amp;#1382;</td>
+	<td>&amp;#x566;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Eh, lower-case</td>
+	<td class="sym">&#1383;</td>
+	<td>—</td>
+	<td>&amp;#1383;</td>
+	<td>&amp;#x567;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Et, lower-case</td>
+	<td class="sym">&#1384;</td>
+	<td>—</td>
+	<td>&amp;#1384;</td>
+	<td>&amp;#x568;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: To, lower-case</td>
+	<td class="sym">&#1385;</td>
+	<td>—</td>
+	<td>&amp;#1385;</td>
+	<td>&amp;#x569;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Zhe, lower-case</td>
+	<td class="sym">&#1386;</td>
+	<td>—</td>
+	<td>&amp;#1386;</td>
+	<td>&amp;#x56A;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ini, lower-case</td>
+	<td class="sym">&#1387;</td>
+	<td>—</td>
+	<td>&amp;#1387;</td>
+	<td>&amp;#x56B;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Liwn, lower-case</td>
+	<td class="sym">&#1388;</td>
+	<td>—</td>
+	<td>&amp;#1388;</td>
+	<td>&amp;#x56C;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Xeh, lower-case</td>
+	<td class="sym">&#1389;</td>
+	<td>—</td>
+	<td>&amp;#1389;</td>
+	<td>&amp;#x56D;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ca, lower-case</td>
+	<td class="sym">&#1390;</td>
+	<td>—</td>
+	<td>&amp;#1390;</td>
+	<td>&amp;#x56E;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ken, lower-case</td>
+	<td class="sym">&#1391;</td>
+	<td>—</td>
+	<td>&amp;#1391;</td>
+	<td>&amp;#x56F;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ho, lower-case</td>
+	<td class="sym">&#1392;</td>
+	<td>—</td>
+	<td>&amp;#1392;</td>
+	<td>&amp;#x570;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ja, lower-case</td>
+	<td class="sym">&#1393;</td>
+	<td>—</td>
+	<td>&amp;#1393;</td>
+	<td>&amp;#x571;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ghad, lower-case</td>
+	<td class="sym">&#1394;</td>
+	<td>—</td>
+	<td>&amp;#1394;</td>
+	<td>&amp;#x572;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Cheh, lower-case</td>
+	<td class="sym">&#1395;</td>
+	<td>—</td>
+	<td>&amp;#1395;</td>
+	<td>&amp;#x573;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Men, lower-case</td>
+	<td class="sym">&#1396;</td>
+	<td>—</td>
+	<td>&amp;#1396;</td>
+	<td>&amp;#x574;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Yi, lower-case</td>
+	<td class="sym">&#1397;</td>
+	<td>—</td>
+	<td>&amp;#1397;</td>
+	<td>&amp;#x575;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Now, lower-case</td>
+	<td class="sym">&#1398;</td>
+	<td>—</td>
+	<td>&amp;#1398;</td>
+	<td>&amp;#x576;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Sha, lower-case</td>
+	<td class="sym">&#1399;</td>
+	<td>—</td>
+	<td>&amp;#1399;</td>
+	<td>&amp;#x577;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Vo, lower-case</td>
+	<td class="sym">&#1400;</td>
+	<td>—</td>
+	<td>&amp;#1400;</td>
+	<td>&amp;#x578;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Cha, lower-case</td>
+	<td class="sym">&#1401;</td>
+	<td>—</td>
+	<td>&amp;#1401;</td>
+	<td>&amp;#x579;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Peh, lower-case</td>
+	<td class="sym">&#1402;</td>
+	<td>—</td>
+	<td>&amp;#1402;</td>
+	<td>&amp;#x57A;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Jheh, lower-case</td>
+	<td class="sym">&#1403;</td>
+	<td>—</td>
+	<td>&amp;#1403;</td>
+	<td>&amp;#x57B;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ra, lower-case</td>
+	<td class="sym">&#1404;</td>
+	<td>—</td>
+	<td>&amp;#1404;</td>
+	<td>&amp;#x57C;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Seh, lower-case</td>
+	<td class="sym">&#1405;</td>
+	<td>—</td>
+	<td>&amp;#1405;</td>
+	<td>&amp;#x57D;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Vew, lower-case</td>
+	<td class="sym">&#1406;</td>
+	<td>—</td>
+	<td>&amp;#1406;</td>
+	<td>&amp;#x57E;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Tiwn, lower-case</td>
+	<td class="sym">&#1407;</td>
+	<td>—</td>
+	<td>&amp;#1407;</td>
+	<td>&amp;#x57F;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Reh, lower-case</td>
+	<td class="sym">&#1408;</td>
+	<td>—</td>
+	<td>&amp;#1408;</td>
+	<td>&amp;#x580;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Co, lower-case</td>
+	<td class="sym">&#1409;</td>
+	<td>—</td>
+	<td>&amp;#1409;</td>
+	<td>&amp;#x581;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Yiwn, lower-case</td>
+	<td class="sym">&#1410;</td>
+	<td>—</td>
+	<td>&amp;#1410;</td>
+	<td>&amp;#x582;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Piwr, lower-case</td>
+	<td class="sym">&#1411;</td>
+	<td>—</td>
+	<td>&amp;#1411;</td>
+	<td>&amp;#x583;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Keh, lower-case</td>
+	<td class="sym">&#1412;</td>
+	<td>—</td>
+	<td>&amp;#1412;</td>
+	<td>&amp;#x584;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Oh, lower-case</td>
+	<td class="sym">&#1413;</td>
+	<td>—</td>
+	<td>&amp;#1413;</td>
+	<td>&amp;#x585;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Feh, lower-case</td>
+	<td class="sym">&#1414;</td>
+	<td>—</td>
+	<td>&amp;#1414;</td>
+	<td>&amp;#x586;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Ligature Ech Yiwn</td>
+	<td class="sym">&#587;</td>
+	<td>—</td>
+	<td>&amp;#587;</td>
+	<td>&amp;#x24B;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: modifier half ring</td>
+	<td class="sym">&#1369;</td>
+	<td>—</td>
+	<td>&amp;#1369;</td>
+	<td>&amp;#x559;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: apostrophe</td>
+	<td class="sym">&#1370;</td>
+	<td>—</td>
+	<td>&amp;#1370;</td>
+	<td>&amp;#x55A;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Armenian emphasis mark</td>
+	<td class="sym">&#1371;</td>
+	<td>—</td>
+	<td>&amp;#1371;</td>
+	<td>&amp;#x55B;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: exclamation mark</td>
+	<td class="sym">&#1372;</td>
+	<td>—</td>
+	<td>&amp;#1372;</td>
+	<td>&amp;#x55C;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Armenian comma</td>
+	<td class="sym">&#1373;</td>
+	<td>—</td>
+	<td>&amp;#1373;</td>
+	<td>&amp;#x55D;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: question mark</td>
+	<td class="sym">&#1374;</td>
+	<td>—</td>
+	<td>&amp;#1374;</td>
+	<td>&amp;#x55E;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: abbreviation mark</td>
+	<td class="sym">&#1375;</td>
+	<td>—</td>
+	<td>&amp;#1375;</td>
+	<td>&amp;#x55F;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: full stop</td>
+	<td class="sym">&#1417;</td>
+	<td>—</td>
+	<td>&amp;#1417;</td>
+	<td>&amp;#x589;</td>
+
+</tr>
+<tr>
+	<td class="one">Armenian: Armenian hyphen</td>
+	<td class="sym">&#1418;</td>
+	<td>—</td>
+	<td>&amp;#1418;</td>
+	<td>&amp;#x58A;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Etnahta</td>
+	<td class="sym">&#1425;</td>
+	<td>—</td>
+	<td>&amp;#1425;</td>
+	<td>&amp;#x591;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Segol</td>
+	<td class="sym">&#1426;</td>
+	<td>—</td>
+	<td>&amp;#1426;</td>
+	<td>&amp;#x592;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Shalshelet</td>
+	<td class="sym">&#1427;</td>
+	<td>—</td>
+	<td>&amp;#1427;</td>
+	<td>&amp;#x593;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Zaqef Qatan</td>
+	<td class="sym">&#1428;</td>
+	<td>—</td>
+	<td>&amp;#1428;</td>
+	<td>&amp;#x594;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Zaqef Gadol</td>
+	<td class="sym">&#1429;</td>
+	<td>—</td>
+	<td>&amp;#1429;</td>
+	<td>&amp;#x595;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Tipeha</td>
+	<td class="sym">&#1430;</td>
+	<td>—</td>
+	<td>&amp;#1430;</td>
+	<td>&amp;#x596;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Revia</td>
+	<td class="sym">&#1431;</td>
+	<td>—</td>
+	<td>&amp;#1431;</td>
+	<td>&amp;#x597;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Zarqa</td>
+	<td class="sym">&#1432;</td>
+	<td>—</td>
+	<td>&amp;#1432;</td>
+	<td>&amp;#x598;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Pashta</td>
+	<td class="sym">&#1433;</td>
+	<td>—</td>
+	<td>&amp;#1433;</td>
+	<td>&amp;#x599;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Yetiv</td>
+	<td class="sym">&#1434;</td>
+	<td>—</td>
+	<td>&amp;#1434;</td>
+	<td>&amp;#x59A;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Tevir</td>
+	<td class="sym">&#1435;</td>
+	<td>—</td>
+	<td>&amp;#1435;</td>
+	<td>&amp;#x59B;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Geresh</td>
+	<td class="sym">&#1436;</td>
+	<td>—</td>
+	<td>&amp;#1436;</td>
+	<td>&amp;#x59C;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Geresh Muqdam</td>
+	<td class="sym">&#1437;</td>
+	<td>—</td>
+	<td>&amp;#1437;</td>
+	<td>&amp;#x59D;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Gershayim</td>
+	<td class="sym">&#1438;</td>
+	<td>—</td>
+	<td>&amp;#1438;</td>
+	<td>&amp;#x59E;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Qarney Para</td>
+	<td class="sym">&#1439;</td>
+	<td>—</td>
+	<td>&amp;#1439;</td>
+	<td>&amp;#x59F;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Telisha Gedola</td>
+	<td class="sym">&#1440;</td>
+	<td>—</td>
+	<td>&amp;#1440;</td>
+	<td>&amp;#x5A0;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Pazer</td>
+	<td class="sym">&#1441;</td>
+	<td>—</td>
+	<td>&amp;#1441;</td>
+	<td>&amp;#x5A1;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Atnah Hafukh</td>
+	<td class="sym">&#1442;</td>
+	<td>—</td>
+	<td>&amp;#1442;</td>
+	<td>&amp;#x5A2;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Munah</td>
+	<td class="sym">&#1443;</td>
+	<td>—</td>
+	<td>&amp;#1443;</td>
+	<td>&amp;#x5A3;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Mahapakh</td>
+	<td class="sym">&#1444;</td>
+	<td>—</td>
+	<td>&amp;#1444;</td>
+	<td>&amp;#x5A4;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Merkha</td>
+	<td class="sym">&#1445;</td>
+	<td>—</td>
+	<td>&amp;#1445;</td>
+	<td>&amp;#x5A5;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Merkha Kefula</td>
+	<td class="sym">&#1446;</td>
+	<td>—</td>
+	<td>&amp;#1446;</td>
+	<td>&amp;#x5A6;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Darga</td>
+	<td class="sym">&#1447;</td>
+	<td>—</td>
+	<td>&amp;#1447;</td>
+	<td>&amp;#x5A7;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Qadma</td>
+	<td class="sym">&#1448;</td>
+	<td>—</td>
+	<td>&amp;#1448;</td>
+	<td>&amp;#x5A8;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Telisha Qetana</td>
+	<td class="sym">&#1449;</td>
+	<td>—</td>
+	<td>&amp;#1449;</td>
+	<td>&amp;#x5A9;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Yerah Ben Yomo</td>
+	<td class="sym">&#1450;</td>
+	<td>—</td>
+	<td>&amp;#1450;</td>
+	<td>&amp;#x5AA;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Ole</td>
+	<td class="sym">&#1451;</td>
+	<td>—</td>
+	<td>&amp;#1451;</td>
+	<td>&amp;#x5AB;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Iluy</td>
+	<td class="sym">&#1452;</td>
+	<td>—</td>
+	<td>&amp;#1452;</td>
+	<td>&amp;#x5AC;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Dehi</td>
+	<td class="sym">&#1453;</td>
+	<td>—</td>
+	<td>&amp;#1453;</td>
+	<td>&amp;#x5AD;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew accent Zinor</td>
+	<td class="sym">&#1454;</td>
+	<td>—</td>
+	<td>&amp;#1454;</td>
+	<td>&amp;#x5AE;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew mark Masora circle</td>
+	<td class="sym">&#1455;</td>
+	<td>—</td>
+	<td>&amp;#1455;</td>
+	<td>&amp;#x5AF;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew point Sheva</td>
+	<td class="sym">&#1456;</td>
+	<td>—</td>
+	<td>&amp;#1456;</td>
+	<td>&amp;#x5B0;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew point Hataf segol</td>
+	<td class="sym">&#1457;</td>
+	<td>—</td>
+	<td>&amp;#1457;</td>
+	<td>&amp;#x5B1;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew point Hataf patah</td>
+	<td class="sym">&#1458;</td>
+	<td>—</td>
+	<td>&amp;#1458;</td>
+	<td>&amp;#x5B2;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew point Hataf qamats</td>
+	<td class="sym">&#1459;</td>
+	<td>—</td>
+	<td>&amp;#1459;</td>
+	<td>&amp;#x5B3;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew point Hiriq</td>
+	<td class="sym">&#1460;</td>
+	<td>—</td>
+	<td>&amp;#1460;</td>
+	<td>&amp;#x5B4;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew point Tsere</td>
+	<td class="sym">&#1461;</td>
+	<td>—</td>
+	<td>&amp;#1461;</td>
+	<td>&amp;#x5B5;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew point Segol</td>
+	<td class="sym">&#1462;</td>
+	<td>—</td>
+	<td>&amp;#1462;</td>
+	<td>&amp;#x5B6;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew point Patah</td>
+	<td class="sym">&#1463;</td>
+	<td>—</td>
+	<td>&amp;#1463;</td>
+	<td>&amp;#x5B7;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew point Qamats</td>
+	<td class="sym">&#1464;</td>
+	<td>—</td>
+	<td>&amp;#1464;</td>
+	<td>&amp;#x5B8;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew point Holam</td>
+	<td class="sym">&#1465;</td>
+	<td>—</td>
+	<td>&amp;#1465;</td>
+	<td>&amp;#x5B9;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew point Holam Haser for Vav</td>
+	<td class="sym">&#1466;</td>
+	<td>—</td>
+	<td>&amp;#1466;</td>
+	<td>&amp;#x5BA;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew point Qubuts</td>
+	<td class="sym">&#1467;</td>
+	<td>—</td>
+	<td>&amp;#1467;</td>
+	<td>&amp;#x5BB;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew point Dagesh or Mapiq</td>
+	<td class="sym">&#1468;</td>
+	<td>—</td>
+	<td>&amp;#1468;</td>
+	<td>&amp;#x5BC;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew point Meteg</td>
+	<td class="sym">&#1469;</td>
+	<td>—</td>
+	<td>&amp;#1469;</td>
+	<td>&amp;#x5BD;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew punctuation Maqaf</td>
+	<td class="sym">&#1470;</td>
+	<td>—</td>
+	<td>&amp;#1470;</td>
+	<td>&amp;#x5BE;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew point Rafe</td>
+	<td class="sym">&#1471;</td>
+	<td>—</td>
+	<td>&amp;#1471;</td>
+	<td>&amp;#x5BF;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew punctuation Paseq</td>
+	<td class="sym">&#1472;</td>
+	<td>—</td>
+	<td>&amp;#1472;</td>
+	<td>&amp;#x5C0;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew point Shin dot</td>
+	<td class="sym">&#1473;</td>
+	<td>—</td>
+	<td>&amp;#1473;</td>
+	<td>&amp;#x5C1;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew point Sin dot</td>
+	<td class="sym">&#1474;</td>
+	<td>—</td>
+	<td>&amp;#1474;</td>
+	<td>&amp;#x5C2;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew punctuation Sof pasuq</td>
+	<td class="sym">&#1475;</td>
+	<td>—</td>
+	<td>&amp;#1475;</td>
+	<td>&amp;#x5C3;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew mark upper dot</td>
+	<td class="sym">&#1476;</td>
+	<td>—</td>
+	<td>&amp;#1476;</td>
+	<td>&amp;#x5C4;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew mark lower dot</td>
+	<td class="sym">&#1477;</td>
+	<td>—</td>
+	<td>&amp;#1477;</td>
+	<td>&amp;#x5C5;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew punctuation Nun hafukha</td>
+	<td class="sym">&#1478;</td>
+	<td>—</td>
+	<td>&amp;#1478;</td>
+	<td>&amp;#x5C6;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew point Qamats Qatan</td>
+	<td class="sym">&#1479;</td>
+	<td>—</td>
+	<td>&amp;#1479;</td>
+	<td>&amp;#x5C7;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Alef</td>
+	<td class="sym">&#1488;</td>
+	<td>—</td>
+	<td>&amp;#1488;</td>
+	<td>&amp;#x5D0;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Bet</td>
+	<td class="sym">&#1489;</td>
+	<td>—</td>
+	<td>&amp;#1489;</td>
+	<td>&amp;#x5D1;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Gimel</td>
+	<td class="sym">&#1490;</td>
+	<td>—</td>
+	<td>&amp;#1490;</td>
+	<td>&amp;#x5D2;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Dalet</td>
+	<td class="sym">&#1491;</td>
+	<td>—</td>
+	<td>&amp;#1491;</td>
+	<td>&amp;#x5D3;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter He</td>
+	<td class="sym">&#1492;</td>
+	<td>—</td>
+	<td>&amp;#1492;</td>
+	<td>&amp;#x5D4;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Vav</td>
+	<td class="sym">&#1493;</td>
+	<td>—</td>
+	<td>&amp;#1493;</td>
+	<td>&amp;#x5D5;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Zayin</td>
+	<td class="sym">&#1494;</td>
+	<td>—</td>
+	<td>&amp;#1494;</td>
+	<td>&amp;#x5D6;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Het</td>
+	<td class="sym">&#1495;</td>
+	<td>—</td>
+	<td>&amp;#1495;</td>
+	<td>&amp;#x5D7;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Tet</td>
+	<td class="sym">&#1496;</td>
+	<td>—</td>
+	<td>&amp;#1496;</td>
+	<td>&amp;#x5D8;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Yod</td>
+	<td class="sym">&#1497;</td>
+	<td>—</td>
+	<td>&amp;#1497;</td>
+	<td>&amp;#x5D9;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter final Kaf</td>
+	<td class="sym">&#1498;</td>
+	<td>—</td>
+	<td>&amp;#1498;</td>
+	<td>&amp;#x5DA;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Kaf</td>
+	<td class="sym">&#1499;</td>
+	<td>—</td>
+	<td>&amp;#1499;</td>
+	<td>&amp;#x5DB;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Lamed</td>
+	<td class="sym">&#1500;</td>
+	<td>—</td>
+	<td>&amp;#1500;</td>
+	<td>&amp;#x5DC;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter final Mem</td>
+	<td class="sym">&#1501;</td>
+	<td>—</td>
+	<td>&amp;#1501;</td>
+	<td>&amp;#x5DD;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Mem</td>
+	<td class="sym">&#1502;</td>
+	<td>—</td>
+	<td>&amp;#1502;</td>
+	<td>&amp;#x5DE;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter final Nun</td>
+	<td class="sym">&#1503;</td>
+	<td>—</td>
+	<td>&amp;#1503;</td>
+	<td>&amp;#x5DF;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Nun</td>
+	<td class="sym">&#1504;</td>
+	<td>—</td>
+	<td>&amp;#1504;</td>
+	<td>&amp;#x5E0;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Samekh</td>
+	<td class="sym">&#1505;</td>
+	<td>—</td>
+	<td>&amp;#1505;</td>
+	<td>&amp;#x5E1;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Ayin</td>
+	<td class="sym">&#1506;</td>
+	<td>—</td>
+	<td>&amp;#1506;</td>
+	<td>&amp;#x5E2;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter final Pe</td>
+	<td class="sym">&#1507;</td>
+	<td>—</td>
+	<td>&amp;#1507;</td>
+	<td>&amp;#x5E3;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Pe</td>
+	<td class="sym">&#1508;</td>
+	<td>—</td>
+	<td>&amp;#1508;</td>
+	<td>&amp;#x5E4;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter final Tsadi</td>
+	<td class="sym">&#1509;</td>
+	<td>—</td>
+	<td>&amp;#1509;</td>
+	<td>&amp;#x5E5;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Tsadi</td>
+	<td class="sym">&#1510;</td>
+	<td>—</td>
+	<td>&amp;#1510;</td>
+	<td>&amp;#x5E6;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Qof</td>
+	<td class="sym">&#1511;</td>
+	<td>—</td>
+	<td>&amp;#1511;</td>
+	<td>&amp;#x5E7;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Resh</td>
+	<td class="sym">&#1512;</td>
+	<td>—</td>
+	<td>&amp;#1512;</td>
+	<td>&amp;#x5E8;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Shin</td>
+	<td class="sym">&#1513;</td>
+	<td>—</td>
+	<td>&amp;#1513;</td>
+	<td>&amp;#x5E9;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew letter Tav</td>
+	<td class="sym">&#1514;</td>
+	<td>—</td>
+	<td>&amp;#1514;</td>
+	<td>&amp;#x5EA;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew ligature Yiddish double Vav</td>
+	<td class="sym">&#1520;</td>
+	<td>—</td>
+	<td>&amp;#1520;</td>
+	<td>&amp;#x5F0;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew ligature Yiddish Vav Yod</td>
+	<td class="sym">&#1521;</td>
+	<td>—</td>
+	<td>&amp;#1521;</td>
+	<td>&amp;#x5F1;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew ligature yiddish double Yod</td>
+	<td class="sym">&#1522;</td>
+	<td>—</td>
+	<td>&amp;#1522;</td>
+	<td>&amp;#x5F2;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew punctuation Geresh</td>
+	<td class="sym">&#1523;</td>
+	<td>—</td>
+	<td>&amp;#1523;</td>
+	<td>&amp;#x5F3;</td>
+
+</tr>
+<tr>
+	<td class="one">Hebrew punctuation Gershayim</td>
+	<td class="sym">&#1524;</td>
+	<td>—</td>
+	<td>&amp;#1524;</td>
+	<td>&amp;#x5F4;</td>
+
+</tr>
+<tr>
+<th class="one">Description</th>
+<th>Character<br />(click)</th>
+<th>HTML<br />Entity</th>
+<th>Code<br />Decimal</th>
+<th>Code<br />Hex</th>
+</tr>
+<tr>
+	<td class="one">Superscript 0</td>
+	<td class="sym">&#8304;</td>
+	<td>—</td>
+	<td>&amp;#8304;</td>
+	<td>&amp;#x2070;</td>
+
+</tr>
+<tr>
+	<td class="one">Superscript Latin small i</td>
+	<td class="sym">&#8305;</td>
+	<td>—</td>
+	<td>&amp;#8305;</td>
+	<td>&amp;#x2071;</td>
+
+</tr>
+<tr>
+	<td class="one">Superscript 4</td>
+	<td class="sym">&#8308;</td>
+	<td>—</td>
+	<td>&amp;#8308;</td>
+	<td>&amp;#x2074;</td>
+
+</tr>
+<tr>
+	<td class="one">Superscript 5</td>
+	<td class="sym">&#8309;</td>
+	<td>—</td>
+	<td>&amp;#8309;</td>
+	<td>&amp;#x2075;</td>
+
+</tr>
+<tr>
+	<td class="one">Superscript 6</td>
+	<td class="sym">&#8310;</td>
+	<td>—</td>
+	<td>&amp;#8310;</td>
+	<td>&amp;#x2076;</td>
+
+</tr>
+<tr>
+	<td class="one">Superscript 7</td>
+	<td class="sym">&#8311;</td>
+	<td>—</td>
+	<td>&amp;#8311;</td>
+	<td>&amp;#x2077;</td>
+
+</tr>
+<tr>
+	<td class="one">Superscript 8</td>
+	<td class="sym">&#8312;</td>
+	<td>—</td>
+	<td>&amp;#8312;</td>
+	<td>&amp;#x2078;</td>
+
+</tr>
+<tr>
+	<td class="one">Superscript 9</td>
+	<td class="sym">&#8313;</td>
+	<td>—</td>
+	<td>&amp;#8313;</td>
+	<td>&amp;#x2079;</td>
+
+</tr>
+<tr>
+	<td class="one">Superscript plus</td>
+	<td class="sym">&#8314;</td>
+	<td>—</td>
+	<td>&amp;#8314;</td>
+	<td>&amp;#x207A;</td>
+
+</tr>
+<tr>
+	<td class="one">Superscript minus</td>
+	<td class="sym">&#8315;</td>
+	<td>—</td>
+	<td>&amp;#8315;</td>
+	<td>&amp;#x207B;</td>
+
+</tr>
+<tr>
+	<td class="one">Superscript equals</td>
+	<td class="sym">&#8316;</td>
+	<td>—</td>
+	<td>&amp;#8316;</td>
+	<td>&amp;#x207C;</td>
+
+</tr>
+<tr>
+	<td class="one">Superscript left parenthesis</td>
+	<td class="sym">&#8317;</td>
+	<td>—</td>
+	<td>&amp;#8317;</td>
+	<td>&amp;#x207D;</td>
+
+</tr>
+<tr>
+	<td class="one">Superscript right parenthesis</td>
+	<td class="sym">&#8318;</td>
+	<td>—</td>
+	<td>&amp;#8318;</td>
+	<td>&amp;#x207E;</td>
+
+</tr>
+<tr>
+	<td class="one">Superscript Latin n</td>
+	<td class="sym">&#8319;</td>
+	<td>—</td>
+	<td>&amp;#8319;</td>
+	<td>&amp;#x207F;</td>
+
+</tr>
+<tr>
+	<td class="one">Subscript 0</td>
+	<td class="sym">&#8320;</td>
+	<td>—</td>
+	<td>&amp;#8320;</td>
+	<td>&amp;#x2080;</td>
+
+</tr>
+<tr>
+	<td class="one">Subscript 1</td>
+	<td class="sym">&#8321;</td>
+	<td>—</td>
+	<td>&amp;#8321;</td>
+	<td>&amp;#x2081;</td>
+
+</tr>
+<tr>
+	<td class="one">Subscript 2</td>
+	<td class="sym">&#8322;</td>
+	<td>—</td>
+	<td>&amp;#8322;</td>
+	<td>&amp;#x2082;</td>
+
+</tr>
+<tr>
+	<td class="one">Subscript 3</td>
+	<td class="sym">&#8323;</td>
+	<td>—</td>
+	<td>&amp;#8323;</td>
+	<td>&amp;#x2083;</td>
+
+</tr>
+<tr>
+	<td class="one">Subscript 4</td>
+	<td class="sym">&#8324;</td>
+	<td>—</td>
+	<td>&amp;#8324;</td>
+	<td>&amp;#x2084;</td>
+
+</tr>
+<tr>
+	<td class="one">Subscript 5</td>
+	<td class="sym">&#8325;</td>
+	<td>—</td>
+	<td>&amp;#8325;</td>
+	<td>&amp;#x2085;</td>
+
+</tr>
+<tr>
+	<td class="one">Subscript 6</td>
+	<td class="sym">&#8326;</td>
+	<td>—</td>
+	<td>&amp;#8326;</td>
+	<td>&amp;#x2086;</td>
+
+</tr>
+<tr>
+	<td class="one">Subscript 7</td>
+	<td class="sym">&#8327;</td>
+	<td>—</td>
+	<td>&amp;#8327;</td>
+	<td>&amp;#x2087;</td>
+
+</tr>
+<tr>
+	<td class="one">Subscript 8</td>
+	<td class="sym">&#8328;</td>
+	<td>—</td>
+	<td>&amp;#8328;</td>
+	<td>&amp;#x2088;</td>
+
+</tr>
+<tr>
+	<td class="one">Subscript 9</td>
+	<td class="sym">&#8329;</td>
+	<td>—</td>
+	<td>&amp;#8329;</td>
+	<td>&amp;#x2089;</td>
+
+</tr>
+<tr>
+	<td class="one">Subscript plus</td>
+	<td class="sym">&#8330;</td>
+	<td>—</td>
+	<td>&amp;#8330;</td>
+	<td>&amp;#x208A;</td>
+
+</tr>
+<tr>
+	<td class="one">Subscript minus</td>
+	<td class="sym">&#8331;</td>
+	<td>—</td>
+	<td>&amp;#8331;</td>
+	<td>&amp;#x208B;</td>
+
+</tr>
+<tr>
+	<td class="one">Subscript equals</td>
+	<td class="sym">&#8332;</td>
+	<td>—</td>
+	<td>&amp;#8332;</td>
+	<td>&amp;#x208C;</td>
+
+</tr>
+<tr>
+	<td class="one">Subscript left  parenthesis</td>
+	<td class="sym">&#8333;</td>
+	<td>—</td>
+	<td>&amp;#8333;</td>
+	<td>&amp;#x208D;</td>
+
+</tr>
+<tr>
+	<td class="one">Subscript right parenthesis</td>
+	<td class="sym">&#8334;</td>
+	<td>—</td>
+	<td>&amp;#8334;</td>
+	<td>&amp;#x208E;</td>
+
+</tr>
+	<tr>
+	<td class="one">Hiragana: Small A</td>
+	<td class="sym">&#12353;</td>
+	<td>—</td>
+	<td>&amp;#12353;</td>
+	<td>&amp;#x3041;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: A</td>
+	<td class="sym">&#12354;</td>
+	<td>—</td>
+	<td>&amp;#12354;</td>
+	<td>&amp;#x3042;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Small I</td>
+	<td class="sym">&#12355;</td>
+	<td>—</td>
+	<td>&amp;#12355;</td>
+	<td>&amp;#x3043;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: I</td>
+	<td class="sym">&#12356;</td>
+	<td>—</td>
+	<td>&amp;#12356;</td>
+	<td>&amp;#x3044;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Small U</td>
+	<td class="sym">&#12357;</td>
+	<td>—</td>
+	<td>&amp;#12357;</td>
+	<td>&amp;#x3045;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: U</td>
+	<td class="sym">&#12358;</td>
+	<td>—</td>
+	<td>&amp;#12358;</td>
+	<td>&amp;#x3046;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Small E</td>
+	<td class="sym">&#12359;</td>
+	<td>—</td>
+	<td>&amp;#12359;</td>
+	<td>&amp;#x3047;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: E</td>
+	<td class="sym">&#12360;</td>
+	<td>—</td>
+	<td>&amp;#12360;</td>
+	<td>&amp;#x3048;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Small O</td>
+	<td class="sym">&#12361;</td>
+	<td>—</td>
+	<td>&amp;#12361;</td>
+	<td>&amp;#x3049;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: O</td>
+	<td class="sym">&#12362;</td>
+	<td>—</td>
+	<td>&amp;#12362;</td>
+	<td>&amp;#x304A;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ka</td>
+	<td class="sym">&#12363;</td>
+	<td>—</td>
+	<td>&amp;#12363;</td>
+	<td>&amp;#x304B;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ga</td>
+	<td class="sym">&#12364;</td>
+	<td>—</td>
+	<td>&amp;#12364;</td>
+	<td>&amp;#x304C;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ki</td>
+	<td class="sym">&#12365;</td>
+	<td>—</td>
+	<td>&amp;#12365;</td>
+	<td>&amp;#x304D;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Gi</td>
+	<td class="sym">&#12366;</td>
+	<td>—</td>
+	<td>&amp;#12366;</td>
+	<td>&amp;#x304E;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ku</td>
+	<td class="sym">&#12367;</td>
+	<td>—</td>
+	<td>&amp;#12367;</td>
+	<td>&amp;#x304F;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Gu</td>
+	<td class="sym">&#12368;</td>
+	<td>—</td>
+	<td>&amp;#12368;</td>
+	<td>&amp;#x3050;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ke</td>
+	<td class="sym">&#12369;</td>
+	<td>—</td>
+	<td>&amp;#12369;</td>
+	<td>&amp;#x3051;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ge</td>
+	<td class="sym">&#12370;</td>
+	<td>—</td>
+	<td>&amp;#12370;</td>
+	<td>&amp;#x3052;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ko</td>
+	<td class="sym">&#12371;</td>
+	<td>—</td>
+	<td>&amp;#12371;</td>
+	<td>&amp;#x3053;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Go</td>
+	<td class="sym">&#12372;</td>
+	<td>—</td>
+	<td>&amp;#12372;</td>
+	<td>&amp;#x3054;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Sa</td>
+	<td class="sym">&#12373;</td>
+	<td>—</td>
+	<td>&amp;#12373;</td>
+	<td>&amp;#x3055;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Za</td>
+	<td class="sym">&#12374;</td>
+	<td>—</td>
+	<td>&amp;#12374;</td>
+	<td>&amp;#x3056;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Si</td>
+	<td class="sym">&#12375;</td>
+	<td>—</td>
+	<td>&amp;#12375;</td>
+	<td>&amp;#x3057;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Zi</td>
+	<td class="sym">&#12376;</td>
+	<td>—</td>
+	<td>&amp;#12376;</td>
+	<td>&amp;#x3058;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Su</td>
+	<td class="sym">&#12377;</td>
+	<td>—</td>
+	<td>&amp;#12377;</td>
+	<td>&amp;#x3059;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Zu</td>
+	<td class="sym">&#12378;</td>
+	<td>—</td>
+	<td>&amp;#12378;</td>
+	<td>&amp;#x305A;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Se</td>
+	<td class="sym">&#12379;</td>
+	<td>—</td>
+	<td>&amp;#12379;</td>
+	<td>&amp;#x305B;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ze</td>
+	<td class="sym">&#12380;</td>
+	<td>—</td>
+	<td>&amp;#12380;</td>
+	<td>&amp;#x305C;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: So</td>
+	<td class="sym">&#12381;</td>
+	<td>—</td>
+	<td>&amp;#12381;</td>
+	<td>&amp;#x305D;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Zo</td>
+	<td class="sym">&#12382;</td>
+	<td>—</td>
+	<td>&amp;#12382;</td>
+	<td>&amp;#x305E;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ta</td>
+	<td class="sym">&#12383;</td>
+	<td>—</td>
+	<td>&amp;#12383;</td>
+	<td>&amp;#x305F;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Da</td>
+	<td class="sym">&#12384;</td>
+	<td>—</td>
+	<td>&amp;#12384;</td>
+	<td>&amp;#x3060;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ti</td>
+	<td class="sym">&#12385;</td>
+	<td>—</td>
+	<td>&amp;#12385;</td>
+	<td>&amp;#x3061;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Di</td>
+	<td class="sym">&#12386;</td>
+	<td>—</td>
+	<td>&amp;#12386;</td>
+	<td>&amp;#x3062;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Small Tu</td>
+	<td class="sym">&#12387;</td>
+	<td>—</td>
+	<td>&amp;#12387;</td>
+	<td>&amp;#x3063;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Tu</td>
+	<td class="sym">&#12388;</td>
+	<td>—</td>
+	<td>&amp;#12388;</td>
+	<td>&amp;#x3064;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Du</td>
+	<td class="sym">&#12389;</td>
+	<td>—</td>
+	<td>&amp;#12389;</td>
+	<td>&amp;#x3065;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Te</td>
+	<td class="sym">&#12390;</td>
+	<td>—</td>
+	<td>&amp;#12390;</td>
+	<td>&amp;#x3066;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: De</td>
+	<td class="sym">&#12391;</td>
+	<td>—</td>
+	<td>&amp;#12391;</td>
+	<td>&amp;#x3067;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: To</td>
+	<td class="sym">&#12392;</td>
+	<td>—</td>
+	<td>&amp;#12392;</td>
+	<td>&amp;#x3068;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Do</td>
+	<td class="sym">&#12393;</td>
+	<td>—</td>
+	<td>&amp;#12393;</td>
+	<td>&amp;#x3069;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Na</td>
+	<td class="sym">&#12394;</td>
+	<td>—</td>
+	<td>&amp;#12394;</td>
+	<td>&amp;#x306A;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ni</td>
+	<td class="sym">&#12395;</td>
+	<td>—</td>
+	<td>&amp;#12395;</td>
+	<td>&amp;#x306B;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Nu</td>
+	<td class="sym">&#12396;</td>
+	<td>—</td>
+	<td>&amp;#12396;</td>
+	<td>&amp;#x306C;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ne</td>
+	<td class="sym">&#12397;</td>
+	<td>—</td>
+	<td>&amp;#12397;</td>
+	<td>&amp;#x306D;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: No</td>
+	<td class="sym">&#12398;</td>
+	<td>—</td>
+	<td>&amp;#12398;</td>
+	<td>&amp;#x306E;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ha</td>
+	<td class="sym">&#12399;</td>
+	<td>—</td>
+	<td>&amp;#12399;</td>
+	<td>&amp;#x306F;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ba</td>
+	<td class="sym">&#12400;</td>
+	<td>—</td>
+	<td>&amp;#12400;</td>
+	<td>&amp;#x3070;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Pa</td>
+	<td class="sym">&#12401;</td>
+	<td>—</td>
+	<td>&amp;#12401;</td>
+	<td>&amp;#x3071;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Hi</td>
+	<td class="sym">&#12402;</td>
+	<td>—</td>
+	<td>&amp;#12402;</td>
+	<td>&amp;#x3072;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Bi</td>
+	<td class="sym">&#12403;</td>
+	<td>—</td>
+	<td>&amp;#12403;</td>
+	<td>&amp;#x3073;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Pi</td>
+	<td class="sym">&#12404;</td>
+	<td>—</td>
+	<td>&amp;#12404;</td>
+	<td>&amp;#x3074;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Hu</td>
+	<td class="sym">&#12405;</td>
+	<td>—</td>
+	<td>&amp;#12405;</td>
+	<td>&amp;#x3075;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Bu</td>
+	<td class="sym">&#12406;</td>
+	<td>—</td>
+	<td>&amp;#12406;</td>
+	<td>&amp;#x3076;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Pu</td>
+	<td class="sym">&#12407;</td>
+	<td>—</td>
+	<td>&amp;#12407;</td>
+	<td>&amp;#x3077;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: He</td>
+	<td class="sym">&#12408;</td>
+	<td>—</td>
+	<td>&amp;#12408;</td>
+	<td>&amp;#x3078;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Be</td>
+	<td class="sym">&#12409;</td>
+	<td>—</td>
+	<td>&amp;#12409;</td>
+	<td>&amp;#x3079;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Pe</td>
+	<td class="sym">&#12410;</td>
+	<td>—</td>
+	<td>&amp;#12410;</td>
+	<td>&amp;#x307A;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ho</td>
+	<td class="sym">&#12411;</td>
+	<td>—</td>
+	<td>&amp;#12411;</td>
+	<td>&amp;#x307B;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Bo</td>
+	<td class="sym">&#12412;</td>
+	<td>—</td>
+	<td>&amp;#12412;</td>
+	<td>&amp;#x307C;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Po</td>
+	<td class="sym">&#12413;</td>
+	<td>—</td>
+	<td>&amp;#12413;</td>
+	<td>&amp;#x307D;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ma</td>
+	<td class="sym">&#12414;</td>
+	<td>—</td>
+	<td>&amp;#12414;</td>
+	<td>&amp;#x307E;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Mi</td>
+	<td class="sym">&#12415;</td>
+	<td>—</td>
+	<td>&amp;#12415;</td>
+	<td>&amp;#x307F;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Mu</td>
+	<td class="sym">&#12416;</td>
+	<td>—</td>
+	<td>&amp;#12416;</td>
+	<td>&amp;#x3080;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Me</td>
+	<td class="sym">&#12417;</td>
+	<td>—</td>
+	<td>&amp;#12417;</td>
+	<td>&amp;#x3081;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Mo</td>
+	<td class="sym">&#12418;</td>
+	<td>—</td>
+	<td>&amp;#12418;</td>
+	<td>&amp;#x3082;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Small Ya</td>
+	<td class="sym">&#12419;</td>
+	<td>—</td>
+	<td>&amp;#12419;</td>
+	<td>&amp;#x3083;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ya</td>
+	<td class="sym">&#12420;</td>
+	<td>—</td>
+	<td>&amp;#12420;</td>
+	<td>&amp;#x3084;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Small Yu</td>
+	<td class="sym">&#12421;</td>
+	<td>—</td>
+	<td>&amp;#12421;</td>
+	<td>&amp;#x3085;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Yu</td>
+	<td class="sym">&#12422;</td>
+	<td>—</td>
+	<td>&amp;#12422;</td>
+	<td>&amp;#x3086;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Small Yo</td>
+	<td class="sym">&#12423;</td>
+	<td>—</td>
+	<td>&amp;#12423;</td>
+	<td>&amp;#x3087;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Yo</td>
+	<td class="sym">&#12424;</td>
+	<td>—</td>
+	<td>&amp;#12424;</td>
+	<td>&amp;#x3088;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ra</td>
+	<td class="sym">&#12425;</td>
+	<td>—</td>
+	<td>&amp;#12425;</td>
+	<td>&amp;#x3089;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ri</td>
+	<td class="sym">&#12426;</td>
+	<td>—</td>
+	<td>&amp;#12426;</td>
+	<td>&amp;#x308A;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ru</td>
+	<td class="sym">&#12427;</td>
+	<td>—</td>
+	<td>&amp;#12427;</td>
+	<td>&amp;#x308B;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Re</td>
+	<td class="sym">&#12428;</td>
+	<td>—</td>
+	<td>&amp;#12428;</td>
+	<td>&amp;#x308C;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Ro</td>
+	<td class="sym">&#12429;</td>
+	<td>—</td>
+	<td>&amp;#12429;</td>
+	<td>&amp;#x308D;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Small Wa</td>
+	<td class="sym">&#12430;</td>
+	<td>—</td>
+	<td>&amp;#12430;</td>
+	<td>&amp;#x308E;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Wa</td>
+	<td class="sym">&#12431;</td>
+	<td>—</td>
+	<td>&amp;#12431;</td>
+	<td>&amp;#x308F;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Wi</td>
+	<td class="sym">&#12432;</td>
+	<td>—</td>
+	<td>&amp;#12432;</td>
+	<td>&amp;#x3090;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: We</td>
+	<td class="sym">&#12433;</td>
+	<td>—</td>
+	<td>&amp;#12433;</td>
+	<td>&amp;#x3091;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Wo</td>
+	<td class="sym">&#12434;</td>
+	<td>—</td>
+	<td>&amp;#12434;</td>
+	<td>&amp;#x3092;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: N</td>
+	<td class="sym">&#12435;</td>
+	<td>—</td>
+	<td>&amp;#12435;</td>
+	<td>&amp;#x3093;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Vu</td>
+	<td class="sym">&#12436;</td>
+	<td>—</td>
+	<td>&amp;#12436;</td>
+	<td>&amp;#x3094;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Small Ka</td>
+	<td class="sym">&#12437;</td>
+	<td>—</td>
+	<td>&amp;#12437;</td>
+	<td>&amp;#x3095;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Small Ke</td>
+	<td class="sym">&#12438;</td>
+	<td>—</td>
+	<td>&amp;#12438;</td>
+	<td>&amp;#x3096;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Combining voiced sound mark</td>
+	<td class="sym">&#12441;</td>
+	<td>—</td>
+	<td>&amp;#12441;</td>
+	<td>&amp;#x3099;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Combining semi-voiced sound mark</td>
+	<td class="sym">&#12442;</td>
+	<td>—</td>
+	<td>&amp;#12442;</td>
+	<td>&amp;#x309A;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Voiced sound mark</td>
+	<td class="sym">&#12443;</td>
+	<td>—</td>
+	<td>&amp;#12443;</td>
+	<td>&amp;#x309B;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Semi-voiced sound mark</td>
+	<td class="sym">&#12444;</td>
+	<td>—</td>
+	<td>&amp;#12444;</td>
+	<td>&amp;#x309C;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Iteration mark</td>
+	<td class="sym">&#12445;</td>
+	<td>—</td>
+	<td>&amp;#12445;</td>
+	<td>&amp;#x309D;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Voiced iteration mark</td>
+	<td class="sym">&#12446;</td>
+	<td>—</td>
+	<td>&amp;#12446;</td>
+	<td>&amp;#x309E;</td>
+
+</tr>
+<tr>
+	<td class="one">Hiragana: Digraph Yori</td>
+	<td class="sym">&#12447;</td>
+	<td>—</td>
+	<td>&amp;#12447;</td>
+	<td>&amp;#x309F;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Double hyphen</td>
+	<td class="sym">&#12448;</td>
+	<td>—</td>
+	<td>&amp;#12448;</td>
+	<td>&amp;#x30A0;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Small A</td>
+	<td class="sym">&#12449;</td>
+	<td>—</td>
+	<td>&amp;#12449;</td>
+	<td>&amp;#x30A1;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: A</td>
+	<td class="sym">&#12450;</td>
+	<td>—</td>
+	<td>&amp;#12450;</td>
+	<td>&amp;#x30A2;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Small I</td>
+	<td class="sym">&#12451;</td>
+	<td>—</td>
+	<td>&amp;#12451;</td>
+	<td>&amp;#x30A3;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: I</td>
+	<td class="sym">&#12452;</td>
+	<td>—</td>
+	<td>&amp;#12452;</td>
+	<td>&amp;#x30A4;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Small U</td>
+	<td class="sym">&#12453;</td>
+	<td>—</td>
+	<td>&amp;#12453;</td>
+	<td>&amp;#x30A5;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: U</td>
+	<td class="sym">&#12454;</td>
+	<td>—</td>
+	<td>&amp;#12454;</td>
+	<td>&amp;#x30A6;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Small E</td>
+	<td class="sym">&#12455;</td>
+	<td>—</td>
+	<td>&amp;#12455;</td>
+	<td>&amp;#x30A7;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: E</td>
+	<td class="sym">&#12456;</td>
+	<td>—</td>
+	<td>&amp;#12456;</td>
+	<td>&amp;#x30A8;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Small O</td>
+	<td class="sym">&#12457;</td>
+	<td>—</td>
+	<td>&amp;#12457;</td>
+	<td>&amp;#x30A9;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: O</td>
+	<td class="sym">&#12458;</td>
+	<td>—</td>
+	<td>&amp;#12458;</td>
+	<td>&amp;#x30AA;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ka</td>
+	<td class="sym">&#12459;</td>
+	<td>—</td>
+	<td>&amp;#12459;</td>
+	<td>&amp;#x30AB;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ga</td>
+	<td class="sym">&#12460;</td>
+	<td>—</td>
+	<td>&amp;#12460;</td>
+	<td>&amp;#x30AC;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ki</td>
+	<td class="sym">&#12461;</td>
+	<td>—</td>
+	<td>&amp;#12461;</td>
+	<td>&amp;#x30AD;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Gi</td>
+	<td class="sym">&#12462;</td>
+	<td>—</td>
+	<td>&amp;#12462;</td>
+	<td>&amp;#x30AE;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ku</td>
+	<td class="sym">&#12463;</td>
+	<td>—</td>
+	<td>&amp;#12463;</td>
+	<td>&amp;#x30AF;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Gu</td>
+	<td class="sym">&#12464;</td>
+	<td>—</td>
+	<td>&amp;#12464;</td>
+	<td>&amp;#x30B0;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ke</td>
+	<td class="sym">&#12465;</td>
+	<td>—</td>
+	<td>&amp;#12465;</td>
+	<td>&amp;#x30B1;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ge</td>
+	<td class="sym">&#12466;</td>
+	<td>—</td>
+	<td>&amp;#12466;</td>
+	<td>&amp;#x30B2;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ko</td>
+	<td class="sym">&#12467;</td>
+	<td>—</td>
+	<td>&amp;#12467;</td>
+	<td>&amp;#x30B3;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Go</td>
+	<td class="sym">&#12468;</td>
+	<td>—</td>
+	<td>&amp;#12468;</td>
+	<td>&amp;#x30B4;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Sa</td>
+	<td class="sym">&#12469;</td>
+	<td>—</td>
+	<td>&amp;#12469;</td>
+	<td>&amp;#x30B5;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Za</td>
+	<td class="sym">&#12470;</td>
+	<td>—</td>
+	<td>&amp;#12470;</td>
+	<td>&amp;#x30B6;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Si</td>
+	<td class="sym">&#12471;</td>
+	<td>—</td>
+	<td>&amp;#12471;</td>
+	<td>&amp;#x30B7;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Zi</td>
+	<td class="sym">&#12472;</td>
+	<td>—</td>
+	<td>&amp;#12472;</td>
+	<td>&amp;#x30B8;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Su</td>
+	<td class="sym">&#12473;</td>
+	<td>—</td>
+	<td>&amp;#12473;</td>
+	<td>&amp;#x30B9;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Zu</td>
+	<td class="sym">&#12474;</td>
+	<td>—</td>
+	<td>&amp;#12474;</td>
+	<td>&amp;#x30BA;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Se</td>
+	<td class="sym">&#12475;</td>
+	<td>—</td>
+	<td>&amp;#12475;</td>
+	<td>&amp;#x30BB;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ze</td>
+	<td class="sym">&#12476;</td>
+	<td>—</td>
+	<td>&amp;#12476;</td>
+	<td>&amp;#x30BC;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: So</td>
+	<td class="sym">&#12477;</td>
+	<td>—</td>
+	<td>&amp;#12477;</td>
+	<td>&amp;#x30BD;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Zo</td>
+	<td class="sym">&#12478;</td>
+	<td>—</td>
+	<td>&amp;#12478;</td>
+	<td>&amp;#x30BE;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ta</td>
+	<td class="sym">&#12479;</td>
+	<td>—</td>
+	<td>&amp;#12479;</td>
+	<td>&amp;#x30BF;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Da</td>
+	<td class="sym">&#12480;</td>
+	<td>—</td>
+	<td>&amp;#12480;</td>
+	<td>&amp;#x30C0;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ti</td>
+	<td class="sym">&#12481;</td>
+	<td>—</td>
+	<td>&amp;#12481;</td>
+	<td>&amp;#x30C1;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Di</td>
+	<td class="sym">&#12482;</td>
+	<td>—</td>
+	<td>&amp;#12482;</td>
+	<td>&amp;#x30C2;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Small Tu</td>
+	<td class="sym">&#12483;</td>
+	<td>—</td>
+	<td>&amp;#12483;</td>
+	<td>&amp;#x30C3;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Tu</td>
+	<td class="sym">&#12484;</td>
+	<td>—</td>
+	<td>&amp;#12484;</td>
+	<td>&amp;#x30C4;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Du</td>
+	<td class="sym">&#12485;</td>
+	<td>—</td>
+	<td>&amp;#12485;</td>
+	<td>&amp;#x30C5;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Te</td>
+	<td class="sym">&#12486;</td>
+	<td>—</td>
+	<td>&amp;#12486;</td>
+	<td>&amp;#x30C6;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: De</td>
+	<td class="sym">&#12487;</td>
+	<td>—</td>
+	<td>&amp;#12487;</td>
+	<td>&amp;#x30C7;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: To</td>
+	<td class="sym">&#12488;</td>
+	<td>—</td>
+	<td>&amp;#12488;</td>
+	<td>&amp;#x30C8;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Do</td>
+	<td class="sym">&#12489;</td>
+	<td>—</td>
+	<td>&amp;#12489;</td>
+	<td>&amp;#x30C9;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Na</td>
+	<td class="sym">&#12490;</td>
+	<td>—</td>
+	<td>&amp;#12490;</td>
+	<td>&amp;#x30CA;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ni</td>
+	<td class="sym">&#12491;</td>
+	<td>—</td>
+	<td>&amp;#12491;</td>
+	<td>&amp;#x30CB;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Nu</td>
+	<td class="sym">&#12492;</td>
+	<td>—</td>
+	<td>&amp;#12492;</td>
+	<td>&amp;#x30CC;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ne</td>
+	<td class="sym">&#12493;</td>
+	<td>—</td>
+	<td>&amp;#12493;</td>
+	<td>&amp;#x30CD;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: No</td>
+	<td class="sym">&#12494;</td>
+	<td>—</td>
+	<td>&amp;#12494;</td>
+	<td>&amp;#x30CE;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ha</td>
+	<td class="sym">&#12495;</td>
+	<td>—</td>
+	<td>&amp;#12495;</td>
+	<td>&amp;#x30CF;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ba</td>
+	<td class="sym">&#12496;</td>
+	<td>—</td>
+	<td>&amp;#12496;</td>
+	<td>&amp;#x30D0;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Pa</td>
+	<td class="sym">&#12497;</td>
+	<td>—</td>
+	<td>&amp;#12497;</td>
+	<td>&amp;#x30D1;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Hi</td>
+	<td class="sym">&#12498;</td>
+	<td>—</td>
+	<td>&amp;#12498;</td>
+	<td>&amp;#x30D2;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Bi</td>
+	<td class="sym">&#12499;</td>
+	<td>—</td>
+	<td>&amp;#12499;</td>
+	<td>&amp;#x30D3;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Pi</td>
+	<td class="sym">&#12500;</td>
+	<td>—</td>
+	<td>&amp;#12500;</td>
+	<td>&amp;#x30D4;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Hu</td>
+	<td class="sym">&#12501;</td>
+	<td>—</td>
+	<td>&amp;#12501;</td>
+	<td>&amp;#x30D5;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Bu</td>
+	<td class="sym">&#12502;</td>
+	<td>—</td>
+	<td>&amp;#12502;</td>
+	<td>&amp;#x30D6;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Pu</td>
+	<td class="sym">&#12503;</td>
+	<td>—</td>
+	<td>&amp;#12503;</td>
+	<td>&amp;#x30D7;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: He</td>
+	<td class="sym">&#12504;</td>
+	<td>—</td>
+	<td>&amp;#12504;</td>
+	<td>&amp;#x30D8;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Be</td>
+	<td class="sym">&#12505;</td>
+	<td>—</td>
+	<td>&amp;#12505;</td>
+	<td>&amp;#x30D9;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Pe</td>
+	<td class="sym">&#12506;</td>
+	<td>—</td>
+	<td>&amp;#12506;</td>
+	<td>&amp;#x30DA;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ho</td>
+	<td class="sym">&#12507;</td>
+	<td>—</td>
+	<td>&amp;#12507;</td>
+	<td>&amp;#x30DB;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Bo</td>
+	<td class="sym">&#12508;</td>
+	<td>—</td>
+	<td>&amp;#12508;</td>
+	<td>&amp;#x30DC;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Po</td>
+	<td class="sym">&#12509;</td>
+	<td>—</td>
+	<td>&amp;#12509;</td>
+	<td>&amp;#x30DD;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ma</td>
+	<td class="sym">&#12510;</td>
+	<td>—</td>
+	<td>&amp;#12510;</td>
+	<td>&amp;#x30DE;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Mi</td>
+	<td class="sym">&#12511;</td>
+	<td>—</td>
+	<td>&amp;#12511;</td>
+	<td>&amp;#x30DF;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Mu</td>
+	<td class="sym">&#12512;</td>
+	<td>—</td>
+	<td>&amp;#12512;</td>
+	<td>&amp;#x30E0;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Me</td>
+	<td class="sym">&#12513;</td>
+	<td>—</td>
+	<td>&amp;#12513;</td>
+	<td>&amp;#x30E1;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Mo</td>
+	<td class="sym">&#12514;</td>
+	<td>—</td>
+	<td>&amp;#12514;</td>
+	<td>&amp;#x30E2;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Small Ya</td>
+	<td class="sym">&#12515;</td>
+	<td>—</td>
+	<td>&amp;#12515;</td>
+	<td>&amp;#x30E3;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ya</td>
+	<td class="sym">&#12516;</td>
+	<td>—</td>
+	<td>&amp;#12516;</td>
+	<td>&amp;#x30E4;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Small Yu</td>
+	<td class="sym">&#12517;</td>
+	<td>—</td>
+	<td>&amp;#12517;</td>
+	<td>&amp;#x30E5;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Yu</td>
+	<td class="sym">&#12518;</td>
+	<td>—</td>
+	<td>&amp;#12518;</td>
+	<td>&amp;#x30E6;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Small Yo</td>
+	<td class="sym">&#12519;</td>
+	<td>—</td>
+	<td>&amp;#12519;</td>
+	<td>&amp;#x30E7;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Yo</td>
+	<td class="sym">&#12520;</td>
+	<td>—</td>
+	<td>&amp;#12520;</td>
+	<td>&amp;#x30E8;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ra</td>
+	<td class="sym">&#12521;</td>
+	<td>—</td>
+	<td>&amp;#12521;</td>
+	<td>&amp;#x30E9;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ri</td>
+	<td class="sym">&#12522;</td>
+	<td>—</td>
+	<td>&amp;#12522;</td>
+	<td>&amp;#x30EA;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ru</td>
+	<td class="sym">&#12523;</td>
+	<td>—</td>
+	<td>&amp;#12523;</td>
+	<td>&amp;#x30EB;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Re</td>
+	<td class="sym">&#12524;</td>
+	<td>—</td>
+	<td>&amp;#12524;</td>
+	<td>&amp;#x30EC;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ro</td>
+	<td class="sym">&#12525;</td>
+	<td>—</td>
+	<td>&amp;#12525;</td>
+	<td>&amp;#x30ED;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Small Wa</td>
+	<td class="sym">&#12526;</td>
+	<td>—</td>
+	<td>&amp;#12526;</td>
+	<td>&amp;#x30EE;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Wa</td>
+	<td class="sym">&#12527;</td>
+	<td>—</td>
+	<td>&amp;#12527;</td>
+	<td>&amp;#x30EF;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Wi</td>
+	<td class="sym">&#12528;</td>
+	<td>—</td>
+	<td>&amp;#12528;</td>
+	<td>&amp;#x30F0;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: We</td>
+	<td class="sym">&#12529;</td>
+	<td>—</td>
+	<td>&amp;#12529;</td>
+	<td>&amp;#x30F1;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Wo</td>
+	<td class="sym">&#12530;</td>
+	<td>—</td>
+	<td>&amp;#12530;</td>
+	<td>&amp;#x30F2;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: N</td>
+	<td class="sym">&#12531;</td>
+	<td>—</td>
+	<td>&amp;#12531;</td>
+	<td>&amp;#x30F3;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Vu</td>
+	<td class="sym">&#12532;</td>
+	<td>—</td>
+	<td>&amp;#12532;</td>
+	<td>&amp;#x30F4;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Small Ka</td>
+	<td class="sym">&#12533;</td>
+	<td>—</td>
+	<td>&amp;#12533;</td>
+	<td>&amp;#x30F5;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Small Ke</td>
+	<td class="sym">&#12534;</td>
+	<td>—</td>
+	<td>&amp;#12534;</td>
+	<td>&amp;#x30F6;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Va</td>
+	<td class="sym">&#12535;</td>
+	<td>—</td>
+	<td>&amp;#12535;</td>
+	<td>&amp;#x30F7;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Vi</td>
+	<td class="sym">&#12536;</td>
+	<td>—</td>
+	<td>&amp;#12536;</td>
+	<td>&amp;#x30F8;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Ve</td>
+	<td class="sym">&#12537;</td>
+	<td>—</td>
+	<td>&amp;#12537;</td>
+	<td>&amp;#x30F9;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Vo</td>
+	<td class="sym">&#12538;</td>
+	<td>—</td>
+	<td>&amp;#12538;</td>
+	<td>&amp;#x30FA;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Middle dot</td>
+	<td class="sym">&#12539;</td>
+	<td>—</td>
+	<td>&amp;#12539;</td>
+	<td>&amp;#x30FB;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Prolonged sound mark</td>
+	<td class="sym">&#12540;</td>
+	<td>—</td>
+	<td>&amp;#12540;</td>
+	<td>&amp;#x30FC;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Iteration mark</td>
+	<td class="sym">&#12541;</td>
+	<td>—</td>
+	<td>&amp;#12541;</td>
+	<td>&amp;#x30FD;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Voiced iteration mark</td>
+	<td class="sym">&#12542;</td>
+	<td>—</td>
+	<td>&amp;#12542;</td>
+	<td>&amp;#x30FE;</td>
+
+</tr>
+<tr>
+	<td class="one">Katakana: Digraph KoTo</td>
+	<td class="sym">&#12543;</td>
+	<td>—</td>
+	<td>&amp;#12543;</td>
+	<td>&amp;#x30FF;</td>
+</tr>
+<tr>
+	<td class="one">Cyrillic: A</td>
+	<td class="sym">&#1040;</td>
+	<td>—</td>
+	<td>&amp;#1040;</td>
+	<td>&amp;#x410;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: BE</td>
+	<td class="sym">&#1041;</td>
+	<td>—</td>
+	<td>&amp;#1041;</td>
+	<td>&amp;#x411;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: VE</td>
+	<td class="sym">&#1042;</td>
+	<td>—</td>
+	<td>&amp;#1042;</td>
+	<td>&amp;#x412;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: GHE</td>
+	<td class="sym">&#1043;</td>
+	<td>—</td>
+	<td>&amp;#1043;</td>
+	<td>&amp;#x413;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: DE</td>
+	<td class="sym">&#1044;</td>
+	<td>—</td>
+	<td>&amp;#1044;</td>
+	<td>&amp;#x414;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: IE</td>
+	<td class="sym">&#1045;</td>
+	<td>—</td>
+	<td>&amp;#1045;</td>
+	<td>&amp;#x415;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: ZHE</td>
+	<td class="sym">&#1046;</td>
+	<td>—</td>
+	<td>&amp;#1046;</td>
+	<td>&amp;#x416;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: ZE</td>
+	<td class="sym">&#1047;</td>
+	<td>—</td>
+	<td>&amp;#1047;</td>
+	<td>&amp;#x417;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: I</td>
+	<td class="sym">&#1048;</td>
+	<td>—</td>
+	<td>&amp;#1048;</td>
+	<td>&amp;#x418;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: I, short</td>
+	<td class="sym">&#1049;</td>
+	<td>—</td>
+	<td>&amp;#1049;</td>
+	<td>&amp;#x419;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: KA</td>
+	<td class="sym">&#1050;</td>
+	<td>—</td>
+	<td>&amp;#1050;</td>
+	<td>&amp;#x41A;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: EL</td>
+	<td class="sym">&#1051;</td>
+	<td>—</td>
+	<td>&amp;#1051;</td>
+	<td>&amp;#x41B;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: EM</td>
+	<td class="sym">&#1052;</td>
+	<td>—</td>
+	<td>&amp;#1052;</td>
+	<td>&amp;#x41C;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: EN</td>
+	<td class="sym">&#1053;</td>
+	<td>—</td>
+	<td>&amp;#1053;</td>
+	<td>&amp;#x41D;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: 0</td>
+	<td class="sym">&#1054;</td>
+	<td>—</td>
+	<td>&amp;#1054;</td>
+	<td>&amp;#x41E;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: PE</td>
+	<td class="sym">&#1055;</td>
+	<td>—</td>
+	<td>&amp;#1055;</td>
+	<td>&amp;#x41F;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: ER</td>
+	<td class="sym">&#1056;</td>
+	<td>—</td>
+	<td>&amp;#1056;</td>
+	<td>&amp;#x420;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: ES</td>
+	<td class="sym">&#1057;</td>
+	<td>—</td>
+	<td>&amp;#1057;</td>
+	<td>&amp;#x421;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: TE</td>
+	<td class="sym">&#1058;</td>
+	<td>—</td>
+	<td>&amp;#1058;</td>
+	<td>&amp;#x422;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: U</td>
+	<td class="sym">&#1059;</td>
+	<td>—</td>
+	<td>&amp;#1059;</td>
+	<td>&amp;#x423;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: EF</td>
+	<td class="sym">&#1060;</td>
+	<td>—</td>
+	<td>&amp;#1060;</td>
+	<td>&amp;#x424;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: HA</td>
+	<td class="sym">&#1061;</td>
+	<td>—</td>
+	<td>&amp;#1061;</td>
+	<td>&amp;#x425;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: TSE</td>
+	<td class="sym">&#1062;</td>
+	<td>—</td>
+	<td>&amp;#1062;</td>
+	<td>&amp;#x426;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: CHE</td>
+	<td class="sym">&#1063;</td>
+	<td>—</td>
+	<td>&amp;#1063;</td>
+	<td>&amp;#x427;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: SHA</td>
+	<td class="sym">&#1064;</td>
+	<td>—</td>
+	<td>&amp;#1064;</td>
+	<td>&amp;#x428;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: SHCHA</td>
+	<td class="sym">&#1065;</td>
+	<td>—</td>
+	<td>&amp;#1065;</td>
+	<td>&amp;#x429;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: Hard sign</td>
+	<td class="sym">&#1066;</td>
+	<td>—</td>
+	<td>&amp;#1066;</td>
+	<td>&amp;#x42A;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: YERU</td>
+	<td class="sym">&#1067;</td>
+	<td>—</td>
+	<td>&amp;#1067;</td>
+	<td>&amp;#x42B;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: Soft sign</td>
+	<td class="sym">&#1068;</td>
+	<td>—</td>
+	<td>&amp;#1068;</td>
+	<td>&amp;#x42C;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: E</td>
+	<td class="sym">&#1069;</td>
+	<td>—</td>
+	<td>&amp;#1069;</td>
+	<td>&amp;#x42D;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: YU</td>
+	<td class="sym">&#1070;</td>
+	<td>—</td>
+	<td>&amp;#1070;</td>
+	<td>&amp;#x42E;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: YA</td>
+	<td class="sym">&#1071;</td>
+	<td>—</td>
+	<td>&amp;#1071;</td>
+	<td>&amp;#x42F;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: a</td>
+	<td class="sym">&#1072;</td>
+	<td>—</td>
+	<td>&amp;#1072;</td>
+	<td>&amp;#x430;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: be</td>
+	<td class="sym">&#1073;</td>
+	<td>—</td>
+	<td>&amp;#1073;</td>
+	<td>&amp;#x431;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: ve</td>
+	<td class="sym">&#1074;</td>
+	<td>—</td>
+	<td>&amp;#1074;</td>
+	<td>&amp;#x432;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: ghe</td>
+	<td class="sym">&#1075;</td>
+	<td>—</td>
+	<td>&amp;#1075;</td>
+	<td>&amp;#x433;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: de</td>
+	<td class="sym">&#1076;</td>
+	<td>—</td>
+	<td>&amp;#1076;</td>
+	<td>&amp;#x434;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: ie</td>
+	<td class="sym">&#1077;</td>
+	<td>—</td>
+	<td>&amp;#1077;</td>
+	<td>&amp;#x435;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: zhe</td>
+	<td class="sym">&#1078;</td>
+	<td>—</td>
+	<td>&amp;#1078;</td>
+	<td>&amp;#x436;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: ze</td>
+	<td class="sym">&#1079;</td>
+	<td>—</td>
+	<td>&amp;#1079;</td>
+	<td>&amp;#x437;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: i</td>
+	<td class="sym">&#1080;</td>
+	<td>—</td>
+	<td>&amp;#1080;</td>
+	<td>&amp;#x438;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: i, short</td>
+	<td class="sym">&#1081;</td>
+	<td>—</td>
+	<td>&amp;#1081;</td>
+	<td>&amp;#x439;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: ka</td>
+	<td class="sym">&#1082;</td>
+	<td>—</td>
+	<td>&amp;#1082;</td>
+	<td>&amp;#x43A;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: el</td>
+	<td class="sym">&#1083;</td>
+	<td>—</td>
+	<td>&amp;#1083;</td>
+	<td>&amp;#x43B;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: em</td>
+	<td class="sym">&#1084;</td>
+	<td>—</td>
+	<td>&amp;#1084;</td>
+	<td>&amp;#x43C;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: en</td>
+	<td class="sym">&#1085;</td>
+	<td>—</td>
+	<td>&amp;#1085;</td>
+	<td>&amp;#x43D;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: o</td>
+	<td class="sym">&#1086;</td>
+	<td>—</td>
+	<td>&amp;#1086;</td>
+	<td>&amp;#x43E;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: pe</td>
+	<td class="sym">&#1087;</td>
+	<td>—</td>
+	<td>&amp;#1087;</td>
+	<td>&amp;#x43F;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: er</td>
+	<td class="sym">&#1088;</td>
+	<td>—</td>
+	<td>&amp;#1088;</td>
+	<td>&amp;#x440;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: es</td>
+	<td class="sym">&#1089;</td>
+	<td>—</td>
+	<td>&amp;#1089;</td>
+	<td>&amp;#x441;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: te</td>
+	<td class="sym">&#1090;</td>
+	<td>—</td>
+	<td>&amp;#1090;</td>
+	<td>&amp;#x442;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: u</td>
+	<td class="sym">&#1091;</td>
+	<td>—</td>
+	<td>&amp;#1091;</td>
+	<td>&amp;#x443;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: ef</td>
+	<td class="sym">&#1092;</td>
+	<td>—</td>
+	<td>&amp;#1092;</td>
+	<td>&amp;#x444;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: ha</td>
+	<td class="sym">&#1093;</td>
+	<td>—</td>
+	<td>&amp;#1093;</td>
+	<td>&amp;#x445;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: tse</td>
+	<td class="sym">&#1094;</td>
+	<td>—</td>
+	<td>&amp;#1094;</td>
+	<td>&amp;#x446;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: che</td>
+	<td class="sym">&#1095;</td>
+	<td>—</td>
+	<td>&amp;#1095;</td>
+	<td>&amp;#x447;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: sha</td>
+	<td class="sym">&#1096;</td>
+	<td>—</td>
+	<td>&amp;#1096;</td>
+	<td>&amp;#x448;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: shcha</td>
+	<td class="sym">&#1097;</td>
+	<td>—</td>
+	<td>&amp;#1097;</td>
+	<td>&amp;#x449;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: Hard sign</td>
+	<td class="sym">&#1098;</td>
+	<td>—</td>
+	<td>&amp;#1098;</td>
+	<td>&amp;#x44A;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: yeru</td>
+	<td class="sym">&#1099;</td>
+	<td>—</td>
+	<td>&amp;#1099;</td>
+	<td>&amp;#x44B;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: Soft sign</td>
+	<td class="sym">&#1100;</td>
+	<td>—</td>
+	<td>&amp;#1100;</td>
+	<td>&amp;#x44C;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: e</td>
+	<td class="sym">&#1101;</td>
+	<td>—</td>
+	<td>&amp;#1101;</td>
+	<td>&amp;#x44D;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: yu</td>
+	<td class="sym">&#1102;</td>
+	<td>—</td>
+	<td>&amp;#1102;</td>
+	<td>&amp;#x44E;</td>
+
+</tr>
+<tr>
+	<td class="one">Cyrillic: ya</td>
+	<td class="sym">&#1103;</td>
+	<td>—</td>
+	<td>&amp;#1103;</td>
+	<td>&amp;#x44F;</td>
+</tr>
+</table>
+  
+  
+  
+  
+  
+
+</body>
+
+</html>
+ 
